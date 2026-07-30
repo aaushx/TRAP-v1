@@ -1,0 +1,380 @@
+[
+  {
+    "id": "rea-000",
+    "category": "Logical Reasoning",
+    "name": "Blood Relations",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Blood Relations for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-001",
+    "category": "Logical Reasoning",
+    "name": "Coding-Decoding",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Coding-Decoding for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-002",
+    "category": "Logical Reasoning",
+    "name": "Direction Sense",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Direction Sense for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-003",
+    "category": "Logical Reasoning",
+    "name": "Syllogism",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Syllogism for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-004",
+    "category": "Logical Reasoning",
+    "name": "Ranking",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Ranking for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-005",
+    "category": "Logical Reasoning",
+    "name": "Statement & Conclusion",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Statement & Conclusion for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-006",
+    "category": "Logical Reasoning",
+    "name": "Statement & Assumption",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Statement & Assumption for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-007",
+    "category": "Logical Reasoning",
+    "name": "Puzzle",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Puzzle for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-008",
+    "category": "Logical Reasoning",
+    "name": "Linear Arrangement",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Linear Arrangement for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-009",
+    "category": "Logical Reasoning",
+    "name": "Circular Arrangement",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Circular Arrangement for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-010",
+    "category": "Logical Reasoning",
+    "name": "Input Output",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Input Output for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-011",
+    "category": "Logical Reasoning",
+    "name": "Analogy",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Analogy for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-012",
+    "category": "Logical Reasoning",
+    "name": "Series",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Series for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-013",
+    "category": "Logical Reasoning",
+    "name": "Venn Diagram",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Venn Diagram for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-014",
+    "category": "Logical Reasoning",
+    "name": "Decision Making",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Decision Making for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-015",
+    "category": "Logical Reasoning",
+    "name": "Data Sufficiency",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Data Sufficiency for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-016",
+    "category": "Logical Reasoning",
+    "name": "Cubes",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Cubes for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "rea-017",
+    "category": "Logical Reasoning",
+    "name": "Dice",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Dice for reasoning rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logic",
+      "reasoning"
+    ]
+  }
+]

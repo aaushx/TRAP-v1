@@ -1,0 +1,338 @@
+[
+  {
+    "id": "verb-000",
+    "category": "Verbal Ability",
+    "name": "Grammar",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Grammar for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-001",
+    "category": "Verbal Ability",
+    "name": "Vocabulary",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Vocabulary for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-002",
+    "category": "Verbal Ability",
+    "name": "Synonyms",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Synonyms for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-003",
+    "category": "Verbal Ability",
+    "name": "Antonyms",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Antonyms for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-004",
+    "category": "Verbal Ability",
+    "name": "Reading Comprehension",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Reading Comprehension for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-005",
+    "category": "Verbal Ability",
+    "name": "Para Jumbles",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Para Jumbles for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-006",
+    "category": "Verbal Ability",
+    "name": "Sentence Improvement",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Sentence Improvement for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-007",
+    "category": "Verbal Ability",
+    "name": "Sentence Correction",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Sentence Correction for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-008",
+    "category": "Verbal Ability",
+    "name": "Fill in the Blanks",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Fill in the Blanks for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-009",
+    "category": "Verbal Ability",
+    "name": "Error Detection",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Error Detection for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-010",
+    "category": "Verbal Ability",
+    "name": "Cloze Test",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Cloze Test for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-011",
+    "category": "Verbal Ability",
+    "name": "One Word Substitution",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice One Word Substitution for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-012",
+    "category": "Verbal Ability",
+    "name": "Idioms",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Idioms for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-013",
+    "category": "Verbal Ability",
+    "name": "Phrases",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Phrases for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-014",
+    "category": "Verbal Ability",
+    "name": "Voice",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Voice for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  },
+  {
+    "id": "verb-015",
+    "category": "Verbal Ability",
+    "name": "Narration",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 1.5,
+    "importance": 3,
+    "description": "Practice Narration for verbal rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "low",
+    "companies_asking": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "english",
+      "verbal"
+    ]
+  }
+]

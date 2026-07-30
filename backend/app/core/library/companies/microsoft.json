@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "description": "Microsoft Corp.",
+    "hiring_pattern": "Focus on DSA, System Design, and projects.",
+    "selection_rounds": [
+      "OA",
+      "Technical 1",
+      "Technical 2",
+      "AA"
+    ],
+    "expected_difficulty": "Hard",
+    "package_range": "40-45 LPA",
+    "coding_platform": "Codility"
+  },
+  "requirements": {
+    "DSA": 5,
+    "CS Fundamentals": 5,
+    "Quantitative Aptitude": 2,
+    "Logical Reasoning": 2,
+    "Verbal Ability": 2
+  }
+}

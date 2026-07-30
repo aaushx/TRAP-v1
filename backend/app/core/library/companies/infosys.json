@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "description": "Infosys Ltd.",
+    "hiring_pattern": "Aptitude and basic programming.",
+    "selection_rounds": [
+      "Online Test",
+      "Technical Interview",
+      "HR Interview"
+    ],
+    "expected_difficulty": "Medium",
+    "package_range": "3.6-8 LPA",
+    "coding_platform": "Hackerearth"
+  },
+  "requirements": {
+    "DSA": 2,
+    "CS Fundamentals": 3,
+    "Quantitative Aptitude": 5,
+    "Logical Reasoning": 4,
+    "Verbal Ability": 4
+  }
+}

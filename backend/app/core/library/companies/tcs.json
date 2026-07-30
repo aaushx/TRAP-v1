@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "description": "Tata Consultancy Services",
+    "hiring_pattern": "Heavy focus on Aptitude and Reasoning.",
+    "selection_rounds": [
+      "NQT",
+      "Technical HR",
+      "Managerial HR"
+    ],
+    "expected_difficulty": "Medium",
+    "package_range": "3.3-7 LPA",
+    "coding_platform": "TCS iON"
+  },
+  "requirements": {
+    "DSA": 2,
+    "CS Fundamentals": 3,
+    "Quantitative Aptitude": 5,
+    "Logical Reasoning": 5,
+    "Verbal Ability": 4
+  }
+}

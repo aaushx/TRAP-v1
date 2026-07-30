@@ -1,0 +1,1044 @@
+[
+  {
+    "id": "dsa-000",
+    "category": "DSA",
+    "name": "Arrays",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 3.0,
+    "importance": 4,
+    "description": "Master Arrays for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-001",
+    "category": "DSA",
+    "name": "Strings",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 3.0,
+    "importance": 4,
+    "description": "Master Strings for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-002",
+    "category": "DSA",
+    "name": "Matrix",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Matrix for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-003",
+    "category": "DSA",
+    "name": "Hashing",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Hashing for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-004",
+    "category": "DSA",
+    "name": "Prefix Sum",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Prefix Sum for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-005",
+    "category": "DSA",
+    "name": "Sliding Window",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Sliding Window for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-006",
+    "category": "DSA",
+    "name": "Two Pointers",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Two Pointers for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-007",
+    "category": "DSA",
+    "name": "Binary Search",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Binary Search for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-008",
+    "category": "DSA",
+    "name": "Sorting",
+    "subtopic": "",
+    "difficulty": "easy",
+    "estimated_hours": 3.0,
+    "importance": 4,
+    "description": "Master Sorting for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-009",
+    "category": "DSA",
+    "name": "Searching",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Searching for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-010",
+    "category": "DSA",
+    "name": "Recursion",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Recursion for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-011",
+    "category": "DSA",
+    "name": "Backtracking",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Backtracking for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-012",
+    "category": "DSA",
+    "name": "Linked List",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Linked List for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-013",
+    "category": "DSA",
+    "name": "Stack",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Stack for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-014",
+    "category": "DSA",
+    "name": "Queue",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Queue for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-015",
+    "category": "DSA",
+    "name": "Deque",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Deque for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-016",
+    "category": "DSA",
+    "name": "Heap",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Heap for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-017",
+    "category": "DSA",
+    "name": "Priority Queue",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Priority Queue for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-018",
+    "category": "DSA",
+    "name": "Binary Tree",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Binary Tree for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-019",
+    "category": "DSA",
+    "name": "BST",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master BST for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-020",
+    "category": "DSA",
+    "name": "Trie",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Trie for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-021",
+    "category": "DSA",
+    "name": "Graph",
+    "subtopic": "",
+    "difficulty": "hard",
+    "estimated_hours": 10.0,
+    "importance": 5,
+    "description": "Master Graph for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-022",
+    "category": "DSA",
+    "name": "DFS",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master DFS for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-023",
+    "category": "DSA",
+    "name": "BFS",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master BFS for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-024",
+    "category": "DSA",
+    "name": "Topological Sort",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Topological Sort for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-025",
+    "category": "DSA",
+    "name": "Shortest Path",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Shortest Path for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-026",
+    "category": "DSA",
+    "name": "Minimum Spanning Tree",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Minimum Spanning Tree for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-027",
+    "category": "DSA",
+    "name": "Disjoint Set",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Disjoint Set for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-028",
+    "category": "DSA",
+    "name": "Greedy",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Greedy for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-029",
+    "category": "DSA",
+    "name": "Dynamic Programming",
+    "subtopic": "",
+    "difficulty": "hard",
+    "estimated_hours": 10.0,
+    "importance": 5,
+    "description": "Master Dynamic Programming for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-030",
+    "category": "DSA",
+    "name": "Bit Manipulation",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Bit Manipulation for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-031",
+    "category": "DSA",
+    "name": "Segment Tree",
+    "subtopic": "",
+    "difficulty": "hard",
+    "estimated_hours": 10.0,
+    "importance": 5,
+    "description": "Master Segment Tree for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-032",
+    "category": "DSA",
+    "name": "Fenwick Tree",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Fenwick Tree for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-033",
+    "category": "DSA",
+    "name": "Math",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Math for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-034",
+    "category": "DSA",
+    "name": "Geometry",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 6.0,
+    "importance": 4,
+    "description": "Master Geometry for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  },
+  {
+    "id": "dsa-035",
+    "category": "DSA",
+    "name": "Game Theory",
+    "subtopic": "",
+    "difficulty": "hard",
+    "estimated_hours": 10.0,
+    "importance": 5,
+    "description": "Master Game Theory for coding interviews.",
+    "recommended_resources": [
+      {
+        "title": "Striver Sheet",
+        "url": "https://takeuforward.org"
+      }
+    ],
+    "prerequisite_topics": [
+      "dsa-000"
+    ],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "coding",
+      "logic"
+    ]
+  }
+]

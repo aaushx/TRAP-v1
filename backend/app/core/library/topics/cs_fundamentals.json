@@ -1,0 +1,416 @@
+[
+  {
+    "id": "cs-000",
+    "category": "CS Fundamentals",
+    "name": "Python",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Python for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-001",
+    "category": "CS Fundamentals",
+    "name": "Java",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Java for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-002",
+    "category": "CS Fundamentals",
+    "name": "JavaScript",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn JavaScript for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-003",
+    "category": "CS Fundamentals",
+    "name": "C++",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn C++ for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-004",
+    "category": "CS Fundamentals",
+    "name": "OOP",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn OOP for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-005",
+    "category": "CS Fundamentals",
+    "name": "Exception Handling",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Exception Handling for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-006",
+    "category": "CS Fundamentals",
+    "name": "Collections",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Collections for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-007",
+    "category": "CS Fundamentals",
+    "name": "STL",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn STL for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-008",
+    "category": "CS Fundamentals",
+    "name": "Operating System",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Operating System for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-009",
+    "category": "CS Fundamentals",
+    "name": "DBMS",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn DBMS for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-010",
+    "category": "CS Fundamentals",
+    "name": "SQL",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn SQL for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-011",
+    "category": "CS Fundamentals",
+    "name": "Normalization",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Normalization for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-012",
+    "category": "CS Fundamentals",
+    "name": "Transactions",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Transactions for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-013",
+    "category": "CS Fundamentals",
+    "name": "ACID",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn ACID for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-014",
+    "category": "CS Fundamentals",
+    "name": "Computer Networks",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn Computer Networks for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-015",
+    "category": "CS Fundamentals",
+    "name": "HTTP",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn HTTP for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-016",
+    "category": "CS Fundamentals",
+    "name": "REST API",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn REST API for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  },
+  {
+    "id": "cs-017",
+    "category": "CS Fundamentals",
+    "name": "System Design Basics",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 4.0,
+    "importance": 5,
+    "description": "Learn System Design Basics for technical interviews.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "high",
+    "companies_asking": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "TCS"
+    ],
+    "tags": [
+      "cs",
+      "theory"
+    ]
+  }
+]

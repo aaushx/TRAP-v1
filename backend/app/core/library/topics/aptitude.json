@@ -1,0 +1,662 @@
+[
+  {
+    "id": "apt-000",
+    "category": "Quantitative Aptitude",
+    "name": "Number System",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Number System for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-001",
+    "category": "Quantitative Aptitude",
+    "name": "Simplification",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Simplification for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-002",
+    "category": "Quantitative Aptitude",
+    "name": "HCF",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice HCF for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-003",
+    "category": "Quantitative Aptitude",
+    "name": "LCM",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice LCM for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-004",
+    "category": "Quantitative Aptitude",
+    "name": "Percentage",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Percentage for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-005",
+    "category": "Quantitative Aptitude",
+    "name": "Profit & Loss",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Profit & Loss for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-006",
+    "category": "Quantitative Aptitude",
+    "name": "Discount",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Discount for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-007",
+    "category": "Quantitative Aptitude",
+    "name": "Average",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Average for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-008",
+    "category": "Quantitative Aptitude",
+    "name": "Ratio",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Ratio for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-009",
+    "category": "Quantitative Aptitude",
+    "name": "Mixture",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Mixture for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-010",
+    "category": "Quantitative Aptitude",
+    "name": "Time & Work",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Time & Work for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-011",
+    "category": "Quantitative Aptitude",
+    "name": "Pipes & Cistern",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Pipes & Cistern for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-012",
+    "category": "Quantitative Aptitude",
+    "name": "Time Speed Distance",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Time Speed Distance for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-013",
+    "category": "Quantitative Aptitude",
+    "name": "Boats & Streams",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Boats & Streams for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-014",
+    "category": "Quantitative Aptitude",
+    "name": "Simple Interest",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Simple Interest for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-015",
+    "category": "Quantitative Aptitude",
+    "name": "Compound Interest",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Compound Interest for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-016",
+    "category": "Quantitative Aptitude",
+    "name": "Permutation",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Permutation for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-017",
+    "category": "Quantitative Aptitude",
+    "name": "Combination",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Combination for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-018",
+    "category": "Quantitative Aptitude",
+    "name": "Probability",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Probability for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-019",
+    "category": "Quantitative Aptitude",
+    "name": "Data Interpretation",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Data Interpretation for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-020",
+    "category": "Quantitative Aptitude",
+    "name": "Data Sufficiency",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Data Sufficiency for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-021",
+    "category": "Quantitative Aptitude",
+    "name": "Geometry",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Geometry for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-022",
+    "category": "Quantitative Aptitude",
+    "name": "Mensuration",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Mensuration for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-023",
+    "category": "Quantitative Aptitude",
+    "name": "Algebra",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Algebra for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-024",
+    "category": "Quantitative Aptitude",
+    "name": "Logarithms",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Logarithms for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-025",
+    "category": "Quantitative Aptitude",
+    "name": "Progression",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Progression for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-026",
+    "category": "Quantitative Aptitude",
+    "name": "Partnership",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Partnership for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-027",
+    "category": "Quantitative Aptitude",
+    "name": "Ages",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Ages for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-028",
+    "category": "Quantitative Aptitude",
+    "name": "Calendar",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Calendar for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "apt-029",
+    "category": "Quantitative Aptitude",
+    "name": "Clock",
+    "subtopic": "",
+    "difficulty": "medium",
+    "estimated_hours": 2.0,
+    "importance": 4,
+    "description": "Practice Clock for aptitude rounds.",
+    "recommended_resources": [],
+    "prerequisite_topics": [],
+    "revision_priority": "medium",
+    "companies_asking": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "math",
+      "aptitude"
+    ]
+  }
+]

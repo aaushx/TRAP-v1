@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "description": "Amazon Inc.",
+    "hiring_pattern": "Focus on DSA and Leadership Principles.",
+    "selection_rounds": [
+      "OA",
+      "Technical 1",
+      "Technical 2",
+      "Bar Raiser"
+    ],
+    "expected_difficulty": "Hard",
+    "package_range": "25-45 LPA",
+    "coding_platform": "HackerRank"
+  },
+  "requirements": {
+    "DSA": 5,
+    "CS Fundamentals": 4,
+    "Quantitative Aptitude": 2,
+    "Logical Reasoning": 2,
+    "Verbal Ability": 2
+  }
+}

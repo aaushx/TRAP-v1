@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "description": "Alphabet Inc.",
+    "hiring_pattern": "Heavy focus on DSA and System Design.",
+    "selection_rounds": [
+      "Online Assessment",
+      "Technical 1",
+      "Technical 2",
+      "Googlyness"
+    ],
+    "expected_difficulty": "Very Hard",
+    "package_range": "30-50 LPA",
+    "coding_platform": "Custom / Google Docs"
+  },
+  "requirements": {
+    "DSA": 5,
+    "CS Fundamentals": 4,
+    "Quantitative Aptitude": 1,
+    "Logical Reasoning": 1,
+    "Verbal Ability": 1
+  }
+}
