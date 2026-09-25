@@ -22,7 +22,17 @@ async def test_companies_crud_and_ownership(client: AsyncClient):
     token_b = response.json()["data"]["tokens"]["access_token"]
     headers_b = {"Authorization": f"Bearer {token_b}"}
     
-    # 2. Create company tracker log as User A
+    # 2. User A attempts to create company with invalid status (must return 422)
+    invalid_comp = {
+        "name": "Invalid Corp",
+        "role": "SWE",
+        "status": "hired_fulltime_unknown"
+    }
+    response = await client.post("/api/v1/companies/", json=invalid_comp, headers=headers_a)
+    assert response.status_code == 422
+    assert response.json()["error_code"] == "VALIDATION_ERROR"
+
+    # User A creates valid company
     company_payload = {
         "name": "Google",
         "role": "Software Engineer",
@@ -73,3 +83,39 @@ async def test_companies_crud_and_ownership(client: AsyncClient):
     # Verify deletion
     response = await client.get(f"/api/v1/companies/{company_a_id}", headers=headers_a)
     assert response.status_code == 404
+
+    # 10. Test Top 30 Targeted Companies Directory
+    dir_response = await client.get("/api/v1/companies/directory", headers=headers_a)
+    assert dir_response.status_code == 200
+    directory = dir_response.json()
+    assert len(directory) == 30
+    assert directory[0]["name"] == "Google"
+    assert directory[0]["rank"] == 1
+    assert "Array" in directory[0]["top_preparation_topics"]
+
+    # Search directory for 'Amazon'
+    search_dir = await client.get("/api/v1/companies/directory?search=Amazon", headers=headers_a)
+    assert search_dir.status_code == 200
+    assert any(c["name"] == "Amazon" for c in search_dir.json())
+
+    # 11. User A tracks a Top 30 company with full intelligence metadata
+    meta_comp_payload = {
+        "name": "Amazon",
+        "role": "Software Development Engineer",
+        "status": "wishlist",
+        "industry": "E-Commerce / Cloud Computing",
+        "tier_category": "Tier-1 Big Tech (FAANG+)",
+        "difficulty": "Medium",
+        "preparation_topics": ["Array", "String", "Hash Table", "Math"]
+    }
+    c_res = await client.post("/api/v1/companies/", json=meta_comp_payload, headers=headers_a)
+    assert c_res.status_code == 201
+    created_c = c_res.json()
+    assert created_c["name"] == "Amazon"
+    assert created_c["tier_category"] == "Tier-1 Big Tech (FAANG+)"
+    assert created_c["difficulty"] == "Medium"
+    assert created_c["preparation_topics"] == ["Array", "String", "Hash Table", "Math"]
+
+    # Multi-tenant check: User B cannot access User A's newly tracked company
+    b_access = await client.get(f"/api/v1/companies/{created_c['id']}", headers=headers_b)
+    assert b_access.status_code == 404

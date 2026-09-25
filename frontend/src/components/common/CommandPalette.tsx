@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef, useMemo, FC } from 'react'
+import { useEffect, useState, useRef, useMemo, useCallback, FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { 
@@ -9,10 +9,13 @@ import {
   Sliders, 
   LogOut, 
   LayoutDashboard,
+  BarChart3,
   ArrowRight,
-  FileText
+  FileText,
+  BookOpen
 } from 'lucide-react'
 import { authApi, SearchResultItem } from '@/services/api/auth'
+import { CompanyLogo } from '@/components/common/CompanyLogo'
 
 interface CommandPaletteProps {
   isOpen: boolean
@@ -34,7 +37,7 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
   
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<SearchResultItem[]>([])
-  const [recentSearches, setRecentSearches] = useState<string[]>([])
+  const [_recentSearches, setRecentSearches] = useState<string[]>([])
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -61,12 +64,14 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
   }, [isOpen])
 
   // Save recent search
-  const saveRecentSearch = (search: string) => {
+  const saveRecentSearch = useCallback((search: string) => {
     if (!search.trim()) return
-    const updated = [search, ...recentSearches.filter(s => s !== search)].slice(0, 5)
-    setRecentSearches(updated)
-    localStorage.setItem('trap-recent-searches', JSON.stringify(updated))
-  }
+    setRecentSearches(prev => {
+      const updated = [search, ...prev.filter(s => s !== search)].slice(0, 5)
+      localStorage.setItem('trap-recent-searches', JSON.stringify(updated))
+      return updated
+    })
+  }, [])
 
   // Command palette quick actions (Raycast inspired static list)
   const staticActions = useMemo<CommandAction[]>(() => [
@@ -77,6 +82,14 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
       description: 'Go to prep analytics overview',
       icon: LayoutDashboard,
       action: () => { navigate('/app/dashboard'); onClose() }
+    },
+    {
+      id: 'analytics',
+      title: 'Open Analytics',
+      category: 'Navigation',
+      description: 'View detailed performance telemetry and funnels',
+      icon: BarChart3,
+      action: () => { navigate('/app/analytics'); onClose() }
     },
     {
       id: 'problems',
@@ -93,6 +106,14 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
       description: 'Track job applications and pipeline',
       icon: Building2,
       action: () => { navigate('/app/companies'); onClose() }
+    },
+    {
+      id: 'company-dsa',
+      title: 'Open Company Wise DSA',
+      category: 'Navigation',
+      description: 'Practice real interview DSA questions by company',
+      icon: BookOpen,
+      action: () => { navigate('/app/company-dsa'); onClose() }
     },
     {
       id: 'goals',
@@ -194,7 +215,7 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
         onClose()
       }
     }))
-  }, [query, results, staticActions])
+  }, [query, results, staticActions, navigate, onClose, saveRecentSearch])
 
   // Keyboard navigation & Focus management
   useEffect(() => {
@@ -246,11 +267,11 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
   // Match highlight helper
   const renderHighlightedText = (text: string, highlight: string) => {
     if (!highlight.trim()) return text
-    const regex = new RegExp(`(${highlight.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi')
+    const regex = new RegExp(`(${highlight.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi')
     const parts = text.split(regex)
     return parts.map((part, index) => 
       regex.test(part) 
-        ? <span key={index} className="bg-white/15 text-text-primary px-0.5 rounded font-bold">{part}</span>
+        ? <span key={index} className="bg-primary/15 text-primary px-0.5 rounded font-bold">{part}</span>
         : part
     )
   }
@@ -302,7 +323,7 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
             aria-label="Global search input"
           />
           <div className="flex items-center gap-1">
-            <kbd className="px-1.5 py-0.5 bg-white/5 border border-border-subtle text-[10px] font-mono text-text-tertiary rounded uppercase">ESC</kbd>
+            <kbd className="px-1.5 py-0.5 bg-bg-container-low border border-border-default text-[10px] font-mono text-text-tertiary rounded uppercase">ESC</kbd>
           </div>
         </div>
 
@@ -343,15 +364,19 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
                     onClick={() => item.action()}
                     className={`
                       flex items-center gap-3.5 px-3 py-2.5 rounded-md cursor-pointer transition-colors
-                      ${isActive ? 'bg-white/10' : 'bg-transparent'}
+                      ${isActive ? 'bg-bg-container-high' : 'bg-transparent'}
                     `}
                   >
-                    {/* Icon */}
-                    <div className={`p-1.5 rounded-md ${
-                      isActive ? 'bg-white/5 text-text-primary' : 'text-text-secondary'
-                    }`}>
-                      <IconComponent className="w-4 h-4 shrink-0" />
-                    </div>
+                    {/* Icon / Logo */}
+                    {(item as any).type === 'company' ? (
+                      <CompanyLogo company={item.title} size="xs" />
+                    ) : (
+                      <div className={`p-1.5 rounded-md ${
+                        isActive ? 'bg-bg-container-low text-text-primary' : 'text-text-secondary'
+                      }`}>
+                        <IconComponent className="w-4 h-4 shrink-0" />
+                      </div>
+                    )}
 
                     {/* Metadata text */}
                     <div className="flex-1 min-w-0">
@@ -359,7 +384,7 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
                         <span className="text-xs font-semibold text-text-primary truncate">
                           {renderHighlightedText(item.title, query)}
                         </span>
-                        <span className="px-1.5 py-0.5 bg-white/5 border border-border-subtle rounded text-[9px] font-mono font-bold text-text-tertiary uppercase">
+                        <span className="px-1.5 py-0.5 bg-bg-container-low border border-border-default rounded text-[9px] font-mono font-bold text-text-tertiary uppercase">
                           {item.category}
                         </span>
                       </div>
@@ -380,7 +405,7 @@ export const CommandPalette: FC<CommandPaletteProps> = ({ isOpen, onClose }) => 
         </div>
 
         {/* Palette footer info */}
-        <div className="px-4 py-2 bg-white/[0.01] border-t border-border-default flex items-center justify-between text-[10px] font-mono text-text-tertiary uppercase">
+        <div className="px-4 py-2 bg-bg-container-low/30 border-t border-border-default flex items-center justify-between text-[10px] font-mono text-text-tertiary uppercase">
           <span>Navigate with keys ↑ ↓</span>
           <span>Select with Enter ↵</span>
         </div>

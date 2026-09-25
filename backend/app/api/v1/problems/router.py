@@ -15,6 +15,7 @@ def get_problem_service(session: AsyncSession = Depends(get_db_session)) -> Prob
     repository = ProblemRepository(session)
     return ProblemService(repository)
 
+@router.get("", response_model=List[ProblemResponse], include_in_schema=False)
 @router.get("/", response_model=List[ProblemResponse])
 async def get_problems(
     search: Optional[str] = Query(None, description="Search by title or topic"),
@@ -62,6 +63,7 @@ async def get_problem(
     """Retrieve details of a specific problem. Validates ownership."""
     return await problem_service.get_problem(id, current_user.id)
 
+@router.post("", response_model=ProblemResponse, status_code=status.HTTP_201_CREATED, include_in_schema=False)
 @router.post("/", response_model=ProblemResponse, status_code=status.HTTP_201_CREATED)
 async def create_problem(
     data: ProblemCreate,

@@ -57,7 +57,7 @@ export function QuickActions() {
               group cursor-pointer hover:border-primary
             "
           >
-            <span className="text-primary border border-border-default p-1 bg-white rounded">
+            <span className="text-primary border border-border-default p-1 bg-bg-surface rounded">
               {action.icon}
             </span>
             <span className="text-xs font-mono font-bold text-primary uppercase tracking-wider">

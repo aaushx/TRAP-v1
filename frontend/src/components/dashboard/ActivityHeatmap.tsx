@@ -1,13 +1,13 @@
 import { useMemo } from 'react'
 import { motion } from 'framer-motion'
 
-// Color scale mapped to activity levels 0-4 (Nothing OS monochrome scale)
+// Color scale mapped to activity levels 0-4 (Theme-aware monochrome scale)
 const LEVEL_COLORS = [
-  '#efeded',     // 0 — empty
-  '#e4e2e2',     // 1 — low
-  '#c4c7c7',     // 2 — medium
-  '#747878',     // 3 — high
-  '#111111',     // 4 — max
+  'var(--color-heatmap-0)',     // 0 — empty
+  'var(--color-heatmap-1)',     // 1 — low
+  'var(--color-heatmap-2)',     // 2 — medium
+  'var(--color-heatmap-3)',     // 3 — high
+  'var(--color-heatmap-4)',     // 4 — max
 ] as const
 
 const CELL_SIZE = 12
@@ -31,8 +31,16 @@ interface ActivityHeatmapProps {
   data?: Record<string, number>
 }
 
+function formatLocalYYYYMMDD(d: Date): string {
+  const year = d.getFullYear()
+  const month = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return `${year}-${month}-${day}`
+}
+
 function processHeatmapData(backendData: Record<string, number>): DayCell[] {
-  const today = new Date()
+  const now = new Date()
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
   const cells: DayCell[] = []
   const totalDays = WEEKS * DAYS
 
@@ -44,7 +52,8 @@ function processHeatmapData(backendData: Record<string, number>): DayCell[] {
     const date = new Date(start)
     date.setDate(start.getDate() + i)
 
-    const dateKey = date.toISOString().split('T')[0]
+    // Use local calendar year-month-day string rather than UTC toISOString() to prevent timezone shifting
+    const dateKey = formatLocalYYYYMMDD(date)
     const count = backendData[dateKey] || 0
     
     let level = 0

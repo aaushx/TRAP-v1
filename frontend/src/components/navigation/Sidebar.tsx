@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import {
   LayoutDashboard,
+  BarChart3,
   Code2,
   Building2,
   Target,
@@ -9,7 +10,8 @@ import {
   ChevronRight,
   LogOut,
   User,
-  Sliders
+  Sliders,
+  BookOpen
 } from 'lucide-react'
 import { useAuthStore } from '@/store/auth.store'
 import { ConfirmDialog } from '@/components/common/ConfirmDialog'
@@ -21,12 +23,14 @@ export interface NavItem {
 }
 
 export const sidebarNavItems: NavItem[] = [
-  { label: 'Dashboard', path: '/app/dashboard', icon: LayoutDashboard },
-  { label: 'Problems',  path: '/app/problems',  icon: Code2 },
-  { label: 'Companies', path: '/app/companies', icon: Building2 },
-  { label: 'Goals',     path: '/app/goals',     icon: Target },
-  { label: 'Profile',   path: '/app/profile',   icon: User },
-  { label: 'Settings',  path: '/app/settings',  icon: Sliders },
+  { label: 'Dashboard',        path: '/app/dashboard',   icon: LayoutDashboard },
+  { label: 'Analytics',        path: '/app/analytics',   icon: BarChart3 },
+  { label: 'Problems',         path: '/app/problems',    icon: Code2 },
+  { label: 'Companies',        path: '/app/companies',   icon: Building2 },
+  { label: 'Company Wise DSA', path: '/app/company-dsa', icon: BookOpen },
+  { label: 'Goals',            path: '/app/goals',       icon: Target },
+  { label: 'Profile',          path: '/app/profile',     icon: User },
+  { label: 'Settings',         path: '/app/settings',    icon: Sliders },
 ]
 
 interface SidebarProps {

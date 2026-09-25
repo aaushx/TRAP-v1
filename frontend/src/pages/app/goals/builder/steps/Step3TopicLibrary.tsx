@@ -72,7 +72,7 @@ export function Step3TopicLibrary() {
       case 'easy': return 'bg-success/10 text-success border-success/20'
       case 'medium': return 'bg-warning/10 text-warning border-warning/20'
       case 'hard': return 'bg-error/10 text-error border-error/20'
-      default: return 'bg-white/5 text-text-secondary border-white/10'
+      default: return 'bg-bg-container-low text-text-secondary border-border-default'
     }
   }
 
@@ -80,29 +80,37 @@ export function Step3TopicLibrary() {
   const totalHours = state.selectedTopics.reduce((acc, t) => acc + (t.estimated_hours || 0), 0)
 
   return (
-    <div className="flex flex-col h-full">
-      <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 mb-6 shrink-0">
+    <div className="flex flex-col space-y-6">
+      {/* Header and Filter Row */}
+      <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-border-default border-dashed pb-5">
         <div>
-          <h2 className="text-xl font-bold text-text-primary mb-1">Topic Library</h2>
-          <p className="text-text-secondary text-sm">Select the specific topics you want to master.</p>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-primary" />
+            <h2 className="text-xl font-bold font-display text-primary uppercase tracking-tight">
+              Topic Library
+            </h2>
+          </div>
+          <p className="text-text-secondary text-xs font-mono mt-1">
+            Handpick specific DSA algorithms, data structures, and concepts for your goal.
+          </p>
         </div>
         
         <div className="flex flex-wrap items-center gap-3 w-full lg:w-auto">
-          <div className="relative flex-1 lg:w-64 min-w-[200px]">
-            <Search className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2" />
+          <div className="relative flex-1 lg:w-72 min-w-[200px]">
+            <Search className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
             <input 
               type="text"
               placeholder="Search topics..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full bg-bg-base border border-border-default rounded-lg pl-9 pr-4 py-2 text-sm text-text-primary focus:border-violet-400 focus:outline-none"
+              className="w-full bg-bg-base border border-border-default rounded-md pl-9 pr-4 py-2.5 text-xs text-primary placeholder:text-text-tertiary focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none transition-colors"
             />
           </div>
           
           <select 
             value={diffFilter}
             onChange={(e) => setDiffFilter(e.target.value)}
-            className="bg-bg-base border border-border-default rounded-lg px-3 py-2 text-sm text-text-primary focus:outline-none"
+            className="bg-bg-base border border-border-default rounded-md px-3 py-2.5 text-xs font-mono text-primary focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none cursor-pointer"
           >
             <option value="all">All Difficulties</option>
             <option value="easy">Easy</option>
@@ -113,22 +121,37 @@ export function Step3TopicLibrary() {
       </div>
 
       {/* Toolbar */}
-      <div className="flex items-center justify-between py-2 border-b border-border-default mb-4 shrink-0">
-        <div className="flex items-center gap-4 text-sm">
-          <button onClick={selectAll} className="text-violet-400 hover:text-violet-300 font-medium">Select All</button>
+      <div className="flex items-center justify-between py-3 px-4 rounded-lg bg-bg-container-low/40 border border-border-default">
+        <div className="flex items-center gap-4 text-xs font-mono">
+          <button 
+            type="button" 
+            onClick={selectAll} 
+            className="text-primary hover:underline font-bold cursor-pointer"
+          >
+            Select All ({filteredTopics.length})
+          </button>
           <span className="text-border-default">|</span>
-          <button onClick={deselectAll} className="text-text-secondary hover:text-text-primary">Deselect All</button>
+          <button 
+            type="button" 
+            onClick={deselectAll} 
+            className="text-text-secondary hover:text-primary transition-colors cursor-pointer"
+          >
+            Deselect All
+          </button>
         </div>
-        <div className="flex items-center gap-4 text-sm font-medium">
-          <span className="text-text-secondary">{state.selectedTopics.length} selected</span>
-          <span className="flex items-center gap-1 text-violet-400 bg-violet-400/10 px-2 py-1 rounded">
+        <div className="flex items-center gap-3 text-xs font-mono">
+          <span className="text-text-secondary">
+            <span className="font-bold text-primary">{state.selectedTopics.length}</span> topics selected
+          </span>
+          <span className="flex items-center gap-1 text-primary bg-bg-surface border border-border-default px-2.5 py-1 rounded font-bold">
             <Clock className="w-3.5 h-3.5" />
-            {Math.round(totalHours)}h total
+            {Math.round(totalHours)}h estimated
           </span>
         </div>
       </div>
 
-      <div className="flex-1 overflow-y-auto pr-2 min-h-0 space-y-2">
+      {/* Topics List - Natural Flow */}
+      <div className="space-y-2.5">
         {filteredTopics.map((topic, idx) => {
           const isSelected = !!state.selectedTopics.find(t => t.name === topic.name)
           
@@ -146,31 +169,33 @@ export function Step3TopicLibrary() {
               key={`${topic.name}-${idx}`}
               onClick={() => toggleTopic(topic)}
               className={`
-                p-4 rounded-xl border cursor-pointer transition-all duration-200 flex flex-col sm:flex-row sm:items-center gap-4
+                p-4 rounded-xl border cursor-pointer transition-all duration-150 flex flex-col sm:flex-row sm:items-center gap-4
                 ${isSelected 
-                  ? 'border-violet-500 bg-violet-500/5' 
-                  : 'border-border-default bg-white/[0.01] hover:bg-white/[0.04] hover:border-text-tertiary'}
+                  ? 'border-primary bg-bg-container-low ring-1 ring-primary/40 shadow-sm' 
+                  : 'border-border-default bg-bg-surface hover:bg-bg-container-low/50 hover:border-text-tertiary'}
               `}
             >
-              <div className="shrink-0 text-violet-400">
+              <div className="shrink-0 text-primary">
                 {isSelected ? <CheckSquare className="w-5 h-5" /> : <Square className="w-5 h-5 text-text-tertiary" />}
               </div>
               
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-3 flex-wrap">
-                  <h3 className="font-semibold text-text-primary truncate">{topic.name}</h3>
-                  <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider border ${getDifficultyColor(topic.difficulty)}`}>
+                  <h3 className={`font-mono text-sm font-bold truncate ${isSelected ? 'text-primary' : 'text-primary'}`}>
+                    {topic.name}
+                  </h3>
+                  <span className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold uppercase tracking-wider border ${getDifficultyColor(topic.difficulty)}`}>
                     {topic.difficulty}
                   </span>
-                  <span className="text-xs text-text-tertiary">{topic.category}</span>
+                  <span className="text-xs font-mono text-text-tertiary">[{topic.category}]</span>
                 </div>
                 
                 {askingCompanies.length > 0 && (
-                  <div className="flex items-center gap-2 mt-2">
-                    <span className="text-[10px] text-text-secondary uppercase font-semibold">Hot at:</span>
-                    <div className="flex gap-1">
+                  <div className="flex items-center gap-2 mt-2 flex-wrap">
+                    <span className="text-[10px] font-mono text-text-secondary uppercase font-bold">Targeted by:</span>
+                    <div className="flex gap-1.5 flex-wrap">
                       {askingCompanies.map(c => (
-                        <span key={c} className="text-[10px] px-1.5 py-0.5 rounded bg-warning/10 text-warning border border-warning/20">
+                        <span key={c} className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-warning/15 text-warning border border-warning/30">
                           {c}
                         </span>
                       ))}
@@ -179,9 +204,9 @@ export function Step3TopicLibrary() {
                 )}
               </div>
 
-              <div className="flex items-center gap-4 shrink-0 text-sm text-text-secondary">
-                <span className="flex items-center gap-1">
-                  <Clock className="w-4 h-4 text-text-tertiary" />
+              <div className="flex items-center gap-4 shrink-0 text-xs font-mono text-text-secondary">
+                <span className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-bg-container-high/60 border border-border-default">
+                  <Clock className="w-3.5 h-3.5 text-text-tertiary" />
                   {topic.estimated_hours}h
                 </span>
               </div>
@@ -189,23 +214,26 @@ export function Step3TopicLibrary() {
           )
         })}
         {filteredTopics.length === 0 && (
-          <div className="text-center py-12 text-text-tertiary">
-            No topics found matching your criteria.
+          <div className="text-center py-16 text-text-tertiary font-mono text-xs">
+            No topics found matching your filters.
           </div>
         )}
       </div>
 
-      <div className="pt-6 mt-2 border-t border-border-default flex justify-between shrink-0">
+      {/* Bottom Navigation Toolbar */}
+      <div className="pt-6 border-t border-border-default flex items-center justify-between gap-4">
         <button
+          type="button"
           onClick={prevStep}
-          className="px-6 py-2 rounded-lg font-medium text-text-secondary hover:text-text-primary transition-colors"
+          className="px-6 py-3 rounded text-xs font-mono font-bold uppercase tracking-wider text-text-secondary hover:text-text-primary hover:bg-bg-container-low transition-colors cursor-pointer"
         >
           Back
         </button>
         <button
+          type="button"
           onClick={nextStep}
           disabled={state.selectedTopics.length === 0}
-          className="flex items-center justify-center gap-2 px-6 py-2 bg-violet-500 hover:bg-violet-600 text-white rounded-lg font-medium disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-glow-sm"
+          className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-primary text-text-inverse hover:bg-secondary disabled:opacity-40 disabled:cursor-not-allowed text-xs font-mono font-bold uppercase tracking-wider rounded transition-colors cursor-pointer shadow-sm"
         >
           Organize Milestones
           <ArrowRight className="w-4 h-4" />

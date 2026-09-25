@@ -22,11 +22,23 @@ async def test_problems_crud_and_ownership(client: AsyncClient):
     token_b = response.json()["data"]["tokens"]["access_token"]
     headers_b = {"Authorization": f"Bearer {token_b}"}
     
-    # 2. Create problem as User A
+    # 2. User A attempts to create problem with invalid status/difficulty (must return 422)
+    invalid_payload = {
+        "title": "Invalid Problem",
+        "platform": "leetcode",
+        "topic": "Arrays",
+        "difficulty": "super_hard",
+        "status": "not_real_status"
+    }
+    response = await client.post("/api/v1/problems/", json=invalid_payload, headers=headers_a)
+    assert response.status_code == 422
+    assert response.json()["error_code"] == "VALIDATION_ERROR"
+
+    # User A creates a valid problem
     problem_payload = {
         "title": "Two Sum",
         "platform": "leetcode",
-        "platform_url": "https://leetcode.com/problems/two-sum",
+        "platform_url": "https://leetcode.com/problems/two-sum/",
         "topic": "Arrays",
         "difficulty": "easy",
         "status": "solved",

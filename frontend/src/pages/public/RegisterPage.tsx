@@ -46,7 +46,7 @@ export function RegisterPage() {
       className="w-full max-w-md mx-auto"
     >
       {/* Register Card */}
-      <div className="bg-white border border-border-default rounded-md p-8 md:p-12 relative flex flex-col gap-8 shadow-sm hover:border-primary transition-colors duration-300 group">
+      <div className="bg-bg-surface border border-border-default rounded-md p-8 md:p-12 relative flex flex-col gap-8 shadow-sm hover:border-primary transition-colors duration-300 group">
         {/* Header Strip (Design System Detail) */}
         <div className="absolute top-0 left-0 right-0 h-2 bg-bg-container-high rounded-t-md dot-matrix-strip opacity-20"></div>
         
@@ -128,7 +128,7 @@ export function RegisterPage() {
 
           {/* Submit Button */}
           <button 
-            className="w-full bg-secondary hover:bg-secondary/95 text-white font-mono text-xs font-bold uppercase tracking-widest py-4 mt-4 transition-colors duration-200 rounded cursor-pointer flex items-center justify-center gap-2" 
+            className="w-full bg-secondary hover:bg-secondary/95 text-white font-mono text-xs font-bold uppercase tracking-widest py-4 mt-4 transition-colors duration-200 rounded cursor-pointer flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed" 
             type="submit"
             disabled={isLoading}
           >

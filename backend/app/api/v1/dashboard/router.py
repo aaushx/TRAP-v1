@@ -20,8 +20,11 @@ async def get_dashboard_stats(
 ) -> dict:
     """Return dashboard statistics for the authenticated user, fetching real counts from DB."""
     
-    # 1. Total Problems Solved
-    problems_stmt = select(func.count()).select_from(Problem).where(Problem.user_id == current_user.id)
+    # 1. Total Problems Solved (only count problems with status == 'solved')
+    problems_stmt = select(func.count()).select_from(Problem).where(
+        Problem.user_id == current_user.id,
+        Problem.status == "solved"
+    )
     problems_result = await session.execute(problems_stmt)
     problems_solved = problems_result.scalar() or 0
 
@@ -38,7 +41,17 @@ async def get_dashboard_stats(
     roadmaps_result = await session.execute(roadmaps_stmt)
     active_goals = roadmaps_result.scalar() or 0
 
-    # 4. Activity Feed (3 most recently created Problems/Companies combined)
+    # 4. Daily Goal Progress (count problems marked 'solved' created today)
+    today = date.today()
+    daily_problems_stmt = select(func.count()).select_from(Problem).where(
+        Problem.user_id == current_user.id,
+        Problem.status == "solved",
+        cast(Problem.created_at, Date) == today
+    )
+    daily_problems_result = await session.execute(daily_problems_stmt)
+    daily_goal_progress = daily_problems_result.scalar() or 0
+
+    # 5. Activity Feed (3 most recently created Problems/Companies combined)
     recent_problems_stmt = select(Problem.id, Problem.title, Problem.created_at).where(Problem.user_id == current_user.id).order_by(desc(Problem.created_at)).limit(3)
     recent_problems_result = await session.execute(recent_problems_stmt)
     
@@ -65,11 +78,14 @@ async def get_dashboard_stats(
     activities.sort(key=lambda x: x["timestamp"], reverse=True)
     recent_activity = activities[:3]
 
-    # 5. Heatmap Data (Problem completions by date)
+    # 6. Heatmap Data (Problem completions by date)
     heatmap_stmt = select(
         cast(Problem.created_at, Date).label("date"),
         func.count().label("count")
-    ).where(Problem.user_id == current_user.id).group_by(cast(Problem.created_at, Date)).order_by(desc(cast(Problem.created_at, Date)))
+    ).where(
+        Problem.user_id == current_user.id,
+        Problem.status == "solved"
+    ).group_by(cast(Problem.created_at, Date)).order_by(desc(cast(Problem.created_at, Date)))
     
     heatmap_result = await session.execute(heatmap_stmt)
     
@@ -81,9 +97,8 @@ async def get_dashboard_stats(
         heatmap_data[date_str] = row.count
         problem_dates.append(row.date)
         
-    # 6. Current Streak Calculation
+    # 7. Current Streak Calculation
     current_streak = 0
-    today = date.today()
     yesterday = today - timedelta(days=1)
     
     # Sort descending just to be safe
@@ -118,7 +133,7 @@ async def get_dashboard_stats(
                 "companies_tracked": companies_tracked,
                 "active_goals": active_goals,
                 "current_streak": current_streak,
-                "daily_goal_progress": problems_solved, # simplified for now
+                "daily_goal_progress": daily_goal_progress,
                 "daily_goal_target": 5, # default
             },
             "recent_activity": recent_activity,

@@ -128,7 +128,7 @@ export function ConfirmDialog({
           <button
             onClick={onClose}
             aria-label="Close dialog"
-            className="p-1 rounded-md text-text-tertiary hover:text-text-primary hover:bg-white/5 transition-colors focus-visible:ring-1 focus-visible:ring-text-primary focus:outline-none"
+            className="p-1 rounded-md text-text-tertiary hover:text-text-primary hover:bg-bg-container-high transition-colors focus-visible:ring-1 focus-visible:ring-text-primary focus:outline-none"
           >
             <X className="w-4 h-4" />
           </button>
@@ -150,7 +150,7 @@ export function ConfirmDialog({
             className={`px-4 py-2 rounded-md text-xs font-mono font-bold uppercase tracking-wider transition-colors cursor-pointer disabled:opacity-50 focus-visible:ring-1 focus-visible:ring-offset-1 focus-visible:ring-primary focus:outline-none ${
               isDangerous 
                 ? 'bg-secondary text-white hover:bg-secondary/90' 
-                : 'bg-primary text-white hover:bg-primary/90'
+                : 'bg-primary text-text-inverse hover:bg-primary/90'
             }`}
           >
             {isLoading ? 'Processing...' : confirmText}

@@ -10,8 +10,36 @@ export interface Company {
   jobUrl?: string;
   salaryRange?: string;
   notes?: string;
+  industry?: string;
+  tierCategory?: string;
+  difficulty?: string;
+  preparationTopics?: string[];
+  sourceMetadata?: any;
   createdAt: string;
   updatedAt: string;
+}
+
+export interface CompanyDirectoryItem {
+  rank: number;
+  name: string;
+  normalized_key: string;
+  aliases: string[];
+  industry?: string;
+  tier_category?: string;
+  score: number;
+  in_both_datasets: boolean;
+  questions_dataset_1: number;
+  questions_dataset_2: number;
+  total_problem_references: number;
+  overall_difficulty: string;
+  difficulty_breakdown: Record<string, number>;
+  top_preparation_topics: string[];
+  hiring_recency_windows: string[];
+  hiring_frequency: string;
+  job_roles: string[];
+  salary_range?: string | null;
+  interview_rounds?: string | null;
+  sources: string[];
 }
 
 export type CompanyCreate = Omit<Company, 'id' | 'createdAt' | 'updatedAt'>;
@@ -35,6 +63,11 @@ export const companyApi = {
 
   getCompany: async (id: string): Promise<Company> => {
     const { data } = await apiClient.get(`/companies/${id}`);
+    return data?.data ?? data;
+  },
+
+  getDirectory: async (search?: string): Promise<CompanyDirectoryItem[]> => {
+    const { data } = await apiClient.get('/companies/directory', { params: { search } });
     return data?.data ?? data;
   },
 

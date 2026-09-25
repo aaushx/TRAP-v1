@@ -2,6 +2,12 @@ import { useToastStore, ToastMessage } from '@/store/toast.store'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, Loader } from 'lucide-react'
 
+/**
+ * ToastContainer Component
+ * 
+ * Renders global toast notifications below the top navbar with comfortable safe spacing,
+ * ensuring toasts are never occluded by sticky or fixed headers across desktop and mobile.
+ */
 export function ToastContainer() {
   const { toasts, removeToast } = useToastStore()
 
@@ -12,7 +18,7 @@ export function ToastContainer() {
         // Nothing Red dot accent for errors
         return <span className="w-2 h-2 rounded-full bg-error shrink-0" />
       case 'success':
-        return <span className="w-2 h-2 rounded-full bg-text-primary shrink-0" />
+        return <span className="w-2 h-2 rounded-full bg-success shrink-0" />
       case 'warning':
         return <span className="w-2 h-2 rounded-full bg-warning shrink-0" />
       case 'loading':
@@ -24,7 +30,9 @@ export function ToastContainer() {
   }
 
   return (
-    <div className="fixed top-6 right-6 z-50 flex flex-col gap-2.5 pointer-events-none max-w-sm w-full">
+    <div 
+      className="fixed top-[calc(var(--topbar-height,56px)+16px+env(safe-area-inset-top,0px))] right-4 left-4 sm:left-auto sm:right-6 z-[500] flex flex-col gap-2.5 pointer-events-none max-w-[calc(100vw-2rem)] sm:max-w-sm w-full"
+    >
       <AnimatePresence>
         {toasts.map((toast) => (
           <motion.div
@@ -61,7 +69,7 @@ export function ToastContainer() {
             <button
               onClick={() => removeToast(toast.id)}
               aria-label="Dismiss notification"
-              className="p-1 rounded-md text-text-tertiary hover:text-text-primary hover:bg-white/5 transition-colors cursor-pointer shrink-0 focus-visible:outline-none"
+              className="p-1 rounded-md text-text-tertiary hover:text-text-primary hover:bg-bg-container-high transition-colors cursor-pointer shrink-0 focus-visible:outline-none"
             >
               <X className="w-3.5 h-3.5" />
             </button>

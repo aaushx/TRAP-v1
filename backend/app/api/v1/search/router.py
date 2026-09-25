@@ -12,6 +12,7 @@ from app.models.roadmap import Roadmap, RoadmapCategory, RoadmapTopic
 
 router = APIRouter()
 
+@router.get("", include_in_schema=False)
 @router.get("/")
 async def search_all(
     q: str = Query("", min_length=1),
@@ -90,13 +91,20 @@ async def search_all(
         })
 
     # 4. Search Goal Topics (RoadmapTopics)
-    topic_stmt = select(RoadmapTopic, Roadmap.id.label("roadmap_id")).join(RoadmapCategory).join(Roadmap).where(
-        Roadmap.user_id == current_user.id,
-        or_(
-            RoadmapTopic.name.ilike(query_pattern),
-            RoadmapTopic.notes.ilike(query_pattern)
+    topic_stmt = (
+        select(RoadmapTopic, RoadmapCategory.roadmap_id)
+        .select_from(RoadmapTopic)
+        .join(RoadmapCategory, RoadmapTopic.category_id == RoadmapCategory.id)
+        .join(Roadmap, RoadmapCategory.roadmap_id == Roadmap.id)
+        .where(
+            Roadmap.user_id == current_user.id,
+            or_(
+                RoadmapTopic.name.ilike(query_pattern),
+                RoadmapTopic.notes.ilike(query_pattern)
+            )
         )
-    ).limit(10)
+        .limit(10)
+    )
     topic_res = await session.execute(topic_stmt)
     for t, roadmap_id in topic_res.all():
         results.append({

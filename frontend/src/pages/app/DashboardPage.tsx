@@ -55,7 +55,7 @@ export default function DashboardPage() {
         <p className="text-text-secondary text-sm mb-6">{error}</p>
         <button 
           onClick={() => window.location.reload()}
-          className="px-5 py-2.5 bg-primary text-white font-mono text-xs font-bold uppercase tracking-wider rounded hover:bg-primary/95 transition-colors cursor-pointer"
+          className="px-5 py-2.5 bg-primary text-text-inverse font-mono text-xs font-bold uppercase tracking-wider rounded hover:bg-primary/90 transition-colors cursor-pointer"
         >
           Retry Connection
         </button>
@@ -83,7 +83,7 @@ export default function DashboardPage() {
         </div>
         
         {/* Readiness Index Gauge - Minimalist circular chart */}
-        <div className="flex items-center gap-3 bg-white border border-border-default px-4 py-2 rounded-md relative group hover:border-primary transition-colors duration-200">
+        <div className="flex items-center gap-3 bg-bg-surface border border-border-default px-4 py-2 rounded-md relative group hover:border-primary transition-colors duration-200">
           <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-25 dot-matrix-strip"></div>
           <div className="relative flex items-center justify-center w-12 h-12 mt-1">
             <svg className="w-full h-full -rotate-90" viewBox="0 0 36 36">
@@ -152,7 +152,7 @@ export default function DashboardPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         
         {/* Daily Focus */}
-        <div className="bg-white border border-border-default rounded-md p-5 relative group hover:border-primary transition-colors duration-200">
+        <div className="bg-bg-surface border border-border-default rounded-md p-5 relative group hover:border-primary transition-colors duration-200">
           <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-20 dot-matrix-strip"></div>
           <div className="flex items-center justify-between mb-4 mt-1 border-b border-border-default border-dashed pb-3">
             <h3 className="font-mono text-[10px] font-bold text-primary uppercase tracking-widest">Priority Target</h3>
@@ -169,7 +169,7 @@ export default function DashboardPage() {
         </div>
 
         {/* Strengths */}
-        <div className="bg-white border border-border-default rounded-md p-5 relative group hover:border-primary transition-colors duration-200">
+        <div className="bg-bg-surface border border-border-default rounded-md p-5 relative group hover:border-primary transition-colors duration-200">
           <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-20 dot-matrix-strip"></div>
           <div className="flex items-center justify-between mb-4 mt-1 border-b border-border-default border-dashed pb-3">
             <h3 className="font-mono text-[10px] font-bold text-primary uppercase tracking-widest">Optimized Areas</h3>
@@ -185,7 +185,7 @@ export default function DashboardPage() {
         </div>
 
         {/* Needs Improvement */}
-        <div className="bg-white border border-border-default rounded-md p-5 relative group hover:border-primary transition-colors duration-200">
+        <div className="bg-bg-surface border border-border-default rounded-md p-5 relative group hover:border-primary transition-colors duration-200">
           <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-20 dot-matrix-strip"></div>
           <div className="flex items-center justify-between mb-4 mt-1 border-b border-border-default border-dashed pb-3">
             <h3 className="font-mono text-[10px] font-bold text-primary uppercase tracking-widest">Deficient Sectors</h3>

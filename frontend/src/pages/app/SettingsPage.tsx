@@ -12,10 +12,15 @@ import {
   Loader,
   Check,
   Eye,
-  EyeOff
+  EyeOff,
+  Sun,
+  Moon,
+  Laptop,
+  Palette
 } from 'lucide-react'
 import { useAuthStore } from '@/store/auth.store'
 import { useToastStore } from '@/store/toast.store'
+import { useThemeStore } from '@/store/theme.store'
 import { authApi } from '@/services/api/auth'
 import { ConfirmDialog } from '@/components/common/ConfirmDialog'
 import { SettingsSkeleton } from '@/components/common/Skeleton'
@@ -23,6 +28,7 @@ import { SettingsSkeleton } from '@/components/common/Skeleton'
 export default function SettingsPage() {
   const { user, setUser, logout } = useAuthStore()
   const { addToast } = useToastStore()
+  const { theme: activeThemeMode, resolvedTheme, setTheme: setAppTheme } = useThemeStore()
 
   // Local Form state
   const [fullName, setFullName] = useState('')
@@ -35,7 +41,6 @@ export default function SettingsPage() {
   // Preferences State
   const [dailyReminder, setDailyReminder] = useState(false)
   const [deadlineAlerts, setDeadlineAlerts] = useState(false)
-  const [theme, setTheme] = useState('dark')
 
   // Autosave Status
   const [savingStatus, setSavingStatus] = useState<'idle' | 'saving' | 'saved'>('idle')
@@ -68,7 +73,6 @@ export default function SettingsPage() {
       const prefs = user.preferences || {}
       setDailyReminder(prefs.dailyReminder ?? false)
       setDeadlineAlerts(prefs.deadlineAlerts ?? false)
-      setTheme(prefs.theme ?? 'dark')
       
       setIsLoading(false)
     }
@@ -78,24 +82,22 @@ export default function SettingsPage() {
   const triggerAutosave = (fields: Record<string, any>) => {
     setSavingStatus('saving')
     if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current)
-
     saveTimeoutRef.current = setTimeout(async () => {
       try {
         const payload = { ...fields }
         if (fields.grad_year) {
           payload.grad_year = parseInt(fields.grad_year, 10) || null
         }
-        await authApi.updateProfile(payload)
-        if (user) {
-          setUser({ ...user, ...payload })
-        }
+        const res = await authApi.updateProfile(payload)
+        const updated = (res as any).data?.user || (res as any).user || (res as any).data || res
+        setUser(updated)
         setSavingStatus('saved')
-        setTimeout(() => setSavingStatus('idle'), 1500)
-      } catch (err) {
+        setTimeout(() => setSavingStatus('idle'), 2000)
+      } catch {
         setSavingStatus('idle')
-        addToast('Settings autosave failed. Please check internet connection.', 'error')
+        addToast('Autosave synchronization encountered an issue.', 'warning')
       }
-    }, 1000)
+    }, 800)
   }
 
   // Handle manual input changes
@@ -137,7 +139,6 @@ export default function SettingsPage() {
     
     if (prefField === 'dailyReminder') setDailyReminder(value as boolean)
     if (prefField === 'deadlineAlerts') setDeadlineAlerts(value as boolean)
-    if (prefField === 'theme') setTheme(value as string)
 
     triggerAutosave({ preferences: updatedPrefs })
   }
@@ -173,7 +174,7 @@ export default function SettingsPage() {
       downloadAnchor.click()
       downloadAnchor.remove()
       addToast('Data exported successfully.', 'success')
-    } catch (err) {
+    } catch {
       addToast('Failed to export data.', 'error')
     } finally {
       setIsExporting(false)
@@ -188,7 +189,7 @@ export default function SettingsPage() {
       addToast('Your account was permanently deleted.', 'success')
       setIsDeleteConfirmOpen(false)
       logout()
-    } catch (err) {
+    } catch {
       addToast('Failed to delete account.', 'error')
       setIsDeletingAccount(false)
     }
@@ -238,7 +239,7 @@ export default function SettingsPage() {
       </div>
 
       {/* ── Section 1: Profile Information ───────────────────────── */}
-      <div className="bg-white border border-border-default rounded-md p-6 space-y-6 shadow-sm relative group">
+      <div className="bg-bg-surface border border-border-default rounded-md p-6 space-y-6 shadow-sm relative group">
         <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-25 dot-matrix-strip"></div>
         <h2 className="text-xs font-mono font-bold text-primary uppercase tracking-widest flex items-center gap-2 select-none border-b border-border-default border-dashed pb-3 mt-1">
           <User className="w-4 h-4 text-text-secondary" />
@@ -326,8 +327,118 @@ export default function SettingsPage() {
         </div>
       </div>
 
-      {/* ── Section 2: Preferences ───────────────────────────────── */}
-      <div className="bg-white border border-border-default rounded-md p-6 space-y-6 shadow-sm relative group">
+      {/* ── Section 2: Appearance ─────────────────────────────────── */}
+      <div className="bg-bg-surface border border-border-default rounded-md p-6 space-y-6 shadow-sm relative group">
+        <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-25 dot-matrix-strip"></div>
+        <div className="flex items-center justify-between border-b border-border-default border-dashed pb-3 mt-1 select-none">
+          <h2 className="text-xs font-mono font-bold text-primary uppercase tracking-widest flex items-center gap-2">
+            <Palette className="w-4 h-4 text-text-secondary" />
+            Appearance
+          </h2>
+          <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-text-tertiary">
+            Active: {activeThemeMode.toUpperCase()} ({resolvedTheme.toUpperCase()})
+          </span>
+        </div>
+
+        <p className="text-xs text-text-secondary">
+          Customize your application interface visual theme. Your choice persists across page refreshes, browser restarts, and authentication sessions.
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {/* Light Mode Option */}
+          <button
+            type="button"
+            onClick={() => {
+              setAppTheme('light')
+              handlePreferenceToggle('theme', 'light')
+              addToast('Theme set to Light Mode', 'info')
+            }}
+            className={`p-4 rounded-md border text-left transition-all cursor-pointer flex flex-col justify-between gap-3 ${
+              activeThemeMode === 'light'
+                ? 'border-primary ring-1 ring-primary bg-bg-container-low'
+                : 'border-border-default bg-bg-container-low/30 hover:border-border-strong hover:bg-bg-container-low'
+            }`}
+          >
+            <div className="flex items-center justify-between">
+              <div className="w-8 h-8 rounded bg-bg-container-high flex items-center justify-center text-primary">
+                <Sun className="w-4 h-4" />
+              </div>
+              <div className={`w-4 h-4 rounded-full border flex items-center justify-center ${
+                activeThemeMode === 'light' ? 'border-primary bg-primary' : 'border-border-default'
+              }`}>
+                {activeThemeMode === 'light' && <div className="w-1.5 h-1.5 rounded-full bg-text-inverse" />}
+              </div>
+            </div>
+            <div>
+              <span className="font-mono text-xs font-bold text-primary uppercase block">Light</span>
+              <span className="text-[11px] text-text-secondary mt-0.5 block leading-snug">Clean, bright, minimal surfaces</span>
+            </div>
+          </button>
+
+          {/* Dark Mode Option */}
+          <button
+            type="button"
+            onClick={() => {
+              setAppTheme('dark')
+              handlePreferenceToggle('theme', 'dark')
+              addToast('Theme set to Dark Mode', 'info')
+            }}
+            className={`p-4 rounded-md border text-left transition-all cursor-pointer flex flex-col justify-between gap-3 ${
+              activeThemeMode === 'dark'
+                ? 'border-primary ring-1 ring-primary bg-bg-container-low'
+                : 'border-border-default bg-bg-container-low/30 hover:border-border-strong hover:bg-bg-container-low'
+            }`}
+          >
+            <div className="flex items-center justify-between">
+              <div className="w-8 h-8 rounded bg-bg-container-high flex items-center justify-center text-primary">
+                <Moon className="w-4 h-4" />
+              </div>
+              <div className={`w-4 h-4 rounded-full border flex items-center justify-center ${
+                activeThemeMode === 'dark' ? 'border-primary bg-primary' : 'border-border-default'
+              }`}>
+                {activeThemeMode === 'dark' && <div className="w-1.5 h-1.5 rounded-full bg-text-inverse" />}
+              </div>
+            </div>
+            <div>
+              <span className="font-mono text-xs font-bold text-primary uppercase block">Dark</span>
+              <span className="text-[11px] text-text-secondary mt-0.5 block leading-snug">Deep, high-contrast, Nothing-inspired</span>
+            </div>
+          </button>
+
+          {/* System Mode Option */}
+          <button
+            type="button"
+            onClick={() => {
+              setAppTheme('system')
+              handlePreferenceToggle('theme', 'system')
+              addToast('Theme set to System Default', 'info')
+            }}
+            className={`p-4 rounded-md border text-left transition-all cursor-pointer flex flex-col justify-between gap-3 ${
+              activeThemeMode === 'system'
+                ? 'border-primary ring-1 ring-primary bg-bg-container-low'
+                : 'border-border-default bg-bg-container-low/30 hover:border-border-strong hover:bg-bg-container-low'
+            }`}
+          >
+            <div className="flex items-center justify-between">
+              <div className="w-8 h-8 rounded bg-bg-container-high flex items-center justify-center text-primary">
+                <Laptop className="w-4 h-4" />
+              </div>
+              <div className={`w-4 h-4 rounded-full border flex items-center justify-center ${
+                activeThemeMode === 'system' ? 'border-primary bg-primary' : 'border-border-default'
+              }`}>
+                {activeThemeMode === 'system' && <div className="w-1.5 h-1.5 rounded-full bg-text-inverse" />}
+              </div>
+            </div>
+            <div>
+              <span className="font-mono text-xs font-bold text-primary uppercase block">System</span>
+              <span className="text-[11px] text-text-secondary mt-0.5 block leading-snug">Adapts to OS color scheme</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      {/* ── Section 3: Preferences ───────────────────────────────── */}
+      <div className="bg-bg-surface border border-border-default rounded-md p-6 space-y-6 shadow-sm relative group">
         <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-25 dot-matrix-strip"></div>
         <h2 className="text-xs font-mono font-bold text-primary uppercase tracking-widest flex items-center gap-2 select-none border-b border-border-default border-dashed pb-3 mt-1">
           <Bell className="w-4 h-4 text-text-secondary" />
@@ -345,7 +456,7 @@ export default function SettingsPage() {
               type="checkbox"
               checked={dailyReminder}
               onChange={e => handlePreferenceToggle('dailyReminder', e.target.checked)}
-              className="w-4.5 h-4.5 rounded border-border-default bg-white text-primary focus:ring-primary cursor-pointer"
+              className="w-4.5 h-4.5 rounded border-border-default bg-bg-container-low text-primary focus:ring-primary cursor-pointer"
             />
           </div>
 
@@ -359,30 +470,14 @@ export default function SettingsPage() {
               type="checkbox"
               checked={deadlineAlerts}
               onChange={e => handlePreferenceToggle('deadlineAlerts', e.target.checked)}
-              className="w-4.5 h-4.5 rounded border-border-default bg-white text-primary focus:ring-primary cursor-pointer"
+              className="w-4.5 h-4.5 rounded border-border-default bg-bg-container-low text-primary focus:ring-primary cursor-pointer"
             />
-          </div>
-
-          {/* Theme Selector */}
-          <div className="flex items-center justify-between py-2 border-b border-border-default border-dashed last:border-b-0">
-            <div className="space-y-0.5">
-              <span className="text-xs font-mono font-bold text-primary uppercase">Application Interface Theme</span>
-              <p className="text-[11px] text-text-secondary">Switch between dark mode default and monochromatic styling</p>
-            </div>
-            <select
-              value={theme}
-              onChange={e => handlePreferenceToggle('theme', e.target.value)}
-              className="bg-bg-container-low border border-border-default rounded px-3 py-1.5 text-xs font-mono font-bold text-text-secondary cursor-pointer focus:border-primary"
-            >
-              <option value="dark">DARK MODE</option>
-              <option value="mono">MONOCHROME LIGHT</option>
-            </select>
           </div>
         </div>
       </div>
 
-      {/* ── Section 3: Account & Security ─────────────────────────── */}
-      <div className="bg-white border border-border-default rounded-md p-6 space-y-6 shadow-sm relative group">
+      {/* ── Section 4: Account & Security ─────────────────────────── */}
+      <div className="bg-bg-surface border border-border-default rounded-md p-6 space-y-6 shadow-sm relative group">
         <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-25 dot-matrix-strip"></div>
         <h2 className="text-xs font-mono font-bold text-primary uppercase tracking-widest flex items-center gap-2 select-none border-b border-border-default border-dashed pb-3 mt-1">
           <Gear className="w-4 h-4 text-text-secondary" />
@@ -511,7 +606,7 @@ export default function SettingsPage() {
                   <button
                     type="submit"
                     disabled={isPasswordUpdating}
-                    className="px-4 py-2 bg-primary hover:bg-primary/95 text-white text-xs font-mono font-bold uppercase rounded cursor-pointer flex items-center gap-1.5"
+                    className="px-4 py-2 bg-primary hover:bg-primary/95 text-text-inverse text-xs font-mono font-bold uppercase rounded cursor-pointer flex items-center gap-1.5"
                   >
                     {isPasswordUpdating && <Loader className="w-3.5 h-3.5 animate-spin" />}
                     Save Password

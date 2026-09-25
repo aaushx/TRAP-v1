@@ -1,6 +1,6 @@
-from typing import List
+from typing import List, Optional
 from uuid import UUID
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, Query
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
@@ -16,7 +16,12 @@ from app.schemas.roadmap import (
     GoalTopicStatusUpdate,
     GoalTopicResponse
 )
+from app.schemas.company_question import (
+    CompanyPreparationResponse,
+    QuestionProgressUpdate
+)
 from app.repositories.roadmap import RoadmapRepository
+from app.repositories.company_question import CompanyQuestionRepository
 from app.services.roadmap import RoadmapService
 
 router = APIRouter()
@@ -42,6 +47,7 @@ async def get_company_intelligence(
     """Get Company Intelligence Templates (user-facing: Goal Company Templates)."""
     return service.get_companies()
 
+@router.post("", response_model=GoalResponse, status_code=status.HTTP_201_CREATED, include_in_schema=False)
 @router.post("/", response_model=GoalResponse, status_code=status.HTTP_201_CREATED)
 async def create_goal(
     data: GoalCreate,
@@ -51,6 +57,7 @@ async def create_goal(
     """Create a new custom goal."""
     return await service.create(current_user.id, data)
 
+@router.get("", response_model=List[GoalResponse], include_in_schema=False)
 @router.get("/", response_model=List[GoalResponse])
 async def get_goals(
     current_user: User = Depends(get_current_user),
@@ -141,3 +148,69 @@ async def update_topic_status(
         )
 
     return await service.update_topic_status(topic_id, data.status, data.notes)
+
+@router.get("/{goal_id}/company-preparation", response_model=CompanyPreparationResponse)
+async def get_goal_company_preparation(
+    goal_id: UUID,
+    company: Optional[str] = Query(None, description="Filter questions by target company name"),
+    topic: Optional[str] = Query(None, description="Filter questions by DSA topic"),
+    difficulty: Optional[str] = Query(None, description="Filter questions by difficulty (Easy, Medium, Hard)"),
+    status_filter: Optional[str] = Query(None, alias="status", description="Filter questions by status (not_started, attempted, solved, needs_revision)"),
+    search: Optional[str] = Query(None, description="Search questions by title"),
+    skip: int = Query(0, ge=0),
+    limit: int = Query(500, ge=1, le=1000),
+    current_user: User = Depends(get_current_user),
+    service: RoadmapService = Depends(get_roadmap_service),
+    db: AsyncSession = Depends(get_db_session)
+):
+    """Retrieve company-wise DSA preparation topics, questions, and progress for a goal."""
+    roadmap = await service.get_by_id(goal_id)
+    if roadmap.user_id != current_user.id:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Not authorized to access this goal"
+        )
+    
+    cq_repo = CompanyQuestionRepository(db)
+    target_companies = roadmap.target_companies or []
+    return await cq_repo.get_company_preparation(
+        goal_id=goal_id,
+        goal_title=roadmap.title,
+        target_companies=target_companies,
+        user_id=current_user.id,
+        company_filter=company,
+        topic_filter=topic,
+        difficulty_filter=difficulty,
+        status_filter=status_filter,
+        search=search,
+        skip=skip,
+        limit=limit
+    )
+
+@router.patch("/questions/{question_id}/progress")
+async def update_question_progress(
+    question_id: UUID,
+    data: QuestionProgressUpdate,
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db_session)
+):
+    """Update authenticated user's progress on a company question. Guarantees multi-tenant isolation."""
+    cq_repo = CompanyQuestionRepository(db)
+    question = await cq_repo.get_by_id(question_id)
+    if not question:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Question not found"
+        )
+    progress = await cq_repo.upsert_user_progress(
+        user_id=current_user.id,
+        question_id=question_id,
+        status=data.status,
+        notes=data.notes
+    )
+    return {
+        "question_id": progress.question_id,
+        "status": progress.status,
+        "notes": progress.notes,
+        "updated_at": progress.updated_at
+    }

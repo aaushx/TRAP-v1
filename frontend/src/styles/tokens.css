@@ -1,60 +1,111 @@
 /**
  * TRAP Design System — CSS Custom Properties (Tokens)
- * These variables are the single source of truth for the visual design.
+ * Single source of truth for Light & Dark mode visual design.
  * Rooted in "Industrial Digitalism", inspired by Nothing OS.
  */
 
 :root {
-  /* ── Background Layers ─────────────────────────────────── */
+  /* ── Light Mode: Background Layers ──────────────────────── */
   --color-bg-base:    #fbf9f8;   /* Page background (light warm grey) */
-  --color-bg-surface: #fbf9f8;   /* Content areas */
-  --color-bg-overlay: #ffffff;   /* Cards, panels (lowest container) */
-  --color-bg-card:    #ffffff;   /* Elevated cards */
+  --color-bg-surface: #ffffff;   /* Content areas / elevated surfaces */
+  --color-bg-overlay: #ffffff;   /* Cards, panels, dialogs */
+  --color-bg-card:    #ffffff;   /* Cards */
   
-  /* Additional surface layers */
+  /* Surface containers */
   --color-bg-container:         #efeded;
   --color-bg-container-low:     #f5f3f3;
   --color-bg-container-high:    #e9e8e7;
   --color-bg-container-highest: #e4e2e2;
 
-  /* ── Brand Colors (Nothing Red / Charcoal) ───────────────── */
+  /* ── Light Mode: Brand Colors ───────────────────────────── */
   --color-brand-primary:   #111111;  /* Deep Charcoal */
-  --color-brand-secondary: #bc0100;  /* Nothing Red */
+  --color-brand-secondary: #bc0100;  /* Signature Nothing Red */
 
-  /* ── Text Hierarchy ────────────────────────────────────── */
-  --color-text-primary:   #1b1c1c;   /* Headings, important text */
-  --color-text-secondary: #444748;   /* Body text, descriptions */
-  --color-text-tertiary:  #747878;   /* Placeholders, hints */
-  --color-text-disabled:  #c4c7c7;   /* Disabled state */
-  --color-text-inverse:   #ffffff;   /* On dark backgrounds */
+  /* ── Light Mode: Text Hierarchy ─────────────────────────── */
+  --color-text-primary:   #111111;   /* Headings, titles, high-contrast text */
+  --color-text-secondary: #555555;   /* Body text, descriptions */
+  --color-text-tertiary:  #767676;   /* Placeholders, hints, muted tags */
+  --color-text-disabled:  #a0a0a0;   /* Disabled states */
+  --color-text-inverse:   #ffffff;   /* Text on dark/primary backgrounds */
 
-  /* ── Border Colors ─────────────────────────────────────── */
+  /* ── Light Mode: Border Colors ─────────────────────────── */
   --color-border-subtle:  #efeded;
-  --color-border-default: #c4c7c7;
-  --color-border-strong:  #747878;
+  --color-border-default: #d4d2d1;
+  --color-border-strong:  #8a8887;
   --color-border-brand:   #bc0100;
 
+  /* ── Light Mode: Button Tokens ──────────────────────────── */
+  --button-primary-bg:           #111111;
+  --button-primary-text:         #ffffff;
+  --button-primary-hover-bg:     #242424;
+  --button-primary-hover-text:   #ffffff;
+
+  --button-secondary-bg:         #bc0100;
+  --button-secondary-text:       #ffffff;
+  --button-secondary-hover-bg:   #9e0100;
+  --button-secondary-hover-text: #ffffff;
+
+  --button-surface-bg:           #efeded;
+  --button-surface-text:         #111111;
+  --button-surface-hover-bg:     #e4e2e2;
+  --button-surface-hover-text:   #111111;
+
+  --button-outline-bg:           transparent;
+  --button-outline-border:       #d4d2d1;
+  --button-outline-text:         #111111;
+  --button-outline-hover-bg:     #f5f3f3;
+  --button-outline-hover-border: #111111;
+  --button-outline-hover-text:   #111111;
+
+  --button-ghost-bg:             transparent;
+  --button-ghost-text:           #555555;
+  --button-ghost-hover-bg:       #efeded;
+  --button-ghost-hover-text:     #111111;
+
+  --button-destructive-bg:       #ba1a1a;
+  --button-destructive-text:     #ffffff;
+  --button-destructive-hover-bg: #9c1515;
+  --button-destructive-hover-text: #ffffff;
+
+  --button-disabled-bg:          #efeded;
+  --button-disabled-text:        #8a8887;
+  --button-disabled-border:      #d4d2d1;
+
+  /* ── Light Mode: Input Colors ──────────────────────────── */
+  --color-input-bg:          #f5f3f3;
+  --color-input-border:      #d4d2d1;
+  --color-input-focus:       #111111;
+  --color-input-text:        #111111;
+  --color-input-placeholder: #767676;
+
+  /* ── Light Mode: Activity Heatmap Scale ────────────────── */
+  --color-heatmap-0: #efeded;
+  --color-heatmap-1: #d4d2d1;
+  --color-heatmap-2: #a0a0a0;
+  --color-heatmap-3: #555555;
+  --color-heatmap-4: #111111;
+
   /* ── Semantic Colors ───────────────────────────────────── */
-  --color-success:        #22c55e;
-  --color-success-muted:  rgba(34, 197, 94, 0.08);
-  --color-warning:        #f59e0b;
-  --color-warning-muted:  rgba(245, 158, 11, 0.08);
+  --color-success:        #16a34a;
+  --color-success-muted:  rgba(22, 163, 74, 0.10);
+  --color-warning:        #d97706;
+  --color-warning-muted:  rgba(217, 119, 6, 0.10);
   --color-error:          #ba1a1a;
-  --color-error-muted:    #ffdad6;
-  --color-info:           #38bdf8;
-  --color-info-muted:     rgba(56, 189, 248, 0.08);
+  --color-error-muted:    rgba(186, 26, 26, 0.10);
+  --color-info:           #0284c7;
+  --color-info-muted:     rgba(2, 132, 199, 0.10);
 
   /* ── Difficulty Colors ─────────────────────────────────── */
-  --color-easy:   #22c55e;
-  --color-medium: #f59e0b;
+  --color-easy:   #16a34a;
+  --color-medium: #d97706;
   --color-hard:   #ba1a1a;
 
   /* ── Company Stage Colors ──────────────────────────────── */
   --color-stage-wishlist:  #747878;
-  --color-stage-applied:   #1b1c1c;
+  --color-stage-applied:   #111111;
   --color-stage-oa:        #bc0100;
   --color-stage-interview: #bc0100;
-  --color-stage-offer:     #22c55e;
+  --color-stage-offer:     #16a34a;
   --color-stage-rejected:  #ba1a1a;
 
   /* ── Typography ────────────────────────────────────────── */
@@ -105,7 +156,7 @@
   --radius-2xl: 24px;
   --radius-full: 9999px;
 
-  /* ── Shadows (Flat industrial design, no ambient shadow!) ── */
+  /* ── Shadows (Flat industrial design) ──────────────────── */
   --shadow-sm:   none;
   --shadow-md:   none;
   --shadow-lg:   none;
@@ -114,9 +165,9 @@
   --shadow-glow-brand: none;
   --shadow-glow-sm:    none;
 
-  /* ── Glassmorphism (Replaced with flat border frames) ────── */
+  /* ── Glassmorphism / Panels ────────────────────────────── */
   --glass-bg:          #ffffff;
-  --glass-border:      #c4c7c7;
+  --glass-border:      #d4d2d1;
   --glass-blur:        0px;
   --glass-bg-strong:   #efeded;
 
@@ -142,4 +193,179 @@
   --z-overlay:  300;
   --z-modal:    400;
   --z-toast:    500;
+}
+
+/* ── Dark Mode Token Overrides ───────────────────────────── */
+.dark {
+  /* ── Dark Mode: Background Layers ───────────────────────── */
+  --color-bg-base:    #09090b;   /* Near-black industrial background */
+  --color-bg-surface: #121214;   /* Dark elevated surface */
+  --color-bg-overlay: #18181b;   /* Cards, panels, dropdowns */
+  --color-bg-card:    #18181b;   /* Elevated cards */
+
+  /* Surface containers */
+  --color-bg-container:         #222226;
+  --color-bg-container-low:     #1c1c1f;
+  --color-bg-container-high:    #27272a;
+  --color-bg-container-highest: #323236;
+
+  /* ── Dark Mode: Brand Colors ────────────────────────────── */
+  --color-brand-primary:   #f5f5f5;  /* Crisp White */
+  --color-brand-secondary: #bc0100;  /* Signature Nothing Red */
+
+  /* ── Dark Mode: Text Hierarchy ──────────────────────────── */
+  --color-text-primary:   #f5f5f5;   /* Near-white, high-contrast */
+  --color-text-secondary: #a1a1aa;   /* Muted readable gray */
+  --color-text-tertiary:  #71717a;   /* Placeholders, subtle hints */
+  --color-text-disabled:  #52525b;   /* Disabled text */
+  --color-text-inverse:   #111111;   /* Text on white/bright buttons */
+
+  /* ── Dark Mode: Border Colors ──────────────────────────── */
+  --color-border-subtle:  #222226;
+  --color-border-default: #333338;
+  --color-border-strong:  #52525b;
+  --color-border-brand:   #bc0100;
+
+  /* ── Dark Mode: Button Tokens ───────────────────────────── */
+  /* CRITICAL: Primary button in dark mode has a crisp light/white background, so text MUST be dark/near-black */
+  --button-primary-bg:           #f5f5f5;
+  --button-primary-text:         #111111;
+  --button-primary-hover-bg:     #e4e4e7;
+  --button-primary-hover-text:   #111111;
+
+  --button-secondary-bg:         #bc0100;
+  --button-secondary-text:       #ffffff;
+  --button-secondary-hover-bg:   #d90100;
+  --button-secondary-hover-text: #ffffff;
+
+  --button-surface-bg:           #222226;
+  --button-surface-text:         #f5f5f5;
+  --button-surface-hover-bg:     #2e2e34;
+  --button-surface-hover-text:   #ffffff;
+
+  --button-outline-bg:           transparent;
+  --button-outline-border:       #333338;
+  --button-outline-text:         #f5f5f5;
+  --button-outline-hover-bg:     #1c1c1f;
+  --button-outline-hover-border: #f5f5f5;
+  --button-outline-hover-text:   #ffffff;
+
+  --button-ghost-bg:             transparent;
+  --button-ghost-text:           #a1a1aa;
+  --button-ghost-hover-bg:       #222226;
+  --button-ghost-hover-text:     #f5f5f5;
+
+  --button-destructive-bg:       #ef4444;
+  --button-destructive-text:     #ffffff;
+  --button-destructive-hover-bg: #dc2626;
+  --button-destructive-hover-text: #ffffff;
+
+  --button-disabled-bg:          #1c1c1f;
+  --button-disabled-text:        #71717a;
+  --button-disabled-border:      #333338;
+
+  /* ── Dark Mode: Input Colors ───────────────────────────── */
+  --color-input-bg:          #1c1c1f;
+  --color-input-border:      #333338;
+  --color-input-focus:       #f5f5f5;
+  --color-input-text:        #f5f5f5;
+  --color-input-placeholder: #71717a;
+
+  /* ── Dark Mode: Activity Heatmap Scale ─────────────────── */
+  --color-heatmap-0: #1c1c1f;
+  --color-heatmap-1: #2e2e34;
+  --color-heatmap-2: #52525b;
+  --color-heatmap-3: #8e8e98;
+  --color-heatmap-4: #f5f5f5;
+
+  /* ── Dark Mode: Semantic Colors ────────────────────────── */
+  --color-success:        #22c55e;
+  --color-success-muted:  rgba(34, 197, 94, 0.15);
+  --color-warning:        #f59e0b;
+  --color-warning-muted:  rgba(245, 158, 11, 0.15);
+  --color-error:          #ef4444;
+  --color-error-muted:    rgba(239, 68, 68, 0.15);
+  --color-info:           #38bdf8;
+  --color-info-muted:     rgba(56, 189, 248, 0.15);
+
+  /* ── Dark Mode: Difficulty Colors ──────────────────────── */
+  --color-easy:   #22c55e;
+  --color-medium: #f59e0b;
+  --color-hard:   #ef4444;
+
+  /* ── Dark Mode: Company Stage Colors ───────────────────── */
+  --color-stage-wishlist:  #71717a;
+  --color-stage-applied:   #f5f5f5;
+  --color-stage-oa:        #bc0100;
+  --color-stage-interview: #bc0100;
+  --color-stage-offer:     #22c55e;
+  --color-stage-rejected:  #ef4444;
+
+  /* ── Dark Mode: Glassmorphism / Panels ─────────────────── */
+  --glass-bg:          #18181b;
+  --glass-border:      #333338;
+  --glass-blur:        0px;
+  --glass-bg-strong:   #222226;
+}
+
+/* ── Centralized Button Utility Classes ──────────────────── */
+.btn-primary {
+  background-color: var(--button-primary-bg) !important;
+  color: var(--button-primary-text) !important;
+  border-color: transparent !important;
+}
+.btn-primary:hover:not(:disabled) {
+  background-color: var(--button-primary-hover-bg) !important;
+  color: var(--button-primary-hover-text) !important;
+}
+
+.btn-secondary {
+  background-color: var(--button-secondary-bg) !important;
+  color: var(--button-secondary-text) !important;
+  border-color: transparent !important;
+}
+.btn-secondary:hover:not(:disabled) {
+  background-color: var(--button-secondary-hover-bg) !important;
+  color: var(--button-secondary-hover-text) !important;
+}
+
+.btn-surface {
+  background-color: var(--button-surface-bg) !important;
+  color: var(--button-surface-text) !important;
+  border: 1px solid var(--color-border-default) !important;
+}
+.btn-surface:hover:not(:disabled) {
+  background-color: var(--button-surface-hover-bg) !important;
+  color: var(--button-surface-hover-text) !important;
+}
+
+.btn-outline {
+  background-color: var(--button-outline-bg) !important;
+  border: 1px solid var(--button-outline-border) !important;
+  color: var(--button-outline-text) !important;
+}
+.btn-outline:hover:not(:disabled) {
+  background-color: var(--button-outline-hover-bg) !important;
+  border-color: var(--button-outline-hover-border) !important;
+  color: var(--button-outline-hover-text) !important;
+}
+
+.btn-ghost {
+  background-color: var(--button-ghost-bg) !important;
+  color: var(--button-ghost-text) !important;
+  border-color: transparent !important;
+}
+.btn-ghost:hover:not(:disabled) {
+  background-color: var(--button-ghost-hover-bg) !important;
+  color: var(--button-ghost-hover-text) !important;
+}
+
+.btn-destructive {
+  background-color: var(--button-destructive-bg) !important;
+  color: var(--button-destructive-text) !important;
+  border-color: transparent !important;
+}
+.btn-destructive:hover:not(:disabled) {
+  background-color: var(--button-destructive-hover-bg) !important;
+  color: var(--button-destructive-hover-text) !important;
 }

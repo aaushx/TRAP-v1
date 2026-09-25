@@ -22,7 +22,12 @@ class RoadmapRepository:
             )
         )
         result = await self.session.execute(stmt)
-        return result.scalar_one_or_none()
+        roadmap = result.scalar_one_or_none()
+        if roadmap:
+            from app.repositories.company_dsa import CompanyDsaRepository
+            dsa_repo = CompanyDsaRepository(self.session)
+            roadmap.selected_companies = await dsa_repo.get_goal_companies(roadmap.id, roadmap.user_id)
+        return roadmap
 
     async def get_by_user_id(self, user_id: UUID) -> List[Roadmap]:
         """Get all roadmaps for a specific user."""
@@ -35,7 +40,12 @@ class RoadmapRepository:
             .order_by(Roadmap.created_at.desc())
         )
         result = await self.session.execute(stmt)
-        return list(result.scalars().all())
+        roadmaps = list(result.scalars().all())
+        from app.repositories.company_dsa import CompanyDsaRepository
+        dsa_repo = CompanyDsaRepository(self.session)
+        for rm in roadmaps:
+            rm.selected_companies = await dsa_repo.get_goal_companies(rm.id, user_id)
+        return roadmaps
 
     async def create(self, user_id: UUID, data: GoalCreate) -> Roadmap:
         """Create a new roadmap."""
@@ -76,6 +86,12 @@ class RoadmapRepository:
 
         await self.session.commit()
         await self.session.refresh(db_roadmap)
+
+        if data.target_companies:
+            from app.repositories.company_dsa import CompanyDsaRepository
+            dsa_repo = CompanyDsaRepository(self.session)
+            await dsa_repo.sync_goal_companies(db_roadmap.id, data.target_companies)
+
         return await self.get_by_id(db_roadmap.id)
 
     async def update(self, roadmap_id: UUID, data: GoalUpdate) -> Optional[Roadmap]:
@@ -90,7 +106,13 @@ class RoadmapRepository:
 
         await self.session.commit()
         await self.session.refresh(roadmap)
-        return roadmap
+
+        if "target_companies" in update_data:
+            from app.repositories.company_dsa import CompanyDsaRepository
+            dsa_repo = CompanyDsaRepository(self.session)
+            await dsa_repo.sync_goal_companies(roadmap.id, update_data["target_companies"] or [])
+
+        return await self.get_by_id(roadmap.id)
 
     async def delete(self, roadmap_id: UUID) -> bool:
         """Delete a roadmap."""

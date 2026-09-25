@@ -9,6 +9,7 @@ interface ImportMetaEnv {
   readonly VITE_API_BASE_URL: string
   readonly VITE_APP_ENV: 'development' | 'production' | 'test'
   readonly VITE_GOOGLE_CLIENT_ID: string
+  readonly VITE_LOGO_DEV_PUBLISHABLE_KEY?: string
 }
 
 interface ImportMeta {

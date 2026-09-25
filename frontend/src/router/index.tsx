@@ -21,8 +21,25 @@ import GoalBuilder from '@/pages/app/goals/builder/GoalBuilder'
 import GoalView from '@/pages/app/goals/GoalView'
 import ProfilePage from '@/pages/app/ProfilePage'
 import SettingsPage from '@/pages/app/SettingsPage'
+import AnalyticsPage from '@/pages/app/AnalyticsPage'
+import CompanyDsaPage from '@/pages/app/companyDsa/CompanyDsaPage'
+import CompanyPreparationPage from '@/pages/app/companyDsa/CompanyPreparationPage'
+import CompanyLogoAuditPage from '@/pages/dev/CompanyLogoAuditPage'
+import LogoTestPage from '@/pages/dev/LogoTestPage'
 
 export const router = createBrowserRouter([
+  {
+    path: '/dev/company-logo-audit',
+    element: <CompanyLogoAuditPage />,
+  },
+  {
+    path: '/dev/logo-audit',
+    element: <CompanyLogoAuditPage />,
+  },
+  {
+    path: '/dev/logo-test',
+    element: <LogoTestPage />,
+  },
   {
     path: '/',
     element: <RootLayout />,
@@ -58,8 +75,11 @@ export const router = createBrowserRouter([
         children: [
           { index: true, element: <Navigate to="dashboard" replace /> },
           { path: 'dashboard', element: <DashboardPage /> },
+          { path: 'analytics', element: <AnalyticsPage /> },
           { path: 'problems', element: <ProblemsPage /> },
           { path: 'companies', element: <CompaniesPage /> },
+          { path: 'company-dsa', element: <CompanyDsaPage /> },
+          { path: 'company-dsa/:companySlug', element: <CompanyPreparationPage /> },
           { path: 'goals', element: <GoalsPage /> },
           { path: 'goals/new', element: <GoalBuilder /> },
           { path: 'goals/:id', element: <GoalView /> },

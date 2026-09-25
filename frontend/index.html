@@ -1,9 +1,26 @@
 <!doctype html>
-<html lang="en" class="light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/jpeg" href="/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Zero-Flash Theme Initializer (Runs synchronously before render) -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('trap-theme') || 'system';
+          var isDark = saved === 'dark' || (saved === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.add('light');
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
 
     <!-- Google Fonts: Space Grotesk, Inter & Geist -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,8 +43,31 @@
     />
     <meta property="og:type" content="website" />
 
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
+    <!-- Diagnostic Error Overlay -->
+    <script>
+      window.addEventListener('error', function(e) {
+        console.error('TRAP Top-Level Error:', e.error || e.message);
+        var el = document.getElementById('trap-fatal-error');
+        if (!el) {
+          el = document.createElement('div');
+          el.id = 'trap-fatal-error';
+          el.style = 'position:fixed;top:0;left:0;right:0;background:#fee2e2;color:#991b1b;padding:16px;z-index:999999;font-family:monospace;font-size:12px;border-bottom:2px solid #ef4444;white-space:pre-wrap;box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);';
+          document.body ? document.body.prepend(el) : document.documentElement.appendChild(el);
+        }
+        el.textContent = 'TRAP Runtime Error:\n' + (e.error ? (e.error.stack || e.error.message) : e.message);
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('TRAP Unhandled Rejection:', e.reason);
+        var el = document.getElementById('trap-fatal-rejection');
+        if (!el) {
+          el = document.createElement('div');
+          el.id = 'trap-fatal-rejection';
+          el.style = 'position:fixed;bottom:0;left:0;right:0;background:#fee2e2;color:#991b1b;padding:16px;z-index:999999;font-family:monospace;font-size:12px;border-top:2px solid #ef4444;white-space:pre-wrap;box-shadow:0 -4px 6px -1px rgba(0,0,0,0.1);';
+          document.body ? document.body.appendChild(el) : document.documentElement.appendChild(el);
+        }
+        el.textContent = 'TRAP Unhandled Promise Rejection:\n' + (e.reason ? (e.reason.stack || e.reason.message || e.reason) : 'Unknown rejection');
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>

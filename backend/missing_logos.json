@@ -1,0 +1,702 @@
+[
+  {
+    "company": "Zopsmart",
+    "slug": "zopsmart",
+    "question_count": 16,
+    "attempted_sources": [
+      "https://logo.clearbit.com/zopsmart.com",
+      "https://www.google.com/s2/favicons?domain=zopsmart.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Dream11",
+    "slug": "dream11",
+    "question_count": 13,
+    "attempted_sources": [
+      "https://logo.clearbit.com/dream11.com",
+      "https://www.google.com/s2/favicons?domain=dream11.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Millennium",
+    "slug": "millennium",
+    "question_count": 12,
+    "attempted_sources": [
+      "https://logo.clearbit.com/millennium.com",
+      "https://www.google.com/s2/favicons?domain=millennium.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Wissen Technology",
+    "slug": "wissen-technology",
+    "question_count": 11,
+    "attempted_sources": [
+      "https://logo.clearbit.com/wissentechnology.com",
+      "https://www.google.com/s2/favicons?domain=wissentechnology.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Weride",
+    "slug": "weride",
+    "question_count": 10,
+    "attempted_sources": [
+      "https://logo.clearbit.com/weride.com",
+      "https://www.google.com/s2/favicons?domain=weride.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Hrt",
+    "slug": "hrt",
+    "question_count": 9,
+    "attempted_sources": [
+      "https://logo.clearbit.com/hrt.com",
+      "https://www.google.com/s2/favicons?domain=hrt.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Lti",
+    "slug": "lti",
+    "question_count": 9,
+    "attempted_sources": [
+      "https://logo.clearbit.com/lti.com",
+      "https://www.google.com/s2/favicons?domain=lti.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Info Edge",
+    "slug": "info-edge",
+    "question_count": 8,
+    "attempted_sources": [
+      "https://logo.clearbit.com/infoedge.in",
+      "https://www.google.com/s2/favicons?domain=infoedge.in&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Graviton",
+    "slug": "graviton",
+    "question_count": 7,
+    "attempted_sources": [
+      "https://logo.clearbit.com/graviton.com",
+      "https://www.google.com/s2/favicons?domain=graviton.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Lime",
+    "slug": "lime",
+    "question_count": 7,
+    "attempted_sources": [
+      "https://logo.clearbit.com/lime.com",
+      "https://www.google.com/s2/favicons?domain=lime.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Optum",
+    "slug": "optum",
+    "question_count": 7,
+    "attempted_sources": [
+      "https://logo.clearbit.com/optum.com",
+      "https://www.google.com/s2/favicons?domain=optum.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Comcast",
+    "slug": "comcast",
+    "question_count": 6,
+    "attempted_sources": [
+      "https://logo.clearbit.com/comcast.com",
+      "https://www.google.com/s2/favicons?domain=comcast.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Paypay",
+    "slug": "paypay",
+    "question_count": 6,
+    "attempted_sources": [
+      "https://logo.clearbit.com/paypay.com",
+      "https://www.google.com/s2/favicons?domain=paypay.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Texas Instruments",
+    "slug": "texas-instruments",
+    "question_count": 6,
+    "attempted_sources": [
+      "https://logo.clearbit.com/texasinstruments.com",
+      "https://www.google.com/s2/favicons?domain=texasinstruments.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Mindtree",
+    "slug": "mindtree",
+    "question_count": 5,
+    "attempted_sources": [
+      "https://logo.clearbit.com/mindtree.com",
+      "https://www.google.com/s2/favicons?domain=mindtree.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Airbus Se",
+    "slug": "airbus-se",
+    "question_count": 4,
+    "attempted_sources": [
+      "https://logo.clearbit.com/airbusse.com",
+      "https://www.google.com/s2/favicons?domain=airbusse.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Cohesity",
+    "slug": "cohesity",
+    "question_count": 4,
+    "attempted_sources": [
+      "https://logo.clearbit.com/cohesity.com",
+      "https://www.google.com/s2/favicons?domain=cohesity.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Gameskraft",
+    "slug": "gameskraft",
+    "question_count": 4,
+    "attempted_sources": [
+      "https://logo.clearbit.com/gameskraft.com",
+      "https://www.google.com/s2/favicons?domain=gameskraft.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Liftoff",
+    "slug": "liftoff",
+    "question_count": 4,
+    "attempted_sources": [
+      "https://logo.clearbit.com/liftoff.com",
+      "https://www.google.com/s2/favicons?domain=liftoff.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Tusimple",
+    "slug": "tusimple",
+    "question_count": 4,
+    "attempted_sources": [
+      "https://logo.clearbit.com/tusimple.com",
+      "https://www.google.com/s2/favicons?domain=tusimple.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Works Applications",
+    "slug": "works-applications",
+    "question_count": 4,
+    "attempted_sources": [
+      "https://logo.clearbit.com/worksapplications.com",
+      "https://www.google.com/s2/favicons?domain=worksapplications.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Aqr Capital Management",
+    "slug": "aqr-capital-management",
+    "question_count": 3,
+    "attempted_sources": [
+      "https://logo.clearbit.com/aqrcapitalmanagement.com",
+      "https://www.google.com/s2/favicons?domain=aqrcapitalmanagement.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Buyhatke",
+    "slug": "buyhatke",
+    "question_count": 3,
+    "attempted_sources": [
+      "https://logo.clearbit.com/buyhatke.com",
+      "https://www.google.com/s2/favicons?domain=buyhatke.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Deltax",
+    "slug": "deltax",
+    "question_count": 3,
+    "attempted_sources": [
+      "https://logo.clearbit.com/deltax.com",
+      "https://www.google.com/s2/favicons?domain=deltax.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Ge Digital",
+    "slug": "ge-digital",
+    "question_count": 3,
+    "attempted_sources": [
+      "https://logo.clearbit.com/gedigital.com",
+      "https://www.google.com/s2/favicons?domain=gedigital.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Hilabs",
+    "slug": "hilabs",
+    "question_count": 3,
+    "attempted_sources": [
+      "https://logo.clearbit.com/hilabs.com",
+      "https://www.google.com/s2/favicons?domain=hilabs.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Porter",
+    "slug": "porter",
+    "question_count": 3,
+    "attempted_sources": [
+      "https://logo.clearbit.com/porter.com",
+      "https://www.google.com/s2/favicons?domain=porter.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Tower Research Capital",
+    "slug": "tower-research-capital",
+    "question_count": 3,
+    "attempted_sources": [
+      "https://logo.clearbit.com/towerresearchcapital.com",
+      "https://www.google.com/s2/favicons?domain=towerresearchcapital.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Analytics Quotient",
+    "slug": "analytics-quotient",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/analyticsquotient.com",
+      "https://www.google.com/s2/favicons?domain=analyticsquotient.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Cerner",
+    "slug": "cerner",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/cerner.com",
+      "https://www.google.com/s2/favicons?domain=cerner.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Cred",
+    "slug": "cred",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/cred.com",
+      "https://www.google.com/s2/favicons?domain=cred.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Kotak Mahindra Bank",
+    "slug": "kotak-mahindra-bank",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/kotakmahindrabank.com",
+      "https://www.google.com/s2/favicons?domain=kotakmahindrabank.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Mckinsey",
+    "slug": "mckinsey",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/mckinsey.com",
+      "https://www.google.com/s2/favicons?domain=mckinsey.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "National Payments Coorperation India",
+    "slug": "national-payments-coorperation-india",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/nationalpaymentscoorperationindia.com",
+      "https://www.google.com/s2/favicons?domain=nationalpaymentscoorperationindia.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "National Payments Corporation Of India",
+    "slug": "national-payments-corporation-of-india",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/nationalpaymentscorporationofindia.com",
+      "https://www.google.com/s2/favicons?domain=nationalpaymentscorporationofindia.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Netease",
+    "slug": "netease",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/netease.com",
+      "https://www.google.com/s2/favicons?domain=netease.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Observeai",
+    "slug": "observeai",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/observeai.com",
+      "https://www.google.com/s2/favicons?domain=observeai.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Shift Technology",
+    "slug": "shift-technology",
+    "question_count": 2,
+    "attempted_sources": [
+      "https://logo.clearbit.com/shifttechnology.com",
+      "https://www.google.com/s2/favicons?domain=shifttechnology.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "1kosmos",
+    "slug": "1kosmos",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/1kosmos.com",
+      "https://www.google.com/s2/favicons?domain=1kosmos.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Allincall",
+    "slug": "allincall",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/allincall.com",
+      "https://www.google.com/s2/favicons?domain=allincall.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Alphonso",
+    "slug": "alphonso",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/alphonso.com",
+      "https://www.google.com/s2/favicons?domain=alphonso.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Bp",
+    "slug": "bp",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/bp.com",
+      "https://www.google.com/s2/favicons?domain=bp.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Bt Group",
+    "slug": "bt-group",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/btgroup.com",
+      "https://www.google.com/s2/favicons?domain=btgroup.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Code Studio",
+    "slug": "code-studio",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/codestudio.com",
+      "https://www.google.com/s2/favicons?domain=codestudio.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Coinswitch Kuber",
+    "slug": "coinswitch-kuber",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/coinswitchkuber.com",
+      "https://www.google.com/s2/favicons?domain=coinswitchkuber.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Curefit",
+    "slug": "curefit",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/curefit.com",
+      "https://www.google.com/s2/favicons?domain=curefit.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Dassault Sysetmes",
+    "slug": "dassault-sysetmes",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/dassaultsysetmes.com",
+      "https://www.google.com/s2/favicons?domain=dassaultsysetmes.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Drawbridge",
+    "slug": "drawbridge",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/drawbridge.com",
+      "https://www.google.com/s2/favicons?domain=drawbridge.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Fastenal",
+    "slug": "fastenal",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/fastenal.com",
+      "https://www.google.com/s2/favicons?domain=fastenal.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Iit Bombay",
+    "slug": "iit-bombay",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/iitbombay.com",
+      "https://www.google.com/s2/favicons?domain=iitbombay.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Jd",
+    "slug": "jd",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/jd.com",
+      "https://www.google.com/s2/favicons?domain=jd.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Jingchi",
+    "slug": "jingchi",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/jingchi.com",
+      "https://www.google.com/s2/favicons?domain=jingchi.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Leap Motion",
+    "slug": "leap-motion",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/leapmotion.com",
+      "https://www.google.com/s2/favicons?domain=leapmotion.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Lendingkart Technologies",
+    "slug": "lendingkart-technologies",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/lendingkarttechnologies.com",
+      "https://www.google.com/s2/favicons?domain=lendingkarttechnologies.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Netcracker Technology",
+    "slug": "netcracker-technology",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/netcrackertechnology.com",
+      "https://www.google.com/s2/favicons?domain=netcrackertechnology.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Playsimple",
+    "slug": "playsimple",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/playsimple.com",
+      "https://www.google.com/s2/favicons?domain=playsimple.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Quantiphi",
+    "slug": "quantiphi",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/quantiphi.com",
+      "https://www.google.com/s2/favicons?domain=quantiphi.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Reliance Retails",
+    "slug": "reliance-retails",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/relianceretails.com",
+      "https://www.google.com/s2/favicons?domain=relianceretails.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Sambanova",
+    "slug": "sambanova",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/sambanova.com",
+      "https://www.google.com/s2/favicons?domain=sambanova.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Scale Ai",
+    "slug": "scale-ai",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/scaleai.com",
+      "https://www.google.com/s2/favicons?domain=scaleai.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Soti",
+    "slug": "soti",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/soti.com",
+      "https://www.google.com/s2/favicons?domain=soti.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Synopsys",
+    "slug": "synopsys",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/synopsys.com",
+      "https://www.google.com/s2/favicons?domain=synopsys.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Ta Digital",
+    "slug": "ta-digital",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/tadigital.com",
+      "https://www.google.com/s2/favicons?domain=tadigital.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Tiaa",
+    "slug": "tiaa",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/tiaa.com",
+      "https://www.google.com/s2/favicons?domain=tiaa.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Triplebyte",
+    "slug": "triplebyte",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/triplebyte.com",
+      "https://www.google.com/s2/favicons?domain=triplebyte.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Wayve",
+    "slug": "wayve",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/wayve.com",
+      "https://www.google.com/s2/favicons?domain=wayve.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Winzo",
+    "slug": "winzo",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/winzogames.com",
+      "https://www.google.com/s2/favicons?domain=winzogames.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Woven By Toyota",
+    "slug": "woven-by-toyota",
+    "question_count": 1,
+    "attempted_sources": [
+      "https://logo.clearbit.com/wovenbytoyota.com",
+      "https://www.google.com/s2/favicons?domain=wovenbytoyota.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Bill Holdings",
+    "slug": "bill-holdings",
+    "question_count": 0,
+    "attempted_sources": [
+      "https://logo.clearbit.com/billholdings.com",
+      "https://www.google.com/s2/favicons?domain=billholdings.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  },
+  {
+    "company": "Hiver",
+    "slug": "hiver",
+    "question_count": 0,
+    "attempted_sources": [
+      "https://logo.clearbit.com/hiver.com",
+      "https://www.google.com/s2/favicons?domain=hiver.com&sz=128"
+    ],
+    "reason": "Official SVG/PNG unavailable across public brand APIs"
+  }
+]

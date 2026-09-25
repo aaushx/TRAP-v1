@@ -19,6 +19,10 @@ class Settings(BaseSettings):
     APP_ENV: str = "development"
     ALLOWED_ORIGINS: str = "http://localhost:5173"
 
+    # Logo.dev Integration (Server-side REST API secret key only)
+    # Never exposed in frontend, never sent in API responses, never logged.
+    LOGO_DEV_SECRET_KEY: str | None = None
+
     @computed_field  # type: ignore[prop-decorator]
     @property
     def cors_origins(self) -> list[str]:

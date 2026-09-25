@@ -61,7 +61,7 @@ function MilestoneContainer({ id, name, topics, onRemoveTopic, onRename, onDelet
   }
 
   return (
-    <div className="bg-white/[0.02] border border-border-default rounded-xl p-4 flex flex-col h-[400px]">
+    <div className="bg-bg-surface border border-border-default rounded-xl p-4 flex flex-col min-h-[460px]">
       <div className="flex items-center justify-between mb-4">
         {isEditing ? (
           <input 
@@ -234,7 +234,7 @@ export function Step4Organize() {
         </div>
         <button 
           onClick={addMilestone}
-          className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-border-default hover:bg-white/10 rounded-lg text-sm font-medium transition-colors"
+          className="flex items-center gap-2 px-4 py-2 bg-bg-container-low border border-border-default hover:bg-bg-container-high text-primary rounded-lg text-xs font-mono font-bold uppercase tracking-wider transition-colors cursor-pointer"
         >
           <Plus className="w-4 h-4" /> Add Phase
         </button>
@@ -247,24 +247,24 @@ export function Step4Organize() {
         onDragOver={handleDragOver}
         onDragEnd={handleDragEnd}
       >
-        <div className="flex-1 overflow-hidden flex gap-6">
+        <div className="flex-1 overflow-hidden flex flex-col md:flex-row gap-6">
           {/* Unassigned Pool */}
-          <div className="w-72 flex flex-col bg-bg-surface border border-border-default rounded-xl p-4 shrink-0">
-            <h3 className="font-bold text-text-primary mb-2 flex items-center gap-2">
-              <FolderKanban className="w-4 h-4 text-violet-400" />
+          <div className="w-full md:w-80 flex flex-col bg-bg-base border border-border-default rounded-xl p-4 shrink-0 min-h-[460px]">
+            <h3 className="font-mono text-xs font-bold uppercase text-primary mb-1 flex items-center gap-2">
+              <FolderKanban className="w-4 h-4 text-primary" />
               Unassigned Topics
             </h3>
-            <p className="text-xs text-text-tertiary mb-4">{unassignedTopics.length} remaining</p>
+            <p className="text-[11px] font-mono text-text-tertiary mb-4">{unassignedTopics.length} remaining to organize</p>
             
             <div className="flex-1 overflow-y-auto pr-1">
               <SortableContext id="unassigned" items={unassignedTopics.map(t => t.name)} strategy={verticalListSortingStrategy}>
-                <div className="space-y-2 min-h-[100px]">
+                <div className="space-y-2 min-h-[120px]">
                   {unassignedTopics.map((topic: any) => (
                     <SortableTopic key={topic.name} topic={topic} />
                   ))}
                   {unassignedTopics.length === 0 && (
-                    <div className="flex items-center justify-center p-8 text-success text-sm bg-success/10 rounded-lg border border-success/20">
-                      All organized!
+                    <div className="flex items-center justify-center p-8 text-success font-mono text-xs bg-success/10 rounded-lg border border-success/20">
+                      All topics assigned!
                     </div>
                   )}
                 </div>
@@ -275,7 +275,7 @@ export function Step4Organize() {
           {/* Milestones Horizontal Scroll */}
           <div className="flex-1 overflow-x-auto flex gap-4 pb-4">
             {state.milestones.map((milestone) => (
-              <div key={milestone.id} className="w-72 shrink-0">
+              <div key={milestone.id} className="w-80 shrink-0">
                 <MilestoneContainer 
                   {...milestone} 
                   onRename={renameMilestone} 
@@ -285,10 +285,12 @@ export function Step4Organize() {
               </div>
             ))}
             {state.milestones.length === 0 && (
-              <div className="flex-1 flex flex-col items-center justify-center text-text-tertiary border-2 border-dashed border-border-default rounded-xl">
-                <FolderKanban className="w-12 h-12 mb-4 opacity-50" />
-                <p>No phases created.</p>
-                <p className="text-sm mt-1">We'll automatically group topics by category if you skip this.</p>
+              <div className="flex-1 flex flex-col items-center justify-center text-text-tertiary border-2 border-dashed border-border-default rounded-xl min-h-[460px] p-8 text-center">
+                <FolderKanban className="w-12 h-12 mb-4 opacity-40 text-primary" />
+                <p className="font-mono text-sm font-bold text-primary uppercase">No custom phases created yet.</p>
+                <p className="text-xs font-mono text-text-secondary mt-1 max-w-sm">
+                  Click "+ Add Phase" above to organize topics into stages, or proceed to have TRAP organize them automatically by category.
+                </p>
               </div>
             )}
           </div>
@@ -296,23 +298,25 @@ export function Step4Organize() {
 
         <DragOverlay dropAnimation={{ sideEffects: defaultDropAnimationSideEffects({ styles: { active: { opacity: '0.4' } } }) }}>
           {activeId ? (
-            <div className="p-3 bg-bg-surface border border-violet-500 rounded-lg shadow-2xl opacity-90 cursor-grabbing">
-              <p className="text-sm font-medium text-text-primary">{activeId}</p>
+            <div className="p-3 bg-bg-surface border border-primary rounded-lg shadow-2xl opacity-90 cursor-grabbing">
+              <p className="text-sm font-mono font-medium text-primary">{activeId}</p>
             </div>
           ) : null}
         </DragOverlay>
       </DndContext>
 
-      <div className="pt-6 mt-2 border-t border-border-default flex justify-between shrink-0">
+      <div className="pt-6 mt-4 border-t border-border-default flex items-center justify-between gap-4 shrink-0">
         <button
+          type="button"
           onClick={prevStep}
-          className="px-6 py-2 rounded-lg font-medium text-text-secondary hover:text-text-primary transition-colors"
+          className="px-6 py-3 rounded text-xs font-mono font-bold uppercase tracking-wider text-text-secondary hover:text-text-primary hover:bg-bg-container-low transition-colors cursor-pointer"
         >
           Back
         </button>
         <button
+          type="button"
           onClick={nextStep}
-          className="flex items-center justify-center gap-2 px-6 py-2 bg-violet-500 hover:bg-violet-600 text-white rounded-lg font-medium transition-colors shadow-glow-sm"
+          className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-primary text-text-inverse hover:bg-secondary text-xs font-mono font-bold uppercase tracking-wider rounded transition-colors cursor-pointer shadow-sm"
         >
           Review Goal
           <ArrowRight className="w-4 h-4" />

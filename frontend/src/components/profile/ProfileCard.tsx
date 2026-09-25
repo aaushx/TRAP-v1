@@ -25,7 +25,7 @@ export const ProfileCard: FC<ProfileCardProps> = ({ user, stats }) => {
   const userInitial = user.full_name ? user.full_name[0].toUpperCase() : 'S'
 
   return (
-    <div className="bg-white border border-border-default rounded-md p-6 shadow-sm space-y-6 relative group">
+    <div className="bg-bg-surface border border-border-default rounded-md p-6 shadow-sm space-y-6 relative group">
       {/* Top Stripe Accent */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-25 dot-matrix-strip"></div>
       

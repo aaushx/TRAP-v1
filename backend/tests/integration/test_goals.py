@@ -97,18 +97,28 @@ async def test_goals_crud_and_ownership(client: AsyncClient, db_session):
     topic_patch_payload = {"status": "completed", "notes": "Hacked Notes"}
     response = await client.patch(f"/api/v1/goals/topics/{topic_id}/status", json=topic_patch_payload, headers=headers_b)
     assert response.status_code == 403
+
+    # 10. User A attempts to send an invalid topic status (must return 422 Validation Error)
+    response = await client.patch(f"/api/v1/goals/topics/{topic_id}/status", json={"status": "invalid_status"}, headers=headers_a)
+    assert response.status_code == 422
+    assert response.json()["error_code"] == "VALIDATION_ERROR"
     
-    # 10. User A updates the status of the topic (must succeed)
+    # 11. User A updates the status of the topic to 'completed' (must succeed)
     response = await client.patch(f"/api/v1/goals/topics/{topic_id}/status", json={"status": "completed", "notes": "Completed arrays topic"}, headers=headers_a)
     assert response.status_code == 200
     assert response.json()["status"] == "completed"
     assert response.json()["notes"] == "Completed arrays topic"
+
+    # 12. Verify Goal progress is now 100% and persisted
+    response = await client.get(f"/api/v1/goals/{goal_a_id}", headers=headers_a)
+    assert response.status_code == 200
+    assert response.json()["progress"] == 100
     
-    # 11. User B tries to delete User A's goal (must return 403)
+    # 13. User B tries to delete User A's goal (must return 403)
     response = await client.delete(f"/api/v1/goals/{goal_a_id}", headers=headers_b)
     assert response.status_code == 403
     
-    # 12. User A deletes the goal (must succeed)
+    # 14. User A deletes the goal (must succeed)
     response = await client.delete(f"/api/v1/goals/{goal_a_id}", headers=headers_a)
     assert response.status_code == 204
     

@@ -23,12 +23,22 @@ logging.basicConfig(
 )
 logger = logging.getLogger("trap_api")
 
+from contextlib import asynccontextmanager
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Modern lifespan event handler replacing deprecated @app.on_event."""
+    logger.info("TRAP API server starting up...")
+    yield
+    logger.info("TRAP API server shutting down...")
+
 app = FastAPI(
     title="TRAP API",
     description="Placement Preparation OS Backend",
     version="1.0.0",
     docs_url="/docs" if settings.APP_ENV != "production" else None,
     redoc_url="/redoc" if settings.APP_ENV != "production" else None,
+    lifespan=lifespan,
 )
 
 # Exception Handlers (Ensure unified structure)
@@ -47,11 +57,3 @@ app.include_router(api_router, prefix="/api/v1")
 @app.get("/health", tags=["Health"])
 async def health_check() -> dict[str, str]:
     return {"status": "healthy", "environment": settings.APP_ENV}
-
-@app.on_event("startup")
-async def startup_event():
-    logger.info("TRAP API server starting up...")
-
-@app.on_event("shutdown")
-async def shutdown_event():
-    logger.info("TRAP API server shutting down...")

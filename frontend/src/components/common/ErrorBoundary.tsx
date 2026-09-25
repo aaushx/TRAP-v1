@@ -7,15 +7,17 @@ interface Props {
 
 interface State {
   hasError: boolean
+  errorMessage?: string
 }
 
 export class ErrorBoundary extends Component<Props, State> {
   public state: State = {
-    hasError: false
+    hasError: false,
+    errorMessage: undefined
   }
 
-  public static getDerivedStateFromError(_: Error): State {
-    return { hasError: true }
+  public static getDerivedStateFromError(error: Error): State {
+    return { hasError: true, errorMessage: error?.message || 'Rendering error' }
   }
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
@@ -28,8 +30,8 @@ export class ErrorBoundary extends Component<Props, State> {
         <div className="flex items-center justify-center p-8 min-h-[50dvh]">
           <ErrorState 
             title="Rendering Error"
-            description="A visual component encountered an issue rendering in this viewport. Try reloading."
-            onRetry={() => this.setState({ hasError: false })}
+            description={this.state.errorMessage || "A visual component encountered an issue rendering in this viewport. Try reloading."}
+            onRetry={() => this.setState({ hasError: false, errorMessage: undefined })}
           />
         </div>
       )

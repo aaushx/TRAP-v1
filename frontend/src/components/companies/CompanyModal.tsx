@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { X, Building2, Briefcase, Calendar, Link as LinkIcon, DollarSign, FileText } from 'lucide-react';
+import { X, Building2, Briefcase, Calendar, Link as LinkIcon, DollarSign, FileText, Sparkles } from 'lucide-react';
 import { Company, CompanyCreate } from '@/services/api/company';
 import { useToastStore } from '@/store/toast.store';
+import { useCompanyStore } from '@/store/company.store';
 import { motion } from 'framer-motion';
 
 interface CompanyModalProps {
@@ -20,12 +21,23 @@ const initialFormState: CompanyCreate = {
   jobUrl: '',
   salaryRange: '',
   notes: '',
+  industry: '',
+  tierCategory: '',
+  difficulty: '',
+  preparationTopics: [],
 };
 
 export const CompanyModal: React.FC<CompanyModalProps> = ({ isOpen, onClose, onSubmit, companyToEdit }) => {
   const { addToast } = useToastStore();
+  const { directory, fetchDirectory } = useCompanyStore();
   const [formData, setFormData] = useState<CompanyCreate | Company>(initialFormState);
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  useEffect(() => {
+    if (isOpen && directory.length === 0) {
+      fetchDirectory();
+    }
+  }, [isOpen, directory.length, fetchDirectory]);
 
   useEffect(() => {
     if (companyToEdit) {
@@ -40,6 +52,24 @@ export const CompanyModal: React.FC<CompanyModalProps> = ({ isOpen, onClose, onS
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSelectDirectoryCompany = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedName = e.target.value;
+    if (!selectedName) return;
+
+    const matched = directory.find((c) => c.name === selectedName);
+    if (matched) {
+      setFormData((prev) => ({
+        ...prev,
+        name: matched.name,
+        role: prev.role || matched.job_roles[0] || 'Software Engineer',
+        industry: matched.industry || '',
+        tierCategory: matched.tier_category || '',
+        difficulty: matched.overall_difficulty || '',
+        preparationTopics: matched.top_preparation_topics || [],
+      }));
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -60,8 +90,8 @@ export const CompanyModal: React.FC<CompanyModalProps> = ({ isOpen, onClose, onS
     }
   };
 
-  const inputClasses = "w-full bg-black/20 border border-white/10 rounded-lg px-4 py-2.5 text-text-primary placeholder:text-text-secondary focus:outline-none focus:ring-2 focus:ring-violet-400/50 focus:border-violet-400/50 transition-all text-sm";
-  const labelClasses = "block text-sm font-medium text-text-secondary mb-1";
+  const inputClasses = "w-full bg-bg-container-low border border-border-default rounded-md px-4 py-2.5 text-text-primary placeholder:text-text-tertiary focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all text-sm";
+  const labelClasses = "block text-xs font-mono font-bold text-text-secondary uppercase tracking-wider mb-1.5";
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -80,17 +110,17 @@ export const CompanyModal: React.FC<CompanyModalProps> = ({ isOpen, onClose, onS
         animate={{ scale: 1, opacity: 1, y: 0 }}
         exit={{ scale: 0.95, opacity: 0, y: 8 }}
         transition={{ duration: 0.2 }}
-        className="relative w-full max-w-2xl bg-bg-surface rounded-2xl border border-border-default shadow-glow-lg overflow-hidden flex flex-col max-h-[90vh] z-10"
+        className="relative w-full max-w-2xl bg-bg-surface rounded-md border border-border-default shadow-lg overflow-hidden flex flex-col max-h-[90vh] z-10"
       >
         {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-border-default bg-white/[0.02]">
-          <h2 className="text-xl font-bold text-text-primary flex items-center gap-2">
-            <Building2 className="w-5 h-5 text-violet-400" />
+        <div className="flex items-center justify-between p-6 border-b border-border-default bg-bg-container-low/30">
+          <h2 className="text-xl font-bold text-text-primary flex items-center gap-2 font-display uppercase tracking-tight">
+            <Building2 className="w-5 h-5 text-primary" />
             {companyToEdit ? 'Edit Company' : 'Add Company'}
           </h2>
           <button 
             onClick={onClose}
-            className="p-2 rounded-lg hover:bg-white/10 text-text-secondary hover:text-text-primary transition-colors cursor-pointer"
+            className="p-2 rounded hover:bg-bg-container-high text-text-secondary hover:text-text-primary transition-colors cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -98,6 +128,28 @@ export const CompanyModal: React.FC<CompanyModalProps> = ({ isOpen, onClose, onS
 
         {/* Body */}
         <div className="p-6 overflow-y-auto custom-scrollbar flex-1">
+          {/* Top 30 Quick Pick (Only for new company) */}
+          {!companyToEdit && directory.length > 0 && (
+            <div className="mb-6 p-4 rounded-xl bg-violet-500/5 border border-violet-500/20">
+              <label className="text-xs font-semibold uppercase tracking-wider text-violet-300 flex items-center gap-1.5 mb-2">
+                <Sparkles className="w-3.5 h-3.5 text-violet-400" />
+                Select from Top 30 Targeted Companies
+              </label>
+              <select
+                onChange={handleSelectDirectoryCompany}
+                defaultValue=""
+                className={`${inputClasses} bg-bg-overlay/80 border-violet-400/30 text-xs font-mono`}
+              >
+                <option value="" disabled>-- Choose a top targeted company to auto-fill --</option>
+                {directory.map((c) => (
+                  <option key={c.name} value={c.name}>
+                    #{c.rank} {c.name} ({c.tier_category || c.industry}) - {c.overall_difficulty} [{c.total_problem_references} LeetCode questions]
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+
           <form id="company-form" onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Company Name */}
@@ -247,11 +299,11 @@ export const CompanyModal: React.FC<CompanyModalProps> = ({ isOpen, onClose, onS
         </div>
 
         {/* Footer */}
-        <div className="p-6 border-t border-border-default bg-white/[0.01] flex justify-end gap-3">
+        <div className="p-6 border-t border-border-default bg-bg-container-low/30 flex justify-end gap-3">
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 rounded-xl font-semibold text-text-secondary hover:text-text-primary bg-white/5 hover:bg-white/10 transition-colors cursor-pointer"
+            className="px-4 py-2 text-xs font-mono font-bold uppercase tracking-wider text-text-secondary hover:text-text-primary bg-bg-container-low hover:bg-bg-container-high border border-border-default rounded-md transition-colors cursor-pointer"
           >
             Cancel
           </button>
@@ -259,7 +311,7 @@ export const CompanyModal: React.FC<CompanyModalProps> = ({ isOpen, onClose, onS
             type="submit"
             form="company-form"
             disabled={isSubmitting}
-            className="px-6 py-2 rounded-xl font-semibold bg-brand-primary text-white hover:bg-brand-primary/90 transition-colors shadow-glow-sm cursor-pointer disabled:opacity-50"
+            className="px-6 py-2 text-xs font-mono font-bold uppercase tracking-wider text-text-inverse bg-primary hover:bg-primary/90 rounded-md transition-colors cursor-pointer disabled:opacity-50"
           >
             {isSubmitting ? 'Saving...' : companyToEdit ? 'Save Changes' : 'Add Company'}
           </button>

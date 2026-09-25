@@ -49,3 +49,29 @@ class CompanyService:
 
     async def bulk_delete_companies(self, ids: List[UUID], user_id: UUID) -> None:
         await self.repository.bulk_delete(ids, user_id)
+
+    @staticmethod
+    def get_directory(search: Optional[str] = None) -> list[dict]:
+        """Fetch verified Top 30 targeted companies reference intelligence directory."""
+        import json
+        import os
+        
+        dir_file = os.path.join(os.path.dirname(__file__), "..", "core", "library", "top_30_companies.json")
+        if not os.path.exists(dir_file):
+            return []
+            
+        with open(dir_file, "r", encoding="utf-8") as f:
+            items = json.load(f)
+            
+        if search:
+            q = search.lower().strip()
+            items = [
+                c for c in items 
+                if q in c.get("name", "").lower() 
+                or any(q in a.lower() for a in c.get("aliases", []))
+                or q in c.get("industry", "").lower()
+                or q in c.get("tier_category", "").lower()
+                or any(q in t.lower() for t in c.get("top_preparation_topics", []))
+            ]
+            
+        return items

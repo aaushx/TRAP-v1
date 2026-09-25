@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { motion } from 'framer-motion'
 import { User } from 'lucide-react'
 import { useAuthStore } from '@/store/auth.store'
 import { authApi } from '@/services/api/auth'
 import { getDashboardStats, getReadinessStats } from '@/services/api/dashboard'
+import { goalApi } from '@/services/api/goal'
 import { ProfileCard } from '@/components/profile/ProfileCard'
 import { ProfileSkeleton } from '@/components/common/Skeleton'
 import { ErrorState } from '@/components/common/ErrorState'
@@ -22,37 +23,40 @@ export default function ProfilePage() {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  const loadData = async () => {
+  const loadData = useCallback(async () => {
     setIsLoading(true)
     setError(null)
     try {
-      const [userRes, dashboardRes, readinessRes] = await Promise.all([
+      const [userRes, dashboardRes, readinessRes, goalsRes] = await Promise.all([
         authApi.getMe(),
         getDashboardStats(),
-        getReadinessStats()
+        getReadinessStats(),
+        goalApi.getAll().catch(() => [])
       ])
 
       const userData = userRes.data
       setUser(userData)
       
+      const completedGoalsCount = Array.isArray(goalsRes) ? goalsRes.filter(g => g.progress === 100).length : 0
+
       setStats({
         problems_solved: dashboardRes.stats?.problems_solved || 0,
-        goals_completed: 0, // Calculate later or mock as completed
+        goals_completed: completedGoalsCount,
         companies_applied: dashboardRes.stats?.companies_tracked || 0,
         current_streak: dashboardRes.stats?.current_streak || 0,
         placement_readiness_index: readinessRes.placement_readiness_index || 0
       })
-    } catch (err) {
+    } catch (err: any) {
       console.error('Failed to load profile details', err)
       setError('Unable to load profile information. Please verify database connection.')
     } finally {
       setIsLoading(false)
     }
-  }
+  }, [setUser])
 
   useEffect(() => {
     loadData()
-  }, [])
+  }, [loadData])
 
   if (isLoading) {
     return <ProfileSkeleton />

@@ -36,14 +36,14 @@ export const ErrorState: FC<ErrorStateProps> = ({
         {onRetry && (
           <button
             onClick={onRetry}
-            className="px-5 py-2.5 bg-text-primary hover:bg-text-secondary text-bg-base text-xs font-mono font-bold uppercase tracking-wider rounded-md transition-colors cursor-pointer focus:outline-none"
+            className="px-5 py-2.5 bg-primary hover:bg-primary/90 text-text-inverse text-xs font-mono font-bold uppercase tracking-wider rounded-md transition-colors cursor-pointer focus:outline-none"
           >
             Retry Action
           </button>
         )}
         <button
           onClick={() => { window.location.href = '/app/dashboard' }}
-          className="px-5 py-2.5 bg-white/5 hover:bg-white/10 text-text-primary border border-border-default text-xs font-mono font-bold uppercase tracking-wider rounded-md transition-colors cursor-pointer focus:outline-none"
+          className="px-5 py-2.5 bg-bg-container-low hover:bg-bg-container-high text-text-primary border border-border-default text-xs font-mono font-bold uppercase tracking-wider rounded-md transition-colors cursor-pointer focus:outline-none"
         >
           Go Home
         </button>

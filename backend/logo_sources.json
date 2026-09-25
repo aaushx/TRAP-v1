@@ -1,0 +1,5780 @@
+[
+  {
+    "company": "Google",
+    "slug": "google",
+    "assetPath": "/company-logos/google.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\google.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Amazon",
+    "slug": "amazon",
+    "assetPath": "/company-logos/amazon.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\amazon.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Microsoft",
+    "slug": "microsoft",
+    "assetPath": "/company-logos/microsoft.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\microsoft.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Meta",
+    "slug": "meta",
+    "assetPath": "/company-logos/meta.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\meta.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Bloomberg",
+    "slug": "bloomberg",
+    "assetPath": "/company-logos/bloomberg.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bloomberg.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Uber",
+    "slug": "uber",
+    "assetPath": "/company-logos/uber.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\uber.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "TikTok",
+    "slug": "tiktok",
+    "assetPath": "/company-logos/tiktok.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tiktok.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Oracle",
+    "slug": "oracle",
+    "assetPath": "/company-logos/oracle.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\oracle.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Apple",
+    "slug": "apple",
+    "assetPath": "/company-logos/apple.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\apple.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Goldman Sachs",
+    "slug": "goldman-sachs",
+    "assetPath": "/company-logos/goldmansachs.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\goldmansachs.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "TCS",
+    "slug": "tcs",
+    "assetPath": "/company-logos/tata.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tata.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Infosys",
+    "slug": "infosys",
+    "assetPath": "/company-logos/infosys.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\infosys.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Salesforce",
+    "slug": "salesforce",
+    "assetPath": "/company-logos/salesforce.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\salesforce.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "LinkedIn",
+    "slug": "linkedin",
+    "assetPath": "/company-logos/linkedin.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\linkedin.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "IBM",
+    "slug": "ibm",
+    "assetPath": "/company-logos/ibm.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ibm.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Zoho",
+    "slug": "zoho",
+    "assetPath": "/company-logos/zoho.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zoho.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Walmart Labs",
+    "slug": "walmart-labs",
+    "assetPath": "/company-logos/walmart.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\walmart.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Adobe",
+    "slug": "adobe",
+    "assetPath": "/company-logos/adobe.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\adobe.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Visa",
+    "slug": "visa",
+    "assetPath": "/company-logos/visa.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\visa.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Accenture",
+    "slug": "accenture",
+    "assetPath": "/company-logos/accenture.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\accenture.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Nvidia",
+    "slug": "nvidia",
+    "assetPath": "/company-logos/nvidia.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nvidia.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Yandex",
+    "slug": "yandex",
+    "assetPath": "/company-logos/yandex.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\yandex.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "D. E. Shaw",
+    "slug": "d-e-shaw",
+    "assetPath": "/company-logos/d-e-shaw.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\d-e-shaw.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Flipkart",
+    "slug": "flipkart",
+    "assetPath": "/company-logos/flipkart.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\flipkart.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "PayPal",
+    "slug": "paypal",
+    "assetPath": "/company-logos/paypal.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\paypal.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "PhonePe",
+    "slug": "phonepe",
+    "assetPath": "/company-logos/phonepe.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\phonepe.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Snowflake",
+    "slug": "snowflake",
+    "assetPath": "/company-logos/snowflake.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\snowflake.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cisco",
+    "slug": "cisco",
+    "assetPath": "/company-logos/cisco.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cisco.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Citadel",
+    "slug": "citadel",
+    "assetPath": "/company-logos/citadel.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\citadel.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Snapchat",
+    "slug": "snapchat",
+    "assetPath": "/company-logos/snapchat.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\snapchat.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Snap",
+    "slug": "snap",
+    "assetPath": "/company-logos/snap.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\snap.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "DoorDash",
+    "slug": "doordash",
+    "assetPath": "/company-logos/doordash.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\doordash.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "JPMorgan",
+    "slug": "jpmorgan",
+    "assetPath": "/company-logos/jpmorgan.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\jpmorgan.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "ServiceNow",
+    "slug": "servicenow",
+    "assetPath": "/company-logos/servicenow.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\servicenow.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Expedia",
+    "slug": "expedia",
+    "assetPath": "/company-logos/expedia.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\expedia.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Nutanix",
+    "slug": "nutanix",
+    "assetPath": "/company-logos/nutanix.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nutanix.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Ebay",
+    "slug": "ebay",
+    "assetPath": "/company-logos/ebay.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ebay.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Intuit",
+    "slug": "intuit",
+    "assetPath": "/company-logos/intuit.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\intuit.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Airbnb",
+    "slug": "airbnb",
+    "assetPath": "/company-logos/airbnb.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\airbnb.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Capital One",
+    "slug": "capital-one",
+    "assetPath": "/company-logos/capital-one.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\capital-one.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Morgan Stanley",
+    "slug": "morgan-stanley",
+    "assetPath": "/company-logos/morgan-stanley.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\morgan-stanley.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Atlassian",
+    "slug": "atlassian",
+    "assetPath": "/company-logos/atlassian.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\atlassian.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Samsung",
+    "slug": "samsung",
+    "assetPath": "/company-logos/samsung.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\samsung.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Qualcomm",
+    "slug": "qualcomm",
+    "assetPath": "/company-logos/qualcomm.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\qualcomm.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Anduril",
+    "slug": "anduril",
+    "assetPath": "/company-logos/anduril.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\anduril.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Roblox",
+    "slug": "roblox",
+    "assetPath": "/company-logos/roblox.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\roblox.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Wix",
+    "slug": "wix",
+    "assetPath": "/company-logos/wix.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\wix.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Epam Systems",
+    "slug": "epam-systems",
+    "assetPath": "/company-logos/epam-systems.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\epam-systems.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Twitter",
+    "slug": "twitter",
+    "assetPath": "/company-logos/twitter.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\twitter.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "X",
+    "slug": "x",
+    "assetPath": "/company-logos/x.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\x.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cognizant",
+    "slug": "cognizant",
+    "assetPath": "/company-logos/cognizant.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cognizant.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Coupang",
+    "slug": "coupang",
+    "assetPath": "/company-logos/coupang.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coupang.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Palo Alto Networks",
+    "slug": "palo-alto-networks",
+    "assetPath": "/company-logos/palo-alto-networks.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\palo-alto-networks.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Pinterest",
+    "slug": "pinterest",
+    "assetPath": "/company-logos/pinterest.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pinterest.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Agoda",
+    "slug": "agoda",
+    "assetPath": "/company-logos/agoda.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\agoda.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Meesho",
+    "slug": "meesho",
+    "assetPath": "/company-logos/meesho.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\meesho.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sprinklr",
+    "slug": "sprinklr",
+    "assetPath": "/company-logos/sprinklr.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sprinklr.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Deloitte",
+    "slug": "deloitte",
+    "assetPath": "/company-logos/deloitte.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\deloitte.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Arista Networks",
+    "slug": "arista-networks",
+    "assetPath": "/company-logos/arista-networks.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\arista-networks.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Sap",
+    "slug": "sap",
+    "assetPath": "/company-logos/sap.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sap.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tesla",
+    "slug": "tesla",
+    "assetPath": "/company-logos/tesla.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tesla.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Josh Technology",
+    "slug": "josh-technology",
+    "assetPath": "/company-logos/josh-technology.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\josh-technology.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Turing",
+    "slug": "turing",
+    "assetPath": "/company-logos/turing.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\turing.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Capgemini",
+    "slug": "capgemini",
+    "assetPath": "/company-logos/capgemini.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\capgemini.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Rubrik",
+    "slug": "rubrik",
+    "assetPath": "/company-logos/rubrik.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rubrik.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Swiggy",
+    "slug": "swiggy",
+    "assetPath": "/company-logos/swiggy.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\swiggy.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Docusign",
+    "slug": "docusign",
+    "assetPath": "/company-logos/docusign.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\docusign.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Media.net",
+    "slug": "medianet",
+    "assetPath": "/company-logos/medianet.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\medianet.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Autodesk",
+    "slug": "autodesk",
+    "assetPath": "/company-logos/autodesk.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\autodesk.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Hashedin",
+    "slug": "hashedin",
+    "assetPath": "/company-logos/hashedin.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hashedin.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Yahoo",
+    "slug": "yahoo",
+    "assetPath": "/company-logos/yahoo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\yahoo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Databricks",
+    "slug": "databricks",
+    "assetPath": "/company-logos/databricks.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\databricks.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Mathworks",
+    "slug": "mathworks",
+    "assetPath": "/company-logos/mathworks.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mathworks.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Paytm",
+    "slug": "paytm",
+    "assetPath": "/company-logos/paytm.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\paytm.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Zomato",
+    "slug": "zomato",
+    "assetPath": "/company-logos/zomato.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zomato.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Grammarly",
+    "slug": "grammarly",
+    "assetPath": "/company-logos/grammarly.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\grammarly.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Rippling",
+    "slug": "rippling",
+    "assetPath": "/company-logos/rippling.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rippling.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Zeta",
+    "slug": "zeta",
+    "assetPath": "/company-logos/zeta.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zeta.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Netflix",
+    "slug": "netflix",
+    "assetPath": "/company-logos/netflix.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\netflix.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Palantir",
+    "slug": "palantir",
+    "assetPath": "/company-logos/palantir.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\palantir.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Waymo",
+    "slug": "waymo",
+    "assetPath": "/company-logos/waymo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\waymo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "American Express",
+    "slug": "american-express",
+    "assetPath": "/company-logos/americanexpress.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\americanexpress.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Yelp",
+    "slug": "yelp",
+    "assetPath": "/company-logos/yelp.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\yelp.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Squarepoint Capital",
+    "slug": "squarepoint-capital",
+    "assetPath": "/company-logos/squarepoint-capital.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\squarepoint-capital.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tekion",
+    "slug": "tekion",
+    "assetPath": "/company-logos/tekion.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tekion.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mongodb",
+    "slug": "mongodb",
+    "assetPath": "/company-logos/mongodb.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mongodb.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Lyft",
+    "slug": "lyft",
+    "assetPath": "/company-logos/lyft.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\lyft.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Ola",
+    "slug": "ola",
+    "assetPath": "/company-logos/ola.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ola.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Siemens",
+    "slug": "siemens",
+    "assetPath": "/company-logos/siemens.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\siemens.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Wells Fargo",
+    "slug": "wells-fargo",
+    "assetPath": "/company-logos/wellsfargo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\wellsfargo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Zepto",
+    "slug": "zepto",
+    "assetPath": "/company-logos/zepto.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zepto.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Deutsche Bank",
+    "slug": "deutsche-bank",
+    "assetPath": "/company-logos/deutsche-bank.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\deutsche-bank.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Dropbox",
+    "slug": "dropbox",
+    "assetPath": "/company-logos/dropbox.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dropbox.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Bny Mellon",
+    "slug": "bny-mellon",
+    "assetPath": "/company-logos/bny-mellon.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bny-mellon.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Intel",
+    "slug": "intel",
+    "assetPath": "/company-logos/intel.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\intel.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tinkoff",
+    "slug": "tinkoff",
+    "assetPath": "/company-logos/tinkoff.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tinkoff.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Zenefits",
+    "slug": "zenefits",
+    "assetPath": "/company-logos/zenefits.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zenefits.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Accolite",
+    "slug": "accolite",
+    "assetPath": "/company-logos/accolite.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\accolite.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Juspay",
+    "slug": "juspay",
+    "assetPath": "/company-logos/juspay.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=juspay.in&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Makemytrip",
+    "slug": "makemytrip",
+    "assetPath": "/company-logos/makemytrip.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=makemytrip.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Myntra",
+    "slug": "myntra",
+    "assetPath": "/company-logos/myntra.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=myntra.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Okta",
+    "slug": "okta",
+    "assetPath": "/company-logos/okta.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\okta.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Wayfair",
+    "slug": "wayfair",
+    "assetPath": "/company-logos/wayfair.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=wayfair.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Wipro",
+    "slug": "wipro",
+    "assetPath": "/company-logos/wipro.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\wipro.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Quora",
+    "slug": "quora",
+    "assetPath": "/company-logos/quora.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\quora.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Roku",
+    "slug": "roku",
+    "assetPath": "/company-logos/roku.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\roku.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Two Sigma",
+    "slug": "two-sigma",
+    "assetPath": "/company-logos/twosigma.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=twosigma.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Verkada",
+    "slug": "verkada",
+    "assetPath": "/company-logos/verkada.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\verkada.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Geico",
+    "slug": "geico",
+    "assetPath": "/company-logos/geico.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\geico.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hcl",
+    "slug": "hcl",
+    "assetPath": "/company-logos/hcl.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hcl.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Openai",
+    "slug": "openai",
+    "assetPath": "/company-logos/openai.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\openai.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Akuna Capital",
+    "slug": "akuna-capital",
+    "assetPath": "/company-logos/akuna-capital.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\akuna-capital.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Amd",
+    "slug": "amd",
+    "assetPath": "/company-logos/amd.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\amd.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Blackrock",
+    "slug": "blackrock",
+    "assetPath": "/company-logos/blackrock.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\blackrock.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Huawei",
+    "slug": "huawei",
+    "assetPath": "/company-logos/huawei.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\huawei.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Ixl",
+    "slug": "ixl",
+    "assetPath": "/company-logos/ixl.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ixl.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Barclays",
+    "slug": "barclays",
+    "assetPath": "/company-logos/barclays.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\barclays.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Epic Systems",
+    "slug": "epic-systems",
+    "assetPath": "/company-logos/epic.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=epic.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hudson River Trading",
+    "slug": "hudson-river-trading",
+    "assetPath": "/company-logos/hudson-river-trading.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hudson-river-trading.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mitsogo",
+    "slug": "mitsogo",
+    "assetPath": "/company-logos/mitsogo.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mitsogo.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Moloco",
+    "slug": "moloco",
+    "assetPath": "/company-logos/moloco.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\moloco.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sigmoid",
+    "slug": "sigmoid",
+    "assetPath": "/company-logos/sigmoid.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sigmoid.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zscaler",
+    "slug": "zscaler",
+    "assetPath": "/company-logos/zscaler.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zscaler.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bitgo",
+    "slug": "bitgo",
+    "assetPath": "/company-logos/bitgo.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bitgo.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Booking.com",
+    "slug": "bookingcom",
+    "assetPath": "/company-logos/bookingdotcom.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bookingdotcom.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Fractal Analytics",
+    "slug": "fractal-analytics",
+    "assetPath": "/company-logos/fractal-analytics.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=fractal.ai&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Grab",
+    "slug": "grab",
+    "assetPath": "/company-logos/grab.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\grab.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Jane Street",
+    "slug": "jane-street",
+    "assetPath": "/company-logos/jane-street.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\jane-street.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Pocket Gems",
+    "slug": "pocket-gems",
+    "assetPath": "/company-logos/pocket-gems.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pocket-gems.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Robinhood",
+    "slug": "robinhood",
+    "assetPath": "/company-logos/robinhood.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\robinhood.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Sofi",
+    "slug": "sofi",
+    "assetPath": "/company-logos/sofi.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sofi.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Uipath",
+    "slug": "uipath",
+    "assetPath": "/company-logos/uipath.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\uipath.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Arcesium",
+    "slug": "arcesium",
+    "assetPath": "/company-logos/arcesium.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\arcesium.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Aurora",
+    "slug": "aurora",
+    "assetPath": "/company-logos/aurora.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\aurora.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Datadog",
+    "slug": "datadog",
+    "assetPath": "/company-logos/datadog.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\datadog.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Dell",
+    "slug": "dell",
+    "assetPath": "/company-logos/dell.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dell.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Nike",
+    "slug": "nike",
+    "assetPath": "/company-logos/nike.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nike.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Nuro",
+    "slug": "nuro",
+    "assetPath": "/company-logos/nuro.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nuro.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Spotify",
+    "slug": "spotify",
+    "assetPath": "/company-logos/spotify.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\spotify.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Akamai",
+    "slug": "akamai",
+    "assetPath": "/company-logos/akamai.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\akamai.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "General Motors",
+    "slug": "general-motors",
+    "assetPath": "/company-logos/general-motors.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\general-motors.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Inmobi",
+    "slug": "inmobi",
+    "assetPath": "/company-logos/inmobi.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\inmobi.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mastercard",
+    "slug": "mastercard",
+    "assetPath": "/company-logos/mastercard.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mastercard.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Netapp",
+    "slug": "netapp",
+    "assetPath": "/company-logos/netapp.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\netapp.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Razorpay",
+    "slug": "razorpay",
+    "assetPath": "/company-logos/razorpay.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\razorpay.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Stripe",
+    "slug": "stripe",
+    "assetPath": "/company-logos/stripe.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\stripe.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Vk",
+    "slug": "vk",
+    "assetPath": "/company-logos/vk.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\vk.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Whatnot",
+    "slug": "whatnot",
+    "assetPath": "/company-logos/whatnot.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\whatnot.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bcg",
+    "slug": "bcg",
+    "assetPath": "/company-logos/bcg.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bcg.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Coinbase",
+    "slug": "coinbase",
+    "assetPath": "/company-logos/coinbase.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coinbase.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Crowdstrike",
+    "slug": "crowdstrike",
+    "assetPath": "/company-logos/crowdstrike.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\crowdstrike.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Disney",
+    "slug": "disney",
+    "assetPath": "/company-logos/disney.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\disney.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dp World",
+    "slug": "dp-world",
+    "assetPath": "/company-logos/dp-world.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dp-world.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hubspot",
+    "slug": "hubspot",
+    "assetPath": "/company-logos/hubspot.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hubspot.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Revolut",
+    "slug": "revolut",
+    "assetPath": "/company-logos/revolut.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\revolut.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Applied Intuition",
+    "slug": "applied-intuition",
+    "assetPath": "/company-logos/applied-intuition.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\applied-intuition.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Baidu",
+    "slug": "baidu",
+    "assetPath": "/company-logos/baidu.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\baidu.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "C3 Ai",
+    "slug": "c3-ai",
+    "assetPath": "/company-logos/c3-ai.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\c3-ai.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cloudflare",
+    "slug": "cloudflare",
+    "assetPath": "/company-logos/cloudflare.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cloudflare.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Karat",
+    "slug": "karat",
+    "assetPath": "/company-logos/karat.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\karat.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ozon",
+    "slug": "ozon",
+    "assetPath": "/company-logos/ozon.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ozon.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Pornhub",
+    "slug": "pornhub",
+    "assetPath": "/company-logos/pornhub.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pornhub.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sig",
+    "slug": "sig",
+    "assetPath": "/company-logos/sig.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sig.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Splunk",
+    "slug": "splunk",
+    "assetPath": "/company-logos/splunk.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\splunk.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Square",
+    "slug": "square",
+    "assetPath": "/company-logos/square.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\square.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Twilio",
+    "slug": "twilio",
+    "assetPath": "/company-logos/twilio.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\twilio.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ukg",
+    "slug": "ukg",
+    "assetPath": "/company-logos/ukg.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ukg.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Verily",
+    "slug": "verily",
+    "assetPath": "/company-logos/verily.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\verily.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Affirm",
+    "slug": "affirm",
+    "assetPath": "/company-logos/affirm.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\affirm.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Criteo",
+    "slug": "criteo",
+    "assetPath": "/company-logos/criteo.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\criteo.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Flexport",
+    "slug": "flexport",
+    "assetPath": "/company-logos/flexport.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\flexport.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Freshworks",
+    "slug": "freshworks",
+    "assetPath": "/company-logos/freshworks.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\freshworks.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Microstrategy",
+    "slug": "microstrategy",
+    "assetPath": "/company-logos/microstrategy.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\microstrategy.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Motive",
+    "slug": "motive",
+    "assetPath": "/company-logos/motive.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\motive.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nokia",
+    "slug": "nokia",
+    "assetPath": "/company-logos/nokia.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nokia.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Avito",
+    "slug": "avito",
+    "assetPath": "/company-logos/avito.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\avito.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Axon",
+    "slug": "axon",
+    "assetPath": "/company-logos/axon.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\axon.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Compass",
+    "slug": "compass",
+    "assetPath": "/company-logos/compass.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\compass.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Confluent",
+    "slug": "confluent",
+    "assetPath": "/company-logos/confluent.io.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=confluent.io&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Coursera",
+    "slug": "coursera",
+    "assetPath": "/company-logos/coursera.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coursera.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Instacart",
+    "slug": "instacart",
+    "assetPath": "/company-logos/instacart.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\instacart.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Opentext",
+    "slug": "opentext",
+    "assetPath": "/company-logos/opentext.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\opentext.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Persistent Systems",
+    "slug": "persistent-systems",
+    "assetPath": "/company-logos/persistent-systems.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\persistent-systems.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Publicis Sapient",
+    "slug": "publicis-sapient",
+    "assetPath": "/company-logos/publicis-sapient.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\publicis-sapient.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Rivian",
+    "slug": "rivian",
+    "assetPath": "/company-logos/rivian.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rivian.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Warnermedia",
+    "slug": "warnermedia",
+    "assetPath": "/company-logos/warnermedia.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\warnermedia.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zs Associates",
+    "slug": "zs-associates",
+    "assetPath": "/company-logos/zs-associates.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zs-associates.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Directi",
+    "slug": "directi",
+    "assetPath": "/company-logos/directi.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\directi.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Imc",
+    "slug": "imc",
+    "assetPath": "/company-logos/imc.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\imc.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Kla",
+    "slug": "kla",
+    "assetPath": "/company-logos/kla.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\kla.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nagarro",
+    "slug": "nagarro",
+    "assetPath": "/company-logos/nagarro.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nagarro.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Netskope",
+    "slug": "netskope",
+    "assetPath": "/company-logos/netskope.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\netskope.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Oyo",
+    "slug": "oyo",
+    "assetPath": "/company-logos/oyo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\oyo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Pure Storage",
+    "slug": "pure-storage",
+    "assetPath": "/company-logos/pure-storage.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pure-storage.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ripple",
+    "slug": "ripple",
+    "assetPath": "/company-logos/ripple.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ripple.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Shopee",
+    "slug": "shopee",
+    "assetPath": "/company-logos/shopee.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\shopee.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Vmware",
+    "slug": "vmware",
+    "assetPath": "/company-logos/vmware.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\vmware.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "6sense",
+    "slug": "6sense",
+    "assetPath": "/company-logos/6sense.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\6sense.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Airtel",
+    "slug": "airtel",
+    "assetPath": "/company-logos/airtel.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\airtel.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Audible",
+    "slug": "audible",
+    "assetPath": "/company-logos/audible.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\audible.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Box",
+    "slug": "box",
+    "assetPath": "/company-logos/box.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\box.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cadence",
+    "slug": "cadence",
+    "assetPath": "/company-logos/cadence.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cadence.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cashfree",
+    "slug": "cashfree",
+    "assetPath": "/company-logos/cashfree.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cashfree.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Citi",
+    "slug": "citi",
+    "assetPath": "/company-logos/citi.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\citi.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Citigroup",
+    "slug": "citigroup",
+    "assetPath": "/company-logos/citigroup.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\citigroup.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Clevertap",
+    "slug": "clevertap",
+    "assetPath": "/company-logos/clevertap.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\clevertap.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Darwinbox",
+    "slug": "darwinbox",
+    "assetPath": "/company-logos/darwinbox.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\darwinbox.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dunzo",
+    "slug": "dunzo",
+    "assetPath": "/company-logos/dunzo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dunzo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Groww",
+    "slug": "groww",
+    "assetPath": "/company-logos/groww.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\groww.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hive",
+    "slug": "hive",
+    "assetPath": "/company-logos/hive.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hive.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Indeed",
+    "slug": "indeed",
+    "assetPath": "/company-logos/indeed.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\indeed.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Jio",
+    "slug": "jio",
+    "assetPath": "/company-logos/jio.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\jio.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Optiver",
+    "slug": "optiver",
+    "assetPath": "/company-logos/optiver.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\optiver.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Rakuten",
+    "slug": "rakuten",
+    "assetPath": "/company-logos/rakuten.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rakuten.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Spinny",
+    "slug": "spinny",
+    "assetPath": "/company-logos/spinny.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\spinny.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Target",
+    "slug": "target",
+    "assetPath": "/company-logos/target.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\target.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Trilogy",
+    "slug": "trilogy",
+    "assetPath": "/company-logos/trilogy.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\trilogy.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Twitch",
+    "slug": "twitch",
+    "assetPath": "/company-logos/twitch.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\twitch.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Udemy",
+    "slug": "udemy",
+    "assetPath": "/company-logos/udemy.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\udemy.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Urban Company",
+    "slug": "urban-company",
+    "assetPath": "/company-logos/urban-company.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\urban-company.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Vimeo",
+    "slug": "vimeo",
+    "assetPath": "/company-logos/vimeo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\vimeo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Att",
+    "slug": "att",
+    "assetPath": "/company-logos/att.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\att.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Attentive",
+    "slug": "attentive",
+    "assetPath": "/company-logos/attentive.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\attentive.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Careem",
+    "slug": "careem",
+    "assetPath": "/company-logos/careem.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\careem.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Couchbase",
+    "slug": "couchbase",
+    "assetPath": "/company-logos/couchbase.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\couchbase.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Deliveroo",
+    "slug": "deliveroo",
+    "assetPath": "/company-logos/deliveroo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\deliveroo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Faire",
+    "slug": "faire",
+    "assetPath": "/company-logos/faire.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\faire.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fidelity",
+    "slug": "fidelity",
+    "assetPath": "/company-logos/fidelity.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fidelity.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hsbc",
+    "slug": "hsbc",
+    "assetPath": "/company-logos/hsbc.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hsbc.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Lg Electronics",
+    "slug": "lg-electronics",
+    "assetPath": "/company-logos/lg-electronics.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\lg-electronics.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Liveramp",
+    "slug": "liveramp",
+    "assetPath": "/company-logos/liveramp.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\liveramp.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Lowe's",
+    "slug": "lowes",
+    "assetPath": "/company-logos/lowes.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\lowes.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Lucid",
+    "slug": "lucid",
+    "assetPath": "/company-logos/lucid.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\lucid.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Maq Software",
+    "slug": "maq-software",
+    "assetPath": "/company-logos/maq-software.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\maq-software.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mercari",
+    "slug": "mercari",
+    "assetPath": "/company-logos/mercari.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mercari.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Moveworks",
+    "slug": "moveworks",
+    "assetPath": "/company-logos/moveworks.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\moveworks.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nielsen",
+    "slug": "nielsen",
+    "assetPath": "/company-logos/nielsen.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nielsen.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Point72",
+    "slug": "point72",
+    "assetPath": "/company-logos/point72.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\point72.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Rokt",
+    "slug": "rokt",
+    "assetPath": "/company-logos/rokt.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rokt.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Shopify",
+    "slug": "shopify",
+    "assetPath": "/company-logos/shopify.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\shopify.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tencent",
+    "slug": "tencent",
+    "assetPath": "/company-logos/tencent.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tencent.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "The Trade Desk",
+    "slug": "the-trade-desk",
+    "assetPath": "/company-logos/the-trade-desk.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\the-trade-desk.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tripadvisor",
+    "slug": "tripadvisor",
+    "assetPath": "/company-logos/tripadvisor.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tripadvisor.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Upstart",
+    "slug": "upstart",
+    "assetPath": "/company-logos/upstart.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\upstart.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Verizon",
+    "slug": "verizon",
+    "assetPath": "/company-logos/verizon.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\verizon.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Virtu Financial",
+    "slug": "virtu-financial",
+    "assetPath": "/company-logos/virtu-financial.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\virtu-financial.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Virtusa",
+    "slug": "virtusa",
+    "assetPath": "/company-logos/virtusa.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\virtusa.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Wise",
+    "slug": "wise",
+    "assetPath": "/company-logos/wise.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\wise.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Workday",
+    "slug": "workday",
+    "assetPath": "/company-logos/workday.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\workday.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zoox",
+    "slug": "zoox",
+    "assetPath": "/company-logos/zoox.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zoox.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Alibaba",
+    "slug": "alibaba",
+    "assetPath": "/company-logos/alibaba.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\alibaba.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Amdocs",
+    "slug": "amdocs",
+    "assetPath": "/company-logos/amdocs.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\amdocs.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Aon",
+    "slug": "aon",
+    "assetPath": "/company-logos/aon.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\aon.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Asana",
+    "slug": "asana",
+    "assetPath": "/company-logos/asana.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\asana.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Athenahealth",
+    "slug": "athenahealth",
+    "assetPath": "/company-logos/athenahealth.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\athenahealth.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bolt",
+    "slug": "bolt",
+    "assetPath": "/company-logos/bolt.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bolt.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Chewy",
+    "slug": "chewy",
+    "assetPath": "/company-logos/chewy.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\chewy.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Commvault",
+    "slug": "commvault",
+    "assetPath": "/company-logos/commvault.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\commvault.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Delhivery",
+    "slug": "delhivery",
+    "assetPath": "/company-logos/delhivery.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\delhivery.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Duolingo",
+    "slug": "duolingo",
+    "assetPath": "/company-logos/duolingo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\duolingo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Earnin",
+    "slug": "earnin",
+    "assetPath": "/company-logos/earnin.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\earnin.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Garmin",
+    "slug": "garmin",
+    "assetPath": "/company-logos/garmin.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\garmin.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Github",
+    "slug": "github",
+    "assetPath": "/company-logos/github.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\github.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Godaddy",
+    "slug": "godaddy",
+    "assetPath": "/company-logos/godaddy.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\godaddy.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Gojek",
+    "slug": "gojek",
+    "assetPath": "/company-logos/gojek.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gojek.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Gsn Games",
+    "slug": "gsn-games",
+    "assetPath": "/company-logos/gsn-games.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gsn-games.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Guidewire",
+    "slug": "guidewire",
+    "assetPath": "/company-logos/guidewire.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\guidewire.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Gusto",
+    "slug": "gusto",
+    "assetPath": "/company-logos/gusto.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gusto.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Harness",
+    "slug": "harness",
+    "assetPath": "/company-logos/harness.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=harness.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hp",
+    "slug": "hp",
+    "assetPath": "/company-logos/hp.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hp.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Htc",
+    "slug": "htc",
+    "assetPath": "/company-logos/htc.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\htc.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Hulu",
+    "slug": "hulu",
+    "assetPath": "/company-logos/hulu.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hulu.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Lowe",
+    "slug": "lowe",
+    "assetPath": "/company-logos/lowe.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\lowe.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Micro1",
+    "slug": "micro1",
+    "assetPath": "/company-logos/micro1.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\micro1.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Qualtrics",
+    "slug": "qualtrics",
+    "assetPath": "/company-logos/qualtrics.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\qualtrics.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Quince",
+    "slug": "quince",
+    "assetPath": "/company-logos/quince.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\quince.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Reddit",
+    "slug": "reddit",
+    "assetPath": "/company-logos/reddit.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\reddit.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Remitly",
+    "slug": "remitly",
+    "assetPath": "/company-logos/remitly.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\remitly.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Riot Games",
+    "slug": "riot-games",
+    "assetPath": "/company-logos/riot-games.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\riot-games.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Samsara",
+    "slug": "samsara",
+    "assetPath": "/company-logos/samsara.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\samsara.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sony",
+    "slug": "sony",
+    "assetPath": "/company-logos/sony.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sony.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Squarespace",
+    "slug": "squarespace",
+    "assetPath": "/company-logos/squarespace.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\squarespace.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Teradata",
+    "slug": "teradata",
+    "assetPath": "/company-logos/teradata.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\teradata.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Thoughtspot",
+    "slug": "thoughtspot",
+    "assetPath": "/company-logos/thoughtspot.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\thoughtspot.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Toast",
+    "slug": "toast",
+    "assetPath": "/company-logos/toast.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\toast.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Virtu",
+    "slug": "virtu",
+    "assetPath": "/company-logos/virtu.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\virtu.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Wish",
+    "slug": "wish",
+    "assetPath": "/company-logos/wish.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\wish.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Acko",
+    "slug": "acko",
+    "assetPath": "/company-logos/acko.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\acko.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Airbus",
+    "slug": "airbus",
+    "assetPath": "/company-logos/airbus.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\airbus.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Altimetrik",
+    "slug": "altimetrik",
+    "assetPath": "/company-logos/altimetrik.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\altimetrik.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Anthropic",
+    "slug": "anthropic",
+    "assetPath": "/company-logos/anthropic.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\anthropic.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Blinkit",
+    "slug": "blinkit",
+    "assetPath": "/company-logos/blinkit.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\blinkit.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Chubb",
+    "slug": "chubb",
+    "assetPath": "/company-logos/chubb.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\chubb.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Citrix",
+    "slug": "citrix",
+    "assetPath": "/company-logos/citrix.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\citrix.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Coindcx",
+    "slug": "coindcx",
+    "assetPath": "/company-logos/coindcx.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coindcx.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cyntexa",
+    "slug": "cyntexa",
+    "assetPath": "/company-logos/cyntexa.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cyntexa.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Devrev",
+    "slug": "devrev",
+    "assetPath": "/company-logos/devrev.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=devrev.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Factset",
+    "slug": "factset",
+    "assetPath": "/company-logos/factset.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\factset.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fortinet",
+    "slug": "fortinet",
+    "assetPath": "/company-logos/fortinet.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fortinet.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Honeywell",
+    "slug": "honeywell",
+    "assetPath": "/company-logos/honeywell.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\honeywell.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hpe",
+    "slug": "hpe",
+    "assetPath": "/company-logos/hpe.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hpe.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Innovaccer",
+    "slug": "innovaccer",
+    "assetPath": "/company-logos/innovaccer.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\innovaccer.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Jump Trading",
+    "slug": "jump-trading",
+    "assetPath": "/company-logos/jump-trading.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\jump-trading.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Kla Tencor",
+    "slug": "kla-tencor",
+    "assetPath": "/company-logos/kla-tencor.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\kla-tencor.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mindtickle",
+    "slug": "mindtickle",
+    "assetPath": "/company-logos/mindtickle.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mindtickle.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nordstrom",
+    "slug": "nordstrom",
+    "assetPath": "/company-logos/nordstrom.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nordstrom.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nykaa",
+    "slug": "nykaa",
+    "assetPath": "/company-logos/nykaa.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nykaa.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Otter.ai",
+    "slug": "otterai",
+    "assetPath": "/company-logos/otterai.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\otterai.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Patreon",
+    "slug": "patreon",
+    "assetPath": "/company-logos/patreon.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\patreon.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Pony.ai",
+    "slug": "ponyai",
+    "assetPath": "/company-logos/ponyai.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ponyai.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Poshmark",
+    "slug": "poshmark",
+    "assetPath": "/company-logos/poshmark.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\poshmark.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Pwc",
+    "slug": "pwc",
+    "assetPath": "/company-logos/pwc.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pwc.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Societe Generale",
+    "slug": "societe-generale",
+    "assetPath": "/company-logos/societe-generale.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\societe-generale.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tech Mahindra",
+    "slug": "tech-mahindra",
+    "assetPath": "/company-logos/tech-mahindra.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tech-mahindra.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Thoughtworks",
+    "slug": "thoughtworks",
+    "assetPath": "/company-logos/thoughtworks.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\thoughtworks.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tomtom",
+    "slug": "tomtom",
+    "assetPath": "/company-logos/tomtom.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tomtom.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Trexquant",
+    "slug": "trexquant",
+    "assetPath": "/company-logos/trexquant.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\trexquant.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ubs",
+    "slug": "ubs",
+    "assetPath": "/company-logos/ubs.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ubs.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Valve",
+    "slug": "valve",
+    "assetPath": "/company-logos/valve.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\valve.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Worldquant",
+    "slug": "worldquant",
+    "assetPath": "/company-logos/worldquant.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\worldquant.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zip",
+    "slug": "zip",
+    "assetPath": "/company-logos/zip.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zip.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ziprecruiter",
+    "slug": "ziprecruiter",
+    "assetPath": "/company-logos/ziprecruiter.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ziprecruiter.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zoom",
+    "slug": "zoom",
+    "assetPath": "/company-logos/zoom.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zoom.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Activision",
+    "slug": "activision",
+    "assetPath": "/company-logos/activision.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\activision.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Airwallex",
+    "slug": "airwallex",
+    "assetPath": "/company-logos/airwallex.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\airwallex.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Apollo.io",
+    "slug": "apolloio",
+    "assetPath": "/company-logos/apolloio.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\apolloio.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Appfolio",
+    "slug": "appfolio",
+    "assetPath": "/company-logos/appfolio.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\appfolio.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bank Of America",
+    "slug": "bank-of-america",
+    "assetPath": "/company-logos/bank-of-america.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bank-of-america.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Boeing",
+    "slug": "boeing",
+    "assetPath": "/company-logos/boeing.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\boeing.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Broadcom",
+    "slug": "broadcom",
+    "assetPath": "/company-logos/broadcom.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\broadcom.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Canonical",
+    "slug": "canonical",
+    "assetPath": "/company-logos/canonical.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\canonical.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cars24",
+    "slug": "cars24",
+    "assetPath": "/company-logos/cars24.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cars24.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Carwale",
+    "slug": "carwale",
+    "assetPath": "/company-logos/carwale.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\carwale.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Chime",
+    "slug": "chime",
+    "assetPath": "/company-logos/chime.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\chime.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ciena",
+    "slug": "ciena",
+    "assetPath": "/company-logos/ciena.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ciena.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Clari",
+    "slug": "clari",
+    "assetPath": "/company-logos/clari.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\clari.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cloudera",
+    "slug": "cloudera",
+    "assetPath": "/company-logos/cloudera.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cloudera.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cme Group",
+    "slug": "cme-group",
+    "assetPath": "/company-logos/cme-group.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cme-group.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dialpad",
+    "slug": "dialpad",
+    "assetPath": "/company-logos/dialpad.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dialpad.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Drw",
+    "slug": "drw",
+    "assetPath": "/company-logos/drw.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\drw.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ericsson",
+    "slug": "ericsson",
+    "assetPath": "/company-logos/ericsson.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ericsson.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Fourkites",
+    "slug": "fourkites",
+    "assetPath": "/company-logos/fourkites.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fourkites.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Freecharge",
+    "slug": "freecharge",
+    "assetPath": "/company-logos/freecharge.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\freecharge.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Gartner",
+    "slug": "gartner",
+    "assetPath": "/company-logos/gartner.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gartner.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ge Healthcare",
+    "slug": "ge-healthcare",
+    "assetPath": "/company-logos/ge-healthcare.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ge-healthcare.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Instabase",
+    "slug": "instabase",
+    "assetPath": "/company-logos/instabase.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\instabase.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Kickdrum",
+    "slug": "kickdrum",
+    "assetPath": "/company-logos/kickdrum.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=kickdrum.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Kpmg",
+    "slug": "kpmg",
+    "assetPath": "/company-logos/kpmg.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\kpmg.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Larsen & Toubro",
+    "slug": "larsen-toubro",
+    "assetPath": "/company-logos/larsen-toubro.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\larsen-toubro.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Line",
+    "slug": "line",
+    "assetPath": "/company-logos/line.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\line.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Natwest",
+    "slug": "natwest",
+    "assetPath": "/company-logos/natwest.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\natwest.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Navan",
+    "slug": "navan",
+    "assetPath": "/company-logos/navan.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\navan.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Navi",
+    "slug": "navi",
+    "assetPath": "/company-logos/navi.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\navi.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ncr",
+    "slug": "ncr",
+    "assetPath": "/company-logos/ncr.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ncr.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nextdoor",
+    "slug": "nextdoor",
+    "assetPath": "/company-logos/nextdoor.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nextdoor.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Niantic",
+    "slug": "niantic",
+    "assetPath": "/company-logos/niantic.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\niantic.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Odoo",
+    "slug": "odoo",
+    "assetPath": "/company-logos/odoo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\odoo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Oscar Health",
+    "slug": "oscar-health",
+    "assetPath": "/company-logos/oscar-health.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\oscar-health.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Park",
+    "slug": "park",
+    "assetPath": "/company-logos/park.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\park.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Philips",
+    "slug": "philips",
+    "assetPath": "/company-logos/philips.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\philips.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Postmates",
+    "slug": "postmates",
+    "assetPath": "/company-logos/postmates.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\postmates.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Ramp 2",
+    "slug": "ramp-2",
+    "assetPath": "/company-logos/ramp-2.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ramp-2.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Scaler",
+    "slug": "scaler",
+    "assetPath": "/company-logos/scaler.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\scaler.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sonatus",
+    "slug": "sonatus",
+    "assetPath": "/company-logos/sonatus.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sonatus.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Soundhound",
+    "slug": "soundhound",
+    "assetPath": "/company-logos/soundhound.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\soundhound.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Stackadapt",
+    "slug": "stackadapt",
+    "assetPath": "/company-logos/stackadapt.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\stackadapt.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sumo Logic",
+    "slug": "sumo-logic",
+    "assetPath": "/company-logos/sumo-logic.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sumo-logic.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Sumologic",
+    "slug": "sumologic",
+    "assetPath": "/company-logos/sumologic.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sumologic.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Thousandeyes",
+    "slug": "thousandeyes",
+    "assetPath": "/company-logos/thousandeyes.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\thousandeyes.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tiger Analytics",
+    "slug": "tiger-analytics",
+    "assetPath": "/company-logos/tiger-analytics.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tiger-analytics.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tinder",
+    "slug": "tinder",
+    "assetPath": "/company-logos/tinder.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tinder.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Toptal",
+    "slug": "toptal",
+    "assetPath": "/company-logos/toptal.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\toptal.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tower Research",
+    "slug": "tower-research",
+    "assetPath": "/company-logos/tower-research.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tower-research.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Usaa",
+    "slug": "usaa",
+    "assetPath": "/company-logos/usaa.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\usaa.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zalando",
+    "slug": "zalando",
+    "assetPath": "/company-logos/zalando.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zalando.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Adp",
+    "slug": "adp",
+    "assetPath": "/company-logos/adp.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\adp.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Amadeus",
+    "slug": "amadeus",
+    "assetPath": "/company-logos/amadeus.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\amadeus.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Appdynamics",
+    "slug": "appdynamics",
+    "assetPath": "/company-logos/appdynamics.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\appdynamics.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Argo Ai",
+    "slug": "argo-ai",
+    "assetPath": "/company-logos/argo-ai.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\argo-ai.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bending Spoons",
+    "slug": "bending-spoons",
+    "assetPath": "/company-logos/bending-spoons.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bending-spoons.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Blackbuck",
+    "slug": "blackbuck",
+    "assetPath": "/company-logos/blackbuck.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\blackbuck.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Blackstone",
+    "slug": "blackstone",
+    "assetPath": "/company-logos/blackstone.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\blackstone.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Blend",
+    "slug": "blend",
+    "assetPath": "/company-logos/blend.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\blend.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Blue Origin",
+    "slug": "blue-origin",
+    "assetPath": "/company-logos/blue-origin.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\blue-origin.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bridgewater Associates",
+    "slug": "bridgewater-associates",
+    "assetPath": "/company-logos/bridgewater-associates.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bridgewater-associates.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Canva",
+    "slug": "canva",
+    "assetPath": "/company-logos/canva.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\canva.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cockroach Labs",
+    "slug": "cockroach-labs",
+    "assetPath": "/company-logos/cockroachlabs.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cockroachlabs.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cruise",
+    "slug": "cruise",
+    "assetPath": "/company-logos/cruise.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cruise.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cruise Automation",
+    "slug": "cruise-automation",
+    "assetPath": "/company-logos/cruise-automation.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cruise-automation.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cvent",
+    "slug": "cvent",
+    "assetPath": "/company-logos/cvent.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cvent.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dataminr",
+    "slug": "dataminr",
+    "assetPath": "/company-logos/dataminr.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dataminr.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Envoy",
+    "slug": "envoy",
+    "assetPath": "/company-logos/envoy.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\envoy.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Exl",
+    "slug": "exl",
+    "assetPath": "/company-logos/exl.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\exl.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ey",
+    "slug": "ey",
+    "assetPath": "/company-logos/ey.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ey.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "F5 Networks",
+    "slug": "f5-networks",
+    "assetPath": "/company-logos/f5-networks.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\f5-networks.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fanatics",
+    "slug": "fanatics",
+    "assetPath": "/company-logos/fanatics.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fanatics.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fiverr",
+    "slug": "fiverr",
+    "assetPath": "/company-logos/fiverr.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fiverr.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Fivetran",
+    "slug": "fivetran",
+    "assetPath": "/company-logos/fivetran.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fivetran.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Flexera",
+    "slug": "flexera",
+    "assetPath": "/company-logos/flexera.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\flexera.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fpt",
+    "slug": "fpt",
+    "assetPath": "/company-logos/fpt.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fpt.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Garena",
+    "slug": "garena",
+    "assetPath": "/company-logos/garena.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\garena.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Glovo",
+    "slug": "glovo",
+    "assetPath": "/company-logos/glovo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\glovo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Gopuff",
+    "slug": "gopuff",
+    "assetPath": "/company-logos/gopuff.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gopuff.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Goto",
+    "slug": "goto",
+    "assetPath": "/company-logos/goto.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\goto.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Groupon",
+    "slug": "groupon",
+    "assetPath": "/company-logos/groupon.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\groupon.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Grubhub",
+    "slug": "grubhub",
+    "assetPath": "/company-logos/grubhub.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\grubhub.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Gsa Capital",
+    "slug": "gsa-capital",
+    "assetPath": "/company-logos/gsa-capital.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gsa-capital.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hotstar",
+    "slug": "hotstar",
+    "assetPath": "/company-logos/hotstar.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hotstar.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Houzz",
+    "slug": "houzz",
+    "assetPath": "/company-logos/houzz.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\houzz.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Informatica",
+    "slug": "informatica",
+    "assetPath": "/company-logos/informatica.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\informatica.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ivp",
+    "slug": "ivp",
+    "assetPath": "/company-logos/ivp.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ivp.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Jtg",
+    "slug": "jtg",
+    "assetPath": "/company-logos/jtg.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\jtg.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Kakao",
+    "slug": "kakao",
+    "assetPath": "/company-logos/kakao.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\kakao.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Livspace",
+    "slug": "livspace",
+    "assetPath": "/company-logos/livspace.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\livspace.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Luxoft",
+    "slug": "luxoft",
+    "assetPath": "/company-logos/luxoft.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\luxoft.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Machine Zone",
+    "slug": "machine-zone",
+    "assetPath": "/company-logos/machine-zone.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\machine-zone.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Marqeta",
+    "slug": "marqeta",
+    "assetPath": "/company-logos/marqeta.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\marqeta.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mcdonalds",
+    "slug": "mcdonalds",
+    "assetPath": "/company-logos/mcdonalds.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mcdonalds.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Mixpanel",
+    "slug": "mixpanel",
+    "assetPath": "/company-logos/mixpanel.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mixpanel.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Netsuite",
+    "slug": "netsuite",
+    "assetPath": "/company-logos/netsuite.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\netsuite.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Newsbreak",
+    "slug": "newsbreak",
+    "assetPath": "/company-logos/newsbreak.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\newsbreak.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Olx",
+    "slug": "olx",
+    "assetPath": "/company-logos/olx.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\olx.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Oppo",
+    "slug": "oppo",
+    "assetPath": "/company-logos/oppo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\oppo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Paycom",
+    "slug": "paycom",
+    "assetPath": "/company-logos/paycom.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\paycom.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Payu",
+    "slug": "payu",
+    "assetPath": "/company-logos/payu.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\payu.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Peak6",
+    "slug": "peak6",
+    "assetPath": "/company-logos/peak6.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\peak6.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Peloton",
+    "slug": "peloton",
+    "assetPath": "/company-logos/peloton.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\peloton.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Pubmatic",
+    "slug": "pubmatic",
+    "assetPath": "/company-logos/pubmatic.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pubmatic.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Rbc",
+    "slug": "rbc",
+    "assetPath": "/company-logos/rbc.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rbc.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Redbus",
+    "slug": "redbus",
+    "assetPath": "/company-logos/redbus.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=redbus.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Redfin",
+    "slug": "redfin",
+    "assetPath": "/company-logos/redfin.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\redfin.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sentry",
+    "slug": "sentry",
+    "assetPath": "/company-logos/sentry.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sentry.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Sharechat",
+    "slug": "sharechat",
+    "assetPath": "/company-logos/sharechat.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sharechat.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Shopback",
+    "slug": "shopback",
+    "assetPath": "/company-logos/shopback.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\shopback.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Singlestore",
+    "slug": "singlestore",
+    "assetPath": "/company-logos/singlestore.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\singlestore.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Smartnews",
+    "slug": "smartnews",
+    "assetPath": "/company-logos/smartnews.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\smartnews.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Snapdeal",
+    "slug": "snapdeal",
+    "assetPath": "/company-logos/snapdeal.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\snapdeal.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Softwire",
+    "slug": "softwire",
+    "assetPath": "/company-logos/softwire.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\softwire.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Stackline",
+    "slug": "stackline",
+    "assetPath": "/company-logos/stackline.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\stackline.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Starbucks",
+    "slug": "starbucks",
+    "assetPath": "/company-logos/starbucks.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\starbucks.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tanium",
+    "slug": "tanium",
+    "assetPath": "/company-logos/tanium.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tanium.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tesco",
+    "slug": "tesco",
+    "assetPath": "/company-logos/tesco.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tesco.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Thomson Reuters",
+    "slug": "thomson-reuters",
+    "assetPath": "/company-logos/thomson-reuters.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\thomson-reuters.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Turvo",
+    "slug": "turvo",
+    "assetPath": "/company-logos/turvo.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\turvo.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Unity",
+    "slug": "unity",
+    "assetPath": "/company-logos/unity.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\unity.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Viasat",
+    "slug": "viasat",
+    "assetPath": "/company-logos/viasat.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\viasat.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Wissen",
+    "slug": "wissen",
+    "assetPath": "/company-logos/wissen.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\wissen.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zemoso",
+    "slug": "zemoso",
+    "assetPath": "/company-logos/zemoso.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zemoso.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zendesk",
+    "slug": "zendesk",
+    "assetPath": "/company-logos/zendesk.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zendesk.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Zluri",
+    "slug": "zluri",
+    "assetPath": "/company-logos/zluri.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zluri.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zulily",
+    "slug": "zulily",
+    "assetPath": "/company-logos/zulily.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zulily.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zynga",
+    "slug": "zynga",
+    "assetPath": "/company-logos/zynga.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zynga.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Accelya",
+    "slug": "accelya",
+    "assetPath": "/company-logos/accelya.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\accelya.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Acorns",
+    "slug": "acorns",
+    "assetPath": "/company-logos/acorns.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\acorns.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Aetion",
+    "slug": "aetion",
+    "assetPath": "/company-logos/aetion.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\aetion.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Affinity",
+    "slug": "affinity",
+    "assetPath": "/company-logos/affinity.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\affinity.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Alten",
+    "slug": "alten",
+    "assetPath": "/company-logos/alten.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\alten.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "American Airlines",
+    "slug": "american-airlines",
+    "assetPath": "/company-logos/american-airlines.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\american-airlines.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Amplitude",
+    "slug": "amplitude",
+    "assetPath": "/company-logos/amplitude.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\amplitude.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Andela",
+    "slug": "andela",
+    "assetPath": "/company-logos/andela.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\andela.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Anyscale",
+    "slug": "anyscale",
+    "assetPath": "/company-logos/anyscale.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\anyscale.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ascend",
+    "slug": "ascend",
+    "assetPath": "/company-logos/ascend.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ascend.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Auriga",
+    "slug": "auriga",
+    "assetPath": "/company-logos/auriga.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\auriga.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Avalara",
+    "slug": "avalara",
+    "assetPath": "/company-logos/avalara.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\avalara.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Axis Bank",
+    "slug": "axis-bank",
+    "assetPath": "/company-logos/axis-bank.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\axis-bank.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Bill Com",
+    "slug": "bill-com",
+    "assetPath": "/company-logos/bill-com.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bill-com.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bloomreach",
+    "slug": "bloomreach",
+    "assetPath": "/company-logos/bloomreach.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bloomreach.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bnp Paribas",
+    "slug": "bnp-paribas",
+    "assetPath": "/company-logos/bnp-paribas.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bnp-paribas.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Braze",
+    "slug": "braze",
+    "assetPath": "/company-logos/braze.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\braze.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Brillio",
+    "slug": "brillio",
+    "assetPath": "/company-logos/brillio.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\brillio.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Browserstack",
+    "slug": "browserstack",
+    "assetPath": "/company-logos/browserstack.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\browserstack.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Caterpillar",
+    "slug": "caterpillar",
+    "assetPath": "/company-logos/caterpillar.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\caterpillar.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Chargebee",
+    "slug": "chargebee",
+    "assetPath": "/company-logos/chargebee.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\chargebee.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Circle",
+    "slug": "circle",
+    "assetPath": "/company-logos/circle.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\circle.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cleartrip",
+    "slug": "cleartrip",
+    "assetPath": "/company-logos/cleartrip.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cleartrip.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Clutter",
+    "slug": "clutter",
+    "assetPath": "/company-logos/clutter.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\clutter.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Coditas",
+    "slug": "coditas",
+    "assetPath": "/company-logos/coditas.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coditas.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Coupa",
+    "slug": "coupa",
+    "assetPath": "/company-logos/coupa.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coupa.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ctc",
+    "slug": "ctc",
+    "assetPath": "/company-logos/ctc.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ctc.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Cyware",
+    "slug": "cyware",
+    "assetPath": "/company-logos/cyware.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cyware.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dailyhunt",
+    "slug": "dailyhunt",
+    "assetPath": "/company-logos/dailyhunt.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dailyhunt.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dataart",
+    "slug": "dataart",
+    "assetPath": "/company-logos/dataart.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dataart.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Deepmind",
+    "slug": "deepmind",
+    "assetPath": "/company-logos/deepmind.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\deepmind.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Devsinc",
+    "slug": "devsinc",
+    "assetPath": "/company-logos/devsinc.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\devsinc.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Discord",
+    "slug": "discord",
+    "assetPath": "/company-logos/discord.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\discord.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Discovery",
+    "slug": "discovery",
+    "assetPath": "/company-logos/discovery.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=discovery.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dji",
+    "slug": "dji",
+    "assetPath": "/company-logos/dji.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dji.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Druva",
+    "slug": "druva",
+    "assetPath": "/company-logos/druva.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\druva.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dtcc",
+    "slug": "dtcc",
+    "assetPath": "/company-logos/dtcc.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dtcc.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Edelweiss",
+    "slug": "edelweiss",
+    "assetPath": "/company-logos/edelweiss.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=edelweiss.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Edelweiss Group",
+    "slug": "edelweiss-group",
+    "assetPath": "/company-logos/edelweiss-group.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\edelweiss-group.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Elitmus",
+    "slug": "elitmus",
+    "assetPath": "/company-logos/elitmus.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\elitmus.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Epic Games",
+    "slug": "epic-games",
+    "assetPath": "/company-logos/epic-games.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\epic-games.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Epifi",
+    "slug": "epifi",
+    "assetPath": "/company-logos/epifi.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\epifi.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Equinix",
+    "slug": "equinix",
+    "assetPath": "/company-logos/equinix.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\equinix.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Etsy",
+    "slug": "etsy",
+    "assetPath": "/company-logos/etsy.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\etsy.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Fallible",
+    "slug": "fallible",
+    "assetPath": "/company-logos/fallible.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fallible.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fast",
+    "slug": "fast",
+    "assetPath": "/company-logos/fast.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fast.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fico",
+    "slug": "fico",
+    "assetPath": "/company-logos/fico.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fico.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fidessa",
+    "slug": "fidessa",
+    "assetPath": "/company-logos/fidessa.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fidessa.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Figma",
+    "slug": "figma",
+    "assetPath": "/company-logos/figma.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\figma.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Flatiron Health",
+    "slug": "flatiron-health",
+    "assetPath": "/company-logos/flatiron-health.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\flatiron-health.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fleetx",
+    "slug": "fleetx",
+    "assetPath": "/company-logos/fleetx.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fleetx.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Forusall",
+    "slug": "forusall",
+    "assetPath": "/company-logos/forusall.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\forusall.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Fynd",
+    "slug": "fynd",
+    "assetPath": "/company-logos/fynd.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\fynd.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Gainsight",
+    "slug": "gainsight",
+    "assetPath": "/company-logos/gainsight.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gainsight.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "General Electric",
+    "slug": "general-electric",
+    "assetPath": "/company-logos/general-electric.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\general-electric.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Gep",
+    "slug": "gep",
+    "assetPath": "/company-logos/gep.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gep.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Gilt Groupe",
+    "slug": "gilt-groupe",
+    "assetPath": "/company-logos/gilt-groupe.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\gilt-groupe.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Glassdoor",
+    "slug": "glassdoor",
+    "assetPath": "/company-logos/glassdoor.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\glassdoor.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Glean",
+    "slug": "glean",
+    "assetPath": "/company-logos/glean.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\glean.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Globallogic",
+    "slug": "globallogic",
+    "assetPath": "/company-logos/globallogic.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\globallogic.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hbo",
+    "slug": "hbo",
+    "assetPath": "/company-logos/hbo.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hbo.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Helix",
+    "slug": "helix",
+    "assetPath": "/company-logos/helix.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\helix.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Hexaware",
+    "slug": "hexaware",
+    "assetPath": "/company-logos/hexaware.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hexaware.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Highspot",
+    "slug": "highspot",
+    "assetPath": "/company-logos/highspot.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\highspot.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Honey",
+    "slug": "honey",
+    "assetPath": "/company-logos/honey.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\honey.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Hopper",
+    "slug": "hopper",
+    "assetPath": "/company-logos/hopper.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=hopper.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Impact Analytics",
+    "slug": "impact-analytics",
+    "assetPath": "/company-logos/impact-analytics.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\impact-analytics.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Impetus",
+    "slug": "impetus",
+    "assetPath": "/company-logos/impetus.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\impetus.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Increff",
+    "slug": "increff",
+    "assetPath": "/company-logos/increff.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\increff.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Interactive Brokers",
+    "slug": "interactive-brokers",
+    "assetPath": "/company-logos/interactive-brokers.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\interactive-brokers.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Intercom",
+    "slug": "intercom",
+    "assetPath": "/company-logos/intercom.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\intercom.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Jeavio",
+    "slug": "jeavio",
+    "assetPath": "/company-logos/jeavio.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\jeavio.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Juniper Networks",
+    "slug": "juniper-networks",
+    "assetPath": "/company-logos/junipernetworks.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\junipernetworks.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Lendingkart",
+    "slug": "lendingkart",
+    "assetPath": "/company-logos/lendingkart.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\lendingkart.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Lenskart",
+    "slug": "lenskart",
+    "assetPath": "/company-logos/lenskart.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\lenskart.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Liberty Mutual",
+    "slug": "liberty-mutual",
+    "assetPath": "/company-logos/liberty-mutual.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\liberty-mutual.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Machinezone",
+    "slug": "machinezone",
+    "assetPath": "/company-logos/machinezone.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\machinezone.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Maersk",
+    "slug": "maersk",
+    "assetPath": "/company-logos/maersk.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=maersk.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mapbox",
+    "slug": "mapbox",
+    "assetPath": "/company-logos/mapbox.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mapbox.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Mcafee",
+    "slug": "mcafee",
+    "assetPath": "/company-logos/mcafee.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mcafee.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Meituan",
+    "slug": "meituan",
+    "assetPath": "/company-logos/meituan.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\meituan.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Mishipay",
+    "slug": "mishipay",
+    "assetPath": "/company-logos/mishipay.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mishipay.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mobileye",
+    "slug": "mobileye",
+    "assetPath": "/company-logos/mobileye.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mobileye.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mobisy",
+    "slug": "mobisy",
+    "assetPath": "/company-logos/mobisy.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=mobisy.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Moengage",
+    "slug": "moengage",
+    "assetPath": "/company-logos/moengage.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\moengage.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Moneylion",
+    "slug": "moneylion",
+    "assetPath": "/company-logos/moneylion.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\moneylion.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mphasis",
+    "slug": "mphasis",
+    "assetPath": "/company-logos/mphasis.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mphasis.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Msci",
+    "slug": "msci",
+    "assetPath": "/company-logos/msci.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\msci.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Murex",
+    "slug": "murex",
+    "assetPath": "/company-logos/murex.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=murex.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Mykaarma",
+    "slug": "mykaarma",
+    "assetPath": "/company-logos/mykaarma.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mykaarma.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nasdaq",
+    "slug": "nasdaq",
+    "assetPath": "/company-logos/nasdaq.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nasdaq.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "National Instruments",
+    "slug": "national-instruments",
+    "assetPath": "/company-logos/national-instruments.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\national-instruments.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Naver",
+    "slug": "naver",
+    "assetPath": "/company-logos/naver.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\naver.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Nebius",
+    "slug": "nebius",
+    "assetPath": "/company-logos/nebius.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=nebius.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nerdwallet",
+    "slug": "nerdwallet",
+    "assetPath": "/company-logos/nerdwallet.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nerdwallet.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Nextjump",
+    "slug": "nextjump",
+    "assetPath": "/company-logos/nextjump.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\nextjump.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Noon",
+    "slug": "noon",
+    "assetPath": "/company-logos/noon.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=noon.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Notion",
+    "slug": "notion",
+    "assetPath": "/company-logos/notion.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\notion.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Okx",
+    "slug": "okx",
+    "assetPath": "/company-logos/okx.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\okx.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Pega",
+    "slug": "pega",
+    "assetPath": "/company-logos/pega.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pega.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Pickrr",
+    "slug": "pickrr",
+    "assetPath": "/company-logos/pickrr.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pickrr.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Plaid",
+    "slug": "plaid",
+    "assetPath": "/company-logos/plaid.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\plaid.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Polar",
+    "slug": "polar",
+    "assetPath": "/company-logos/polar.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=polar.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Postman",
+    "slug": "postman",
+    "assetPath": "/company-logos/postman.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\postman.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Poynt",
+    "slug": "poynt",
+    "assetPath": "/company-logos/poynt.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\poynt.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Pure",
+    "slug": "pure",
+    "assetPath": "/company-logos/pure.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\pure.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Purplle",
+    "slug": "purplle",
+    "assetPath": "/company-logos/purplle.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\purplle.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Qualys",
+    "slug": "qualys",
+    "assetPath": "/company-logos/qualys.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\qualys.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Quantcast",
+    "slug": "quantcast",
+    "assetPath": "/company-logos/quantcast.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\quantcast.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Rackspace",
+    "slug": "rackspace",
+    "assetPath": "/company-logos/rackspace.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=rackspace.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Radius",
+    "slug": "radius",
+    "assetPath": "/company-logos/radius.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\radius.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Rally Health",
+    "slug": "rally-health",
+    "assetPath": "/company-logos/rally-health.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rally-health.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Remotestate",
+    "slug": "remotestate",
+    "assetPath": "/company-logos/remotestate.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\remotestate.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Retailmenot",
+    "slug": "retailmenot",
+    "assetPath": "/company-logos/retailmenot.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\retailmenot.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Rupeek",
+    "slug": "rupeek",
+    "assetPath": "/company-logos/rupeek.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\rupeek.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Schlumberger",
+    "slug": "schlumberger",
+    "assetPath": "/company-logos/schlumberger.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\schlumberger.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Schneider Electric",
+    "slug": "schneider-electric",
+    "assetPath": "/company-logos/schneider-electric.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\schneider-electric.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Schrodinger",
+    "slug": "schrodinger",
+    "assetPath": "/company-logos/schrodinger.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\schrodinger.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Shipsy",
+    "slug": "shipsy",
+    "assetPath": "/company-logos/shipsy.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=shipsy.io&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Shopup",
+    "slug": "shopup",
+    "assetPath": "/company-logos/shopup.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\shopup.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Sixt",
+    "slug": "sixt",
+    "assetPath": "/company-logos/sixt.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\sixt.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Slice",
+    "slug": "slice",
+    "assetPath": "/company-logos/slice.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=slice.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Smartsheet",
+    "slug": "smartsheet",
+    "assetPath": "/company-logos/smartsheet.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\smartsheet.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Spacex",
+    "slug": "spacex",
+    "assetPath": "/company-logos/spacex.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\spacex.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "State Farm",
+    "slug": "state-farm",
+    "assetPath": "/company-logos/state-farm.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\state-farm.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Strava",
+    "slug": "strava",
+    "assetPath": "/company-logos/strava.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\strava.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Syfe",
+    "slug": "syfe",
+    "assetPath": "/company-logos/syfe.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=syfe.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Symantec",
+    "slug": "symantec",
+    "assetPath": "/company-logos/symantec.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\symantec.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tableau",
+    "slug": "tableau",
+    "assetPath": "/company-logos/tableau.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=tableau.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Techolution",
+    "slug": "techolution",
+    "assetPath": "/company-logos/techolution.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\techolution.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Thumbtack",
+    "slug": "thumbtack",
+    "assetPath": "/company-logos/thumbtack.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\thumbtack.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tokopedia",
+    "slug": "tokopedia",
+    "assetPath": "/company-logos/tokopedia.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tokopedia.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Toyota",
+    "slug": "toyota",
+    "assetPath": "/company-logos/toyota.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\toyota.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tracxn",
+    "slug": "tracxn",
+    "assetPath": "/company-logos/tracxn.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=tracxn.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Traveloka",
+    "slug": "traveloka",
+    "assetPath": "/company-logos/traveloka.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\traveloka.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Trend Micro",
+    "slug": "trend-micro",
+    "assetPath": "/company-logos/trend-micro.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\trend-micro.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Tripactions",
+    "slug": "tripactions",
+    "assetPath": "/company-logos/tripactions.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\tripactions.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ubisoft",
+    "slug": "ubisoft",
+    "assetPath": "/company-logos/ubisoft.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ubisoft.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Unbxd",
+    "slug": "unbxd",
+    "assetPath": "/company-logos/unbxd.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\unbxd.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Unifyapps",
+    "slug": "unifyapps",
+    "assetPath": "/company-logos/unifyapps.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=unifyapps.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Unstop",
+    "slug": "unstop",
+    "assetPath": "/company-logos/unstop.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\unstop.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Ust",
+    "slug": "ust",
+    "assetPath": "/company-logos/ust.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ust.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Veeva",
+    "slug": "veeva",
+    "assetPath": "/company-logos/veeva.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\veeva.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Veeva Systems",
+    "slug": "veeva-systems",
+    "assetPath": "/company-logos/veeva-systems.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\veeva-systems.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Veritas",
+    "slug": "veritas",
+    "assetPath": "/company-logos/veritas.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\veritas.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Wealthfront",
+    "slug": "wealthfront",
+    "assetPath": "/company-logos/wealthfront.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\wealthfront.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Western Digital",
+    "slug": "western-digital",
+    "assetPath": "/company-logos/westerndigital.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=westerndigital.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Whatfix",
+    "slug": "whatfix",
+    "assetPath": "/company-logos/whatfix.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\whatfix.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Xing",
+    "slug": "xing",
+    "assetPath": "/company-logos/xing.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\xing.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Yatra",
+    "slug": "yatra",
+    "assetPath": "/company-logos/yatra.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\yatra.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Yugabyte",
+    "slug": "yugabyte",
+    "assetPath": "/company-logos/yugabyte.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\yugabyte.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zappos",
+    "slug": "zappos",
+    "assetPath": "/company-logos/zappos.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zappos.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zeta Suite",
+    "slug": "zeta-suite",
+    "assetPath": "/company-logos/zeta-suite.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zeta-suite.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Zillow",
+    "slug": "zillow",
+    "assetPath": "/company-logos/zillow.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zillow.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Zocdoc",
+    "slug": "zocdoc",
+    "assetPath": "/company-logos/zocdoc.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\zocdoc.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bentley Systems",
+    "slug": "bentley-systems",
+    "assetPath": "/company-logos/bentley-systems.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bentley-systems.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bharatpe",
+    "slug": "bharatpe",
+    "assetPath": "/company-logos/bharatpe.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bharatpe.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Blizzard",
+    "slug": "blizzard",
+    "assetPath": "/company-logos/blizzard.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\blizzard.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Block",
+    "slug": "block",
+    "assetPath": "/company-logos/block.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\block.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Bosch",
+    "slug": "bosch",
+    "assetPath": "/company-logos/bosch.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\bosch.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Brex",
+    "slug": "brex",
+    "assetPath": "/company-logos/brex.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\brex.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Cedcoss",
+    "slug": "cedcoss",
+    "assetPath": "/company-logos/cedcoss.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\cedcoss.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Celigo",
+    "slug": "celigo",
+    "assetPath": "/company-logos/celigo.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\celigo.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Coforge",
+    "slug": "coforge",
+    "assetPath": "/company-logos/coforge.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coforge.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Consultadd",
+    "slug": "consultadd",
+    "assetPath": "/company-logos/consultadd.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\consultadd.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Coveo",
+    "slug": "coveo",
+    "assetPath": "/company-logos/coveo.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\coveo.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Credit Karma",
+    "slug": "credit-karma",
+    "assetPath": "/company-logos/credit-karma.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\credit-karma.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Devtron",
+    "slug": "devtron",
+    "assetPath": "/company-logos/devtron.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\devtron.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Dxc Technology",
+    "slug": "dxc-technology",
+    "assetPath": "/company-logos/dxc-technology.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\dxc-technology.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Electronic Arts",
+    "slug": "electronic-arts",
+    "assetPath": "/company-logos/electronic-arts.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\electronic-arts.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Genpact",
+    "slug": "genpact",
+    "assetPath": "/company-logos/genpact.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\genpact.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Hertz",
+    "slug": "hertz",
+    "assetPath": "/company-logos/hertz.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\hertz.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Indmoney",
+    "slug": "indmoney",
+    "assetPath": "/company-logos/indmoney.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\indmoney.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "J.p. Morgan",
+    "slug": "jp-morgan",
+    "assetPath": "/company-logos/jpmorgan.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\jpmorgan.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Komprise",
+    "slug": "komprise",
+    "assetPath": "/company-logos/komprise.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\komprise.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Licious",
+    "slug": "licious",
+    "assetPath": "/company-logos/licious.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\licious.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Miro",
+    "slug": "miro",
+    "assetPath": "/company-logos/miro.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\miro.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Mountblue",
+    "slug": "mountblue",
+    "assetPath": "/company-logos/mountblue.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\mountblue.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ninjacart",
+    "slug": "ninjacart",
+    "assetPath": "/company-logos/ninjacart.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ninjacart.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Ola Cabs",
+    "slug": "ola-cabs",
+    "assetPath": "/company-logos/ola.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\ola.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Opendoor",
+    "slug": "opendoor",
+    "assetPath": "/company-logos/opendoor.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=opendoor.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Palantir Technologies",
+    "slug": "palantir-technologies",
+    "assetPath": "/company-logos/palantir.svg",
+    "sourceType": "Local Verified SVG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\palantir.svg",
+    "fileType": "svg",
+    "verified": true
+  },
+  {
+    "company": "Qburst",
+    "slug": "qburst",
+    "assetPath": "/company-logos/qburst.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\qburst.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Roche",
+    "slug": "roche",
+    "assetPath": "/company-logos/roche.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=roche.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Src",
+    "slug": "src",
+    "assetPath": "/company-logos/src.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\src.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Tejas Networks",
+    "slug": "tejas-networks",
+    "assetPath": "/company-logos/tejas-networks.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=tejasnetworks.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Turo",
+    "slug": "turo",
+    "assetPath": "/company-logos/turo.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\turo.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Vanguard",
+    "slug": "vanguard",
+    "assetPath": "/company-logos/vanguard.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\vanguard.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Watchguard",
+    "slug": "watchguard",
+    "assetPath": "/company-logos/watchguard.png",
+    "sourceType": "Local Verified PNG",
+    "sourceUrl": "file://C:\\Users\\infaa\\Desktop\\TRAP ANTI\\frontend\\public\\company-logos\\watchguard.png",
+    "fileType": "png",
+    "verified": true
+  },
+  {
+    "company": "Yext",
+    "slug": "yext",
+    "assetPath": "/company-logos/yext.png",
+    "sourceType": "Google Brand Favicon Service",
+    "sourceUrl": "https://www.google.com/s2/favicons?domain=yext.com&sz=128",
+    "fileType": "png",
+    "verified": true
+  }
+]

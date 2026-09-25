@@ -1,0 +1,13 @@
+{
+  "totalCompanies": 712,
+  "verified": 629,
+  "unverified": 83,
+  "rejected": 0,
+  "batch1Verified": "45/45",
+  "broken": 0,
+  "invalidXml": 0,
+  "externalUrls": 0,
+  "shaDuplicates": 6,
+  "timestamp": "2026-09-10T15:34:06.635Z",
+  "issues": []
+}

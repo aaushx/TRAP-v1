@@ -20,6 +20,7 @@ import { CompanyStatusBadge } from '@/components/companies/CompanyStatusBadge'
 import { ConfirmDialog } from '@/components/common/ConfirmDialog'
 import { CompaniesSkeleton } from '@/components/common/Skeleton'
 import { EmptyState } from '@/components/common/EmptyState'
+import { CompanyLogo } from '@/components/common/CompanyLogo'
 import { Company, CompanyCreate } from '@/services/api/company'
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -139,7 +140,7 @@ export default function CompaniesPage() {
           const { id: _id, createdAt: _cat, updatedAt: _uat, ...createData } = deletedCompany
           await addCompany(createData)
           addToast('Company restored.', 'success')
-        } catch (err) {
+        } catch {
           addToast('Failed to restore company.', 'error')
         }
       })
@@ -172,7 +173,7 @@ export default function CompaniesPage() {
             return addCompany(createData)
           }))
           addToast('Selected companies restored.', 'success')
-        } catch (err) {
+        } catch {
           addToast('Failed to restore companies.', 'error')
         }
       })
@@ -226,7 +227,7 @@ export default function CompaniesPage() {
         </div>
         <button
           onClick={() => handleOpenModal()}
-          className="flex items-center gap-2 px-4 py-2.5 bg-text-primary text-bg-base rounded-md font-mono text-xs font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer shrink-0 focus:outline-none"
+          className="flex items-center gap-2 px-4 py-2.5 bg-primary hover:bg-primary/90 text-text-inverse rounded-md font-mono text-xs font-bold uppercase tracking-wider transition-all shadow-sm cursor-pointer shrink-0 focus:outline-none"
         >
           <Plus className="w-4 h-4" />
           Add Company
@@ -234,7 +235,7 @@ export default function CompaniesPage() {
       </div>
 
       {/* Filters Panel */}
-      <div className="bg-white border border-border-default rounded-md p-5 space-y-4 shadow-sm relative group">
+      <div className="bg-bg-surface border border-border-default rounded-md p-5 space-y-4 shadow-sm relative group">
         <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-20 dot-matrix-strip"></div>
         <div className="flex flex-col lg:flex-row gap-4 items-stretch lg:items-center mt-1">
           {/* Search Input */}
@@ -315,7 +316,7 @@ export default function CompaniesPage() {
       </div>
 
       {/* Main Companies Container */}
-      <div className="bg-white border border-border-default rounded-md overflow-hidden shadow-sm relative group">
+      <div className="bg-bg-surface border border-border-default rounded-md overflow-hidden shadow-sm relative group">
         <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-20 dot-matrix-strip"></div>
         {isLoading && companies.length === 0 ? (
           <CompaniesSkeleton />
@@ -338,7 +339,7 @@ export default function CompaniesPage() {
                       type="checkbox"
                       checked={selectedIds.length === companies.length && companies.length > 0}
                       onChange={handleSelectAll}
-                      className="w-4 h-4 rounded border-border-default bg-white text-primary focus:ring-primary cursor-pointer focus:outline-none"
+                      className="w-4 h-4 rounded border-border-default bg-bg-container-low text-primary focus:ring-primary cursor-pointer focus:outline-none"
                     />
                   </th>
                   <th className="px-6 py-4 font-bold">Company</th>
@@ -366,16 +367,14 @@ export default function CompaniesPage() {
                           type="checkbox"
                           checked={isChecked}
                           onChange={(e) => handleSelectRow(company.id, e)}
-                          className="w-4 h-4 rounded border-border-default bg-white text-primary focus:ring-primary cursor-pointer focus:outline-none"
+                          className="w-4 h-4 rounded border-border-default bg-bg-container-low text-primary focus:ring-primary cursor-pointer focus:outline-none"
                         />
                       </td>
 
                       {/* Name & link */}
                       <td className="px-6 py-4">
                         <div className="flex items-center gap-3">
-                          <div className="w-9 h-9 rounded bg-bg-container-low flex items-center justify-center text-text-secondary border border-border-default transition-colors">
-                            <Building2 className="w-4 h-4" />
-                          </div>
+                          <CompanyLogo company={company.name} size="sm" />
                           <div>
                             <div className="font-semibold text-primary text-sm flex items-center gap-2">
                               {company.name}
@@ -391,11 +390,18 @@ export default function CompaniesPage() {
                                 </a>
                               )}
                             </div>
-                            {company.salaryRange && (
-                              <div className="text-[10px] font-mono text-text-tertiary mt-0.5 uppercase tracking-wide">
-                                {company.salaryRange}
-                              </div>
-                            )}
+                            <div className="flex items-center gap-2 mt-0.5">
+                              {company.tierCategory && (
+                                <span className="px-1.5 py-0.5 rounded text-[9px] font-mono font-medium bg-violet-500/10 text-violet-400 border border-violet-500/20">
+                                  {company.tierCategory}
+                                </span>
+                              )}
+                              {company.salaryRange && (
+                                <span className="text-[10px] font-mono text-text-tertiary uppercase tracking-wide">
+                                  {company.salaryRange}
+                                </span>
+                              )}
+                            </div>
                           </div>
                         </div>
                       </td>

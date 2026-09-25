@@ -1,11 +1,17 @@
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Literal
 from pydantic import BaseModel, ConfigDict, computed_field
 from datetime import datetime
 from uuid import UUID
+from app.schemas.company_dsa import GoalCompanyItem
+
+TopicStatusType = Literal[
+    'not_started', 'bookmarked', 'in_progress', 
+    'needs_revision', 'completed', 'mastered', 'skipped'
+]
 
 class GoalTopicBase(BaseModel):
     name: str
-    status: Optional[str] = "not_started"
+    status: Optional[TopicStatusType] = "not_started"
     difficulty: Optional[str] = None
     estimated_hours: Optional[float] = None
     resource_links: Optional[List[Dict[str, Any]]] = None
@@ -17,7 +23,7 @@ class GoalTopicCreate(GoalTopicBase):
 
 class GoalTopicUpdate(BaseModel):
     name: Optional[str] = None
-    status: Optional[str] = None
+    status: Optional[TopicStatusType] = None
     difficulty: Optional[str] = None
     estimated_hours: Optional[float] = None
     resource_links: Optional[List[Dict[str, Any]]] = None
@@ -25,7 +31,7 @@ class GoalTopicUpdate(BaseModel):
     sort_order: Optional[int] = None
 
 class GoalTopicStatusUpdate(BaseModel):
-    status: Optional[str] = None
+    status: Optional[TopicStatusType] = None
     notes: Optional[str] = None
 
 class GoalTopicResponse(GoalTopicBase):
@@ -87,6 +93,7 @@ class GoalResponse(GoalBase):
     created_at: datetime
     updated_at: datetime
     categories: List[GoalCategoryResponse] = []
+    selected_companies: List['GoalCompanyItem'] = []
     
     model_config = ConfigDict(from_attributes=True)
 

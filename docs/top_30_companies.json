@@ -1,0 +1,1432 @@
+[
+  {
+    "rank": 1,
+    "name": "Google",
+    "normalized_key": "google",
+    "aliases": [],
+    "industry": "Technology / Internet",
+    "tier_category": "Tier-1 Big Tech (FAANG+)",
+    "score": 2469,
+    "in_both_datasets": true,
+    "questions_dataset_1": 2344,
+    "questions_dataset_2": 2325,
+    "total_problem_references": 2344,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 616,
+      "medium": 1223,
+      "hard": 505
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Math",
+      "Sorting",
+      "Greedy",
+      "Depth-First Search"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Google",
+      "dataset_2/leetcode-companywise-interview-questions-master/google"
+    ]
+  },
+  {
+    "rank": 2,
+    "name": "Amazon",
+    "normalized_key": "amazon",
+    "aliases": [],
+    "industry": "E-Commerce / Cloud Computing",
+    "tier_category": "Tier-1 Big Tech (FAANG+)",
+    "score": 2136,
+    "in_both_datasets": true,
+    "questions_dataset_1": 2011,
+    "questions_dataset_2": 1988,
+    "total_problem_references": 2011,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 536,
+      "medium": 1087,
+      "hard": 388
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Math",
+      "Dynamic Programming",
+      "Sorting",
+      "Greedy",
+      "Depth-First Search"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Amazon",
+      "dataset_2/leetcode-companywise-interview-questions-master/amazon"
+    ]
+  },
+  {
+    "rank": 3,
+    "name": "Meta",
+    "normalized_key": "meta",
+    "aliases": [],
+    "industry": "Social Media / AI",
+    "tier_category": "Tier-1 Big Tech (FAANG+)",
+    "score": 1524,
+    "in_both_datasets": true,
+    "questions_dataset_1": 1399,
+    "questions_dataset_2": 1381,
+    "total_problem_references": 1399,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 427,
+      "medium": 763,
+      "hard": 209
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Math",
+      "Dynamic Programming",
+      "Sorting",
+      "Depth-First Search",
+      "Binary Search"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Meta",
+      "dataset_2/leetcode-companywise-interview-questions-master/meta"
+    ]
+  },
+  {
+    "rank": 4,
+    "name": "Microsoft",
+    "normalized_key": "microsoft",
+    "aliases": [],
+    "industry": "Software / Cloud Computing",
+    "tier_category": "Tier-1 Big Tech (FAANG+)",
+    "score": 1511,
+    "in_both_datasets": true,
+    "questions_dataset_1": 1384,
+    "questions_dataset_2": 1386,
+    "total_problem_references": 1386,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 393,
+      "medium": 757,
+      "hard": 234
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Math",
+      "Sorting",
+      "Depth-First Search",
+      "Greedy"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Microsoft",
+      "dataset_2/leetcode-companywise-interview-questions-master/microsoft"
+    ]
+  },
+  {
+    "rank": 5,
+    "name": "Bloomberg",
+    "normalized_key": "bloomberg",
+    "aliases": [],
+    "industry": "Financial Technology / Data",
+    "tier_category": "Global FinTech / High-Frequency Data",
+    "score": 1348,
+    "in_both_datasets": true,
+    "questions_dataset_1": 1223,
+    "questions_dataset_2": 1213,
+    "total_problem_references": 1223,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 399,
+      "medium": 650,
+      "hard": 174
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Math",
+      "Sorting",
+      "Dynamic Programming",
+      "Binary Search",
+      "Depth-First Search"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Bloomberg",
+      "dataset_2/leetcode-companywise-interview-questions-master/bloomberg"
+    ]
+  },
+  {
+    "rank": 6,
+    "name": "Uber",
+    "normalized_key": "uber",
+    "aliases": [],
+    "industry": "Mobility / Transportation Tech",
+    "tier_category": "Tier-1 Product Tech",
+    "score": 487,
+    "in_both_datasets": true,
+    "questions_dataset_1": 359,
+    "questions_dataset_2": 362,
+    "total_problem_references": 362,
+    "overall_difficulty": "Hard",
+    "difficulty_breakdown": {
+      "easy": 45,
+      "medium": 209,
+      "hard": 105
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Dynamic Programming",
+      "Sorting",
+      "Matrix"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Uber",
+      "dataset_2/leetcode-companywise-interview-questions-master/uber"
+    ]
+  },
+  {
+    "rank": 7,
+    "name": "TikTok",
+    "normalized_key": "tiktok",
+    "aliases": [
+      "Tiktok"
+    ],
+    "industry": "Social Media / Entertainment",
+    "tier_category": "Tier-1 Product Tech",
+    "score": 474,
+    "in_both_datasets": true,
+    "questions_dataset_1": 348,
+    "questions_dataset_2": 349,
+    "total_problem_references": 349,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 34,
+      "medium": 243,
+      "hard": 71
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Sorting",
+      "Math"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/TikTok",
+      "dataset_2/leetcode-companywise-interview-questions-master/tiktok"
+    ]
+  },
+  {
+    "rank": 8,
+    "name": "Oracle",
+    "normalized_key": "oracle",
+    "aliases": [],
+    "industry": "Enterprise Software / Database",
+    "tier_category": "Global Enterprise & Cloud",
+    "score": 438,
+    "in_both_datasets": true,
+    "questions_dataset_1": 299,
+    "questions_dataset_2": 313,
+    "total_problem_references": 313,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 58,
+      "medium": 188,
+      "hard": 53
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Sorting",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Two Pointers"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Oracle",
+      "dataset_2/leetcode-companywise-interview-questions-master/oracle"
+    ]
+  },
+  {
+    "rank": 9,
+    "name": "Apple",
+    "normalized_key": "apple",
+    "aliases": [],
+    "industry": "Consumer Electronics / Software",
+    "tier_category": "Tier-1 Big Tech (FAANG+)",
+    "score": 428,
+    "in_both_datasets": true,
+    "questions_dataset_1": 298,
+    "questions_dataset_2": 303,
+    "total_problem_references": 303,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 74,
+      "medium": 177,
+      "hard": 47
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Design"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Apple",
+      "dataset_2/leetcode-companywise-interview-questions-master/apple"
+    ]
+  },
+  {
+    "rank": 10,
+    "name": "Goldman Sachs",
+    "normalized_key": "goldman sachs",
+    "aliases": [
+      "Goldman-Sachs"
+    ],
+    "industry": "Investment Banking / FinTech",
+    "tier_category": "Investment Banking / FinTech",
+    "score": 389,
+    "in_both_datasets": true,
+    "questions_dataset_1": 264,
+    "questions_dataset_2": 261,
+    "total_problem_references": 264,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 46,
+      "medium": 169,
+      "hard": 49
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Sorting",
+      "Math",
+      "Binary Search",
+      "Two Pointers"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Goldman Sachs",
+      "dataset_2/leetcode-companywise-interview-questions-master/goldman-sachs"
+    ]
+  },
+  {
+    "rank": 11,
+    "name": "TCS",
+    "normalized_key": "tcs",
+    "aliases": [
+      "Tcs"
+    ],
+    "industry": "IT Services / Consulting",
+    "tier_category": "Major Mass Placement / Enterprise IT",
+    "score": 378,
+    "in_both_datasets": true,
+    "questions_dataset_1": 253,
+    "questions_dataset_2": 240,
+    "total_problem_references": 253,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 113,
+      "medium": 116,
+      "hard": 24
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Math",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Binary Search"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/tcs",
+      "dataset_2/leetcode-companywise-interview-questions-master/tcs"
+    ]
+  },
+  {
+    "rank": 12,
+    "name": "Infosys",
+    "normalized_key": "infosys",
+    "aliases": [],
+    "industry": "IT Services / Consulting",
+    "tier_category": "Major Mass Placement / Enterprise IT",
+    "score": 346,
+    "in_both_datasets": true,
+    "questions_dataset_1": 221,
+    "questions_dataset_2": 185,
+    "total_problem_references": 221,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 53,
+      "medium": 117,
+      "hard": 51
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Dynamic Programming",
+      "String",
+      "Math",
+      "Hash Table",
+      "Sorting",
+      "Greedy",
+      "Two Pointers"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Infosys",
+      "dataset_2/leetcode-companywise-interview-questions-master/infosys"
+    ]
+  },
+  {
+    "rank": 13,
+    "name": "Salesforce",
+    "normalized_key": "salesforce",
+    "aliases": [],
+    "industry": "Enterprise CRM / Cloud",
+    "tier_category": "Global Enterprise & Cloud",
+    "score": 318,
+    "in_both_datasets": true,
+    "questions_dataset_1": 193,
+    "questions_dataset_2": 191,
+    "total_problem_references": 193,
+    "overall_difficulty": "Hard",
+    "difficulty_breakdown": {
+      "easy": 25,
+      "medium": 117,
+      "hard": 51
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Sorting",
+      "Depth-First Search",
+      "Binary Search",
+      "Heap (Priority Queue)"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Salesforce",
+      "dataset_2/leetcode-companywise-interview-questions-master/salesforce"
+    ]
+  },
+  {
+    "rank": 14,
+    "name": "IBM",
+    "normalized_key": "ibm",
+    "aliases": [
+      "Ibm"
+    ],
+    "industry": "Technology / Enterprise Cloud",
+    "tier_category": "Global Enterprise & Cloud",
+    "score": 303,
+    "in_both_datasets": true,
+    "questions_dataset_1": 173,
+    "questions_dataset_2": 178,
+    "total_problem_references": 178,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 53,
+      "medium": 104,
+      "hard": 16
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Sorting",
+      "Hash Table",
+      "Two Pointers",
+      "Greedy",
+      "Math",
+      "Dynamic Programming"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/IBM",
+      "dataset_2/leetcode-companywise-interview-questions-master/ibm"
+    ]
+  },
+  {
+    "rank": 15,
+    "name": "LinkedIn",
+    "normalized_key": "linkedin",
+    "aliases": [
+      "Linkedin"
+    ],
+    "industry": "Professional Network / Cloud",
+    "tier_category": "Tier-1 Product Tech",
+    "score": 301,
+    "in_both_datasets": true,
+    "questions_dataset_1": 175,
+    "questions_dataset_2": 176,
+    "total_problem_references": 176,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 26,
+      "medium": 113,
+      "hard": 36
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Tree",
+      "Dynamic Programming",
+      "Math"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/LinkedIn",
+      "dataset_2/leetcode-companywise-interview-questions-master/linkedin"
+    ]
+  },
+  {
+    "rank": 16,
+    "name": "Zoho",
+    "normalized_key": "zoho",
+    "aliases": [],
+    "industry": "SaaS / Enterprise Software",
+    "tier_category": "Top SaaS / Product Unicorn",
+    "score": 294,
+    "in_both_datasets": true,
+    "questions_dataset_1": 155,
+    "questions_dataset_2": 169,
+    "total_problem_references": 169,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 55,
+      "medium": 84,
+      "hard": 16
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Math",
+      "Two Pointers",
+      "Sorting",
+      "Matrix"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Zoho",
+      "dataset_2/leetcode-companywise-interview-questions-master/zoho"
+    ]
+  },
+  {
+    "rank": 17,
+    "name": "Walmart Labs",
+    "normalized_key": "walmart labs",
+    "aliases": [
+      "Walmart-Labs"
+    ],
+    "industry": "Retail Tech / E-Commerce",
+    "tier_category": "Top Product Engineering / Retail",
+    "score": 277,
+    "in_both_datasets": true,
+    "questions_dataset_1": 152,
+    "questions_dataset_2": 143,
+    "total_problem_references": 152,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 23,
+      "medium": 102,
+      "hard": 27
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Sorting",
+      "Two Pointers",
+      "Breadth-First Search",
+      "Depth-First Search"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Walmart Labs",
+      "dataset_2/leetcode-companywise-interview-questions-master/walmart-labs"
+    ]
+  },
+  {
+    "rank": 18,
+    "name": "Adobe",
+    "normalized_key": "adobe",
+    "aliases": [],
+    "industry": "Creative Cloud / SaaS",
+    "tier_category": "Global Enterprise & Cloud",
+    "score": 273,
+    "in_both_datasets": true,
+    "questions_dataset_1": 148,
+    "questions_dataset_2": 147,
+    "total_problem_references": 148,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 29,
+      "medium": 96,
+      "hard": 23
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Math",
+      "Two Pointers",
+      "Depth-First Search",
+      "Sorting"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Adobe",
+      "dataset_2/leetcode-companywise-interview-questions-master/adobe"
+    ]
+  },
+  {
+    "rank": 19,
+    "name": "Visa",
+    "normalized_key": "visa",
+    "aliases": [],
+    "industry": "Payments / FinTech",
+    "tier_category": "Global FinTech / High-Frequency Data",
+    "score": 270,
+    "in_both_datasets": true,
+    "questions_dataset_1": 145,
+    "questions_dataset_2": 145,
+    "total_problem_references": 145,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 32,
+      "medium": 91,
+      "hard": 22
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Dynamic Programming",
+      "Sorting",
+      "Matrix",
+      "Two Pointers",
+      "Greedy"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Visa",
+      "dataset_2/leetcode-companywise-interview-questions-master/visa"
+    ]
+  },
+  {
+    "rank": 20,
+    "name": "Accenture",
+    "normalized_key": "accenture",
+    "aliases": [],
+    "industry": "Consulting / Technology Services",
+    "tier_category": "Major Mass Placement / Enterprise IT",
+    "score": 267,
+    "in_both_datasets": true,
+    "questions_dataset_1": 129,
+    "questions_dataset_2": 142,
+    "total_problem_references": 142,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 58,
+      "medium": 60,
+      "hard": 11
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Math",
+      "Hash Table",
+      "Dynamic Programming",
+      "Two Pointers",
+      "Sorting",
+      "Greedy"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Accenture",
+      "dataset_2/leetcode-companywise-interview-questions-master/accenture"
+    ]
+  },
+  {
+    "rank": 21,
+    "name": "Nvidia",
+    "normalized_key": "nvidia",
+    "aliases": [],
+    "industry": "Semiconductors / AI Computing",
+    "tier_category": "Tier-1 Hardware & AI Compute",
+    "score": 264,
+    "in_both_datasets": true,
+    "questions_dataset_1": 136,
+    "questions_dataset_2": 139,
+    "total_problem_references": 139,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 32,
+      "medium": 89,
+      "hard": 15
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Two Pointers",
+      "Math",
+      "Dynamic Programming",
+      "Linked List"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Nvidia",
+      "dataset_2/leetcode-companywise-interview-questions-master/nvidia"
+    ]
+  },
+  {
+    "rank": 22,
+    "name": "Yandex",
+    "normalized_key": "yandex",
+    "aliases": [],
+    "industry": "Internet / Search / Autonomous Tech",
+    "tier_category": "Global Product Tech",
+    "score": 256,
+    "in_both_datasets": true,
+    "questions_dataset_1": 131,
+    "questions_dataset_2": 130,
+    "total_problem_references": 131,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 51,
+      "medium": 71,
+      "hard": 9
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Two Pointers",
+      "Sliding Window",
+      "Sorting",
+      "Binary Search",
+      "Math"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Yandex",
+      "dataset_2/leetcode-companywise-interview-questions-master/yandex"
+    ]
+  },
+  {
+    "rank": 23,
+    "name": "D. E. Shaw",
+    "normalized_key": "de shaw",
+    "aliases": [
+      "De-Shaw"
+    ],
+    "industry": "Quantitative Finance / FinTech",
+    "tier_category": "Top Quantitative Finance / Hedge Fund",
+    "score": 241,
+    "in_both_datasets": true,
+    "questions_dataset_1": 116,
+    "questions_dataset_2": 105,
+    "total_problem_references": 116,
+    "overall_difficulty": "Hard",
+    "difficulty_breakdown": {
+      "easy": 14,
+      "medium": 71,
+      "hard": 31
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Dynamic Programming",
+      "String",
+      "Hash Table",
+      "Sorting",
+      "Greedy",
+      "Binary Search",
+      "Two Pointers"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/DE Shaw",
+      "dataset_2/leetcode-companywise-interview-questions-master/de-shaw"
+    ]
+  },
+  {
+    "rank": 24,
+    "name": "Flipkart",
+    "normalized_key": "flipkart",
+    "aliases": [],
+    "industry": "E-Commerce / Logistics Tech",
+    "tier_category": "Top Indian Product Unicorn",
+    "score": 233,
+    "in_both_datasets": true,
+    "questions_dataset_1": 108,
+    "questions_dataset_2": 106,
+    "total_problem_references": 108,
+    "overall_difficulty": "Hard",
+    "difficulty_breakdown": {
+      "easy": 8,
+      "medium": 71,
+      "hard": 29
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "Dynamic Programming",
+      "Sorting",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "String",
+      "Heap (Priority Queue)"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Flipkart",
+      "dataset_2/leetcode-companywise-interview-questions-master/flipkart"
+    ]
+  },
+  {
+    "rank": 25,
+    "name": "PayPal",
+    "normalized_key": "paypal",
+    "aliases": [
+      "Paypal"
+    ],
+    "industry": "Digital Payments / FinTech",
+    "tier_category": "Global FinTech / High-Frequency Data",
+    "score": 228,
+    "in_both_datasets": true,
+    "questions_dataset_1": 103,
+    "questions_dataset_2": 103,
+    "total_problem_references": 103,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 16,
+      "medium": 70,
+      "hard": 17
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Sorting",
+      "Dynamic Programming",
+      "Binary Search",
+      "Two Pointers",
+      "Greedy"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/PayPal",
+      "dataset_2/leetcode-companywise-interview-questions-master/paypal"
+    ]
+  },
+  {
+    "rank": 26,
+    "name": "Snowflake",
+    "normalized_key": "snowflake",
+    "aliases": [],
+    "industry": "Cloud Data Warehousing",
+    "tier_category": "Global Enterprise & Cloud",
+    "score": 227,
+    "in_both_datasets": true,
+    "questions_dataset_1": 101,
+    "questions_dataset_2": 102,
+    "total_problem_references": 102,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 13,
+      "medium": 68,
+      "hard": 20
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Hash Table",
+      "Breadth-First Search",
+      "Design",
+      "Dynamic Programming",
+      "Sorting"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Snowflake",
+      "dataset_2/leetcode-companywise-interview-questions-master/snowflake"
+    ]
+  },
+  {
+    "rank": 27,
+    "name": "PhonePe",
+    "normalized_key": "phonepe",
+    "aliases": [
+      "Phonepe"
+    ],
+    "industry": "FinTech / UPI Payments",
+    "tier_category": "Top Indian Product Unicorn",
+    "score": 225,
+    "in_both_datasets": true,
+    "questions_dataset_1": 95,
+    "questions_dataset_2": 100,
+    "total_problem_references": 100,
+    "overall_difficulty": "Hard",
+    "difficulty_breakdown": {
+      "easy": 3,
+      "medium": 55,
+      "hard": 37
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Dynamic Programming",
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Graph Theory"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/PhonePe",
+      "dataset_2/leetcode-companywise-interview-questions-master/phonepe"
+    ]
+  },
+  {
+    "rank": 28,
+    "name": "Citadel",
+    "normalized_key": "citadel",
+    "aliases": [],
+    "industry": "Hedge Fund / Market Making",
+    "tier_category": "Top Quantitative Finance / Hedge Fund",
+    "score": 214,
+    "in_both_datasets": true,
+    "questions_dataset_1": 87,
+    "questions_dataset_2": 89,
+    "total_problem_references": 89,
+    "overall_difficulty": "Hard",
+    "difficulty_breakdown": {
+      "easy": 6,
+      "medium": 51,
+      "hard": 30
+    },
+    "top_preparation_topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Design",
+      "Sorting",
+      "Depth-First Search",
+      "Math"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Citadel",
+      "dataset_2/leetcode-companywise-interview-questions-master/citadel"
+    ]
+  },
+  {
+    "rank": 29,
+    "name": "Cisco",
+    "normalized_key": "cisco",
+    "aliases": [],
+    "industry": "Networking / Enterprise Hardware",
+    "tier_category": "Networking / Enterprise Infrastructure",
+    "score": 213,
+    "in_both_datasets": true,
+    "questions_dataset_1": 88,
+    "questions_dataset_2": 84,
+    "total_problem_references": 88,
+    "overall_difficulty": "Medium",
+    "difficulty_breakdown": {
+      "easy": 22,
+      "medium": 50,
+      "hard": 16
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Hash Table",
+      "Two Pointers",
+      "Math",
+      "Dynamic Programming",
+      "Sorting",
+      "Matrix"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/Cisco",
+      "dataset_2/leetcode-companywise-interview-questions-master/cisco"
+    ]
+  },
+  {
+    "rank": 30,
+    "name": "DoorDash",
+    "normalized_key": "doordash",
+    "aliases": [
+      "Doordash"
+    ],
+    "industry": "On-Demand Delivery Tech",
+    "tier_category": "Tier-1 Product Tech",
+    "score": 202,
+    "in_both_datasets": true,
+    "questions_dataset_1": 74,
+    "questions_dataset_2": 77,
+    "total_problem_references": 77,
+    "overall_difficulty": "Hard",
+    "difficulty_breakdown": {
+      "easy": 7,
+      "medium": 42,
+      "hard": 25
+    },
+    "top_preparation_topics": [
+      "Array",
+      "String",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Hash Table",
+      "Matrix",
+      "Sorting",
+      "Math"
+    ],
+    "hiring_recency_windows": [
+      "30_days",
+      "3_months",
+      "6_months",
+      "more_than_6_months"
+    ],
+    "hiring_frequency": "High",
+    "job_roles": [
+      "Software Development Engineer (SDE)",
+      "Member of Technical Staff",
+      "Frontend / Backend Engineer"
+    ],
+    "salary_range": null,
+    "interview_rounds": null,
+    "sources": [
+      "dataset_1/leetcode-company-wise-problems-main/DoorDash",
+      "dataset_2/leetcode-companywise-interview-questions-master/doordash"
+    ]
+  }
+]

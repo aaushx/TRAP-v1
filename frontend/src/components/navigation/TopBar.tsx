@@ -45,7 +45,7 @@ export function TopBar({ title, userName, onMenuToggle }: TopBarProps) {
           className="
             md:hidden flex items-center justify-center
             w-9 h-9 rounded-lg
-            text-text-secondary hover:text-text-primary hover:bg-white/5
+            text-text-secondary hover:text-text-primary hover:bg-bg-container-high
             transition-colors duration-200
           "
           aria-label="Open navigation menu"

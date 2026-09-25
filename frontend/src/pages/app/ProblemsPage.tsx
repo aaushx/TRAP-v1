@@ -131,7 +131,7 @@ export default function ProblemsPage() {
           const { id: _id, user_id: _uid, created_at: _cat, updated_at: _uat, ...createData } = deletedProblem
           await addProblem(createData)
           addToast('Problem restored.', 'success')
-        } catch (err) {
+        } catch {
           addToast('Failed to restore problem.', 'error')
         }
       })
@@ -161,7 +161,7 @@ export default function ProblemsPage() {
             return addProblem(createData)
           }))
           addToast('Selected problems restored.', 'success')
-        } catch (err) {
+        } catch {
           addToast('Failed to restore problems.', 'error')
         }
       })
@@ -179,7 +179,7 @@ export default function ProblemsPage() {
     try {
       await toggleBookmark(id)
       addToast('Bookmark updated!', 'success')
-    } catch (err: any) {
+    } catch {
       addToast('Failed to update bookmark status', 'error')
     }
   }
@@ -224,7 +224,7 @@ export default function ProblemsPage() {
         </div>
         <button
           onClick={handleAdd}
-          className="flex items-center gap-2 bg-text-primary hover:bg-text-secondary text-bg-base px-4 py-2.5 rounded-md font-mono text-xs font-bold uppercase tracking-wider transition-colors cursor-pointer shrink-0"
+          className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-text-inverse px-4 py-2.5 rounded-md font-mono text-xs font-bold uppercase tracking-wider transition-colors cursor-pointer shrink-0"
         >
           <Plus className="w-4 h-4" />
           Add Problem
@@ -232,7 +232,7 @@ export default function ProblemsPage() {
       </div>
 
       {/* Filters Panel */}
-      <div className="bg-white border border-border-default rounded-md p-5 space-y-4 shadow-sm relative group">
+      <div className="bg-bg-surface border border-border-default rounded-md p-5 space-y-4 shadow-sm relative group">
         <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-20 dot-matrix-strip"></div>
         <div className="flex flex-col lg:flex-row gap-4 items-stretch lg:items-center mt-1">
           {/* Search Input */}
@@ -349,7 +349,7 @@ export default function ProblemsPage() {
       </div>
 
       {/* Main Problems Table Container */}
-      <div className="bg-white border border-border-default rounded-md overflow-hidden shadow-sm relative group">
+      <div className="bg-bg-surface border border-border-default rounded-md overflow-hidden shadow-sm relative group">
         <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-20 dot-matrix-strip"></div>
         {isLoading && problems.length === 0 ? (
           <ProblemsSkeleton />
@@ -372,7 +372,7 @@ export default function ProblemsPage() {
                       type="checkbox"
                       checked={selectedIds.length === problems.length && problems.length > 0}
                       onChange={handleSelectAll}
-                      className="w-4 h-4 rounded border-border-default bg-white text-primary focus:ring-primary cursor-pointer focus:outline-none"
+                      className="w-4 h-4 rounded border-border-default bg-bg-container-low text-primary focus:ring-primary cursor-pointer focus:outline-none"
                     />
                   </th>
                   <th className="px-6 py-4 font-bold">Problem</th>
@@ -400,7 +400,7 @@ export default function ProblemsPage() {
                           type="checkbox"
                           checked={isChecked}
                           onChange={() => handleSelectRow(problem.id)}
-                          className="w-4 h-4 rounded border-border-default bg-white text-primary focus:ring-primary cursor-pointer focus:outline-none"
+                          className="w-4 h-4 rounded border-border-default bg-bg-container-low text-primary focus:ring-primary cursor-pointer focus:outline-none"
                         />
                       </td>
 
@@ -418,14 +418,15 @@ export default function ProblemsPage() {
                           </button>
                           
                           <div className="flex items-center gap-2">
-                            <span className="font-semibold text-text-primary text-sm">{problem.title}</span>
+                            <span className="text-sm font-semibold text-text-primary group-hover:text-primary transition-colors">
+                              {problem.title}
+                            </span>
                             {problem.platform_url && (
                               <a
                                 href={problem.platform_url}
                                 target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-text-tertiary hover:text-text-primary transition-colors focus:outline-none"
-                                title="Open Link"
+                                rel="noreferrer"
+                                className="text-text-tertiary hover:text-primary transition-colors"
                               >
                                 <ExternalLink className="w-3.5 h-3.5" />
                               </a>
@@ -437,7 +438,7 @@ export default function ProblemsPage() {
                       {/* Topic */}
                       <td className="px-6 py-4 text-text-secondary text-xs font-mono uppercase">
                         {problem.topic ? (
-                          <span className="px-2 py-0.5 bg-white/5 border border-border-subtle rounded">
+                          <span className="px-2 py-0.5 bg-bg-container-low border border-border-default text-text-secondary rounded">
                             {problem.topic}
                           </span>
                         ) : '-'}

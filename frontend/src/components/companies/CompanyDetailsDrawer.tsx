@@ -1,17 +1,18 @@
 import { useState, useEffect } from 'react'
 import { 
   X, 
-  Building2, 
   Link as LinkIcon, 
   DollarSign, 
   FileText, 
   Trash2, 
   CheckCircle,
-  Sliders
+  Sliders,
+  Sparkles
 } from 'lucide-react'
 import { Company, CompanyUpdate } from '@/services/api/company'
 import { useCompanyStore } from '@/store/company.store'
 import { useToastStore } from '@/store/toast.store'
+import { CompanyLogo } from '@/components/common/CompanyLogo'
 import { motion } from 'framer-motion'
 
 interface CompanyDetailsDrawerProps {
@@ -52,7 +53,7 @@ export function CompanyDetailsDrawer({
       try {
         await editCompany(company.id, { notes })
         addToast('Notes autosaved', 'success')
-      } catch (err: any) {
+      } catch {
         addToast('Failed to autosave notes', 'error')
       } finally {
         setIsSavingNotes(false)
@@ -76,7 +77,7 @@ export function CompanyDetailsDrawer({
       
       await editCompany(company.id, payload)
       addToast(`Status updated to ${status}!`, 'success')
-    } catch (err: any) {
+    } catch {
       addToast('Failed to update status', 'error')
     }
   }
@@ -120,11 +121,9 @@ export function CompanyDetailsDrawer({
           className="w-screen max-w-lg bg-bg-surface border-l border-border-default shadow-glow-lg flex flex-col h-full"
         >
           {/* Header */}
-          <div className="p-6 border-b border-border-default flex items-center justify-between bg-white/[0.01]">
+          <div className="p-6 border-b border-border-default flex items-center justify-between bg-bg-container-low/20">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-violet-400/10 flex items-center justify-center text-violet-400">
-                <Building2 className="w-5 h-5" />
-              </div>
+              <CompanyLogo company={company.name} size="md" />
               <div>
                 <h2 className="text-lg font-bold text-text-primary">{company.name}</h2>
                 <p className="text-xs text-text-secondary">{company.role}</p>
@@ -134,7 +133,7 @@ export function CompanyDetailsDrawer({
             <div className="flex items-center gap-2">
               <button
                 onClick={() => onEditClick(company)}
-                className="p-2 text-text-secondary hover:text-text-primary hover:bg-white/5 rounded-lg transition-colors cursor-pointer"
+                className="p-2 text-text-secondary hover:text-text-primary hover:bg-bg-container-high rounded-lg transition-colors cursor-pointer"
                 title="Edit Details"
               >
                 <Sliders className="w-4 h-4" />
@@ -148,7 +147,7 @@ export function CompanyDetailsDrawer({
               </button>
               <button
                 onClick={onClose}
-                className="p-2 text-text-secondary hover:text-text-primary hover:bg-white/5 rounded-lg transition-colors cursor-pointer"
+                className="p-2 text-text-secondary hover:text-text-primary hover:bg-bg-container-high rounded-lg transition-colors cursor-pointer"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -158,7 +157,7 @@ export function CompanyDetailsDrawer({
           {/* Scrollable Content */}
           <div className="flex-1 overflow-y-auto p-6 space-y-8 custom-scrollbar">
             {/* Quick Details Grid */}
-            <div className="grid grid-cols-2 gap-4 p-4 bg-white/[0.02] border border-border-default rounded-xl text-sm">
+            <div className="grid grid-cols-2 gap-4 p-4 bg-bg-container-low border border-border-default rounded-xl text-sm">
               <div>
                 <span className="text-text-tertiary block mb-1">Salary Range</span>
                 <span className="text-text-primary font-medium flex items-center gap-1">
@@ -199,9 +198,9 @@ export function CompanyDetailsDrawer({
                         ${isActive ? 
                           status === 'offered' ? 'bg-success/15 border-success/30 text-success' :
                           status === 'rejected' ? 'bg-error/15 border-error/30 text-error' :
-                          status === 'interviewing' ? 'bg-purple-500/20 border-purple-500/30 text-purple-400' :
-                          'bg-violet-400/20 border-violet-400/30 text-violet-400'
-                          : 'bg-white/5 border-border-subtle text-text-secondary hover:bg-white/10 hover:border-text-tertiary'}
+                          status === 'interviewing' ? 'bg-info/15 border-info/30 text-info' :
+                          'bg-primary/15 border-primary/30 text-primary'
+                          : 'bg-bg-container-low border-border-default text-text-secondary hover:bg-bg-container-high hover:border-text-primary'}
                       `}
                     >
                       {status}
@@ -228,7 +227,7 @@ export function CompanyDetailsDrawer({
                       {/* Step bullet */}
                       <span className={`
                         absolute -left-[20px] top-1 w-5.5 h-5.5 rounded-full flex items-center justify-center z-10 border transition-all
-                        ${isCompleted ? 'bg-violet-500 border-violet-500 text-white shadow-glow-sm' : 
+                        ${isCompleted ? 'bg-primary border-primary text-text-inverse shadow-sm' : 
                           'bg-bg-surface border-border-default text-text-tertiary'}
                       `}>
                         {isCompleted ? <CheckCircle className="w-3.5 h-3.5" /> : idx + 1}
@@ -264,6 +263,49 @@ export function CompanyDetailsDrawer({
                 )}
               </div>
             </div>
+
+            {/* Preparation Intelligence (From LeetCode Top 30 Dataset) */}
+            {(company.tierCategory || company.industry || (company.preparationTopics && company.preparationTopics.length > 0)) && (
+              <div className="p-4 rounded-xl bg-violet-500/5 border border-violet-500/20 space-y-3">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-xs uppercase tracking-wider font-semibold text-violet-300 flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-violet-400" />
+                    Interview Preparation Intel
+                  </h3>
+                  {company.difficulty && (
+                    <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider ${
+                      company.difficulty.toLowerCase() === 'hard' 
+                        ? 'bg-error/20 text-error border border-error/30' 
+                        : 'bg-warning/20 text-warning border border-warning/30'
+                    }`}>
+                      {company.difficulty} Difficulty
+                    </span>
+                  )}
+                </div>
+
+                {company.tierCategory && (
+                  <p className="text-xs text-text-secondary">
+                    <span className="text-text-tertiary">Category:</span> {company.tierCategory}
+                  </p>
+                )}
+
+                {company.preparationTopics && company.preparationTopics.length > 0 && (
+                  <div className="space-y-1.5">
+                    <span className="text-[11px] text-text-tertiary font-medium block">Frequently Tested Topics:</span>
+                    <div className="flex flex-wrap gap-1.5">
+                      {company.preparationTopics.map((topic, idx) => (
+                        <span 
+                          key={idx} 
+                          className="px-2 py-0.5 rounded-md bg-bg-container-low border border-border-default text-[11px] text-text-primary font-mono"
+                        >
+                          {topic}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Notes Section with Auto-Save */}
             <div className="space-y-3">

@@ -1,12 +1,15 @@
 import { create } from 'zustand';
-import { Company, CompanyCreate, CompanyUpdate, CompanyQueryParams, companyApi } from '@/services/api/company';
+import { Company, CompanyCreate, CompanyUpdate, CompanyQueryParams, CompanyDirectoryItem, companyApi } from '@/services/api/company';
 
 interface CompanyState {
   companies: Company[];
+  directory: CompanyDirectoryItem[];
   isLoading: boolean;
+  isDirectoryLoading: boolean;
   error: string | null;
 
   fetchCompanies: (params?: CompanyQueryParams) => Promise<void>;
+  fetchDirectory: (search?: string) => Promise<void>;
   addCompany: (company: CompanyCreate) => Promise<void>;
   editCompany: (id: string, company: CompanyUpdate) => Promise<void>;
   removeCompany: (id: string) => Promise<void>;
@@ -15,8 +18,20 @@ interface CompanyState {
 
 export const useCompanyStore = create<CompanyState>((set) => ({
   companies: [],
+  directory: [],
   isLoading: false,
+  isDirectoryLoading: false,
   error: null,
+
+  fetchDirectory: async (search?: string) => {
+    set({ isDirectoryLoading: true });
+    try {
+      const directory = await companyApi.getDirectory(search);
+      set({ directory, isDirectoryLoading: false });
+    } catch {
+      set({ isDirectoryLoading: false });
+    }
+  },
 
   fetchCompanies: async (params) => {
     set({ isLoading: true, error: null });

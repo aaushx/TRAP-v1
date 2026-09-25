@@ -68,7 +68,8 @@ async def http_exception_handler(request: Request, exc: StarletteHTTPException):
 
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
     """Formats request body Pydantic payload validation errors cleanly."""
-    details = exc.errors()
+    from fastapi.encoders import jsonable_encoder
+    details = jsonable_encoder(exc.errors())
     logger.warning(f"Validation error on {request.url.path}: {details}")
     return JSONResponse(
         status_code=422,

@@ -89,7 +89,7 @@ export const EmptyState: FC<EmptyStateProps> = ({
       {actionLabel && onAction && (
         <button
           onClick={onAction}
-          className="px-5 py-2.5 bg-text-primary hover:bg-text-secondary text-bg-base text-xs font-mono font-bold uppercase tracking-wider rounded-md transition-colors cursor-pointer focus-visible:ring-1 focus-visible:ring-text-primary focus:outline-none"
+          className="px-5 py-2.5 bg-primary hover:bg-primary/90 text-text-inverse text-xs font-mono font-bold uppercase tracking-wider rounded-md transition-colors cursor-pointer focus-visible:ring-1 focus-visible:ring-primary focus:outline-none"
         >
           {actionLabel}
         </button>

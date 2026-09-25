@@ -82,8 +82,8 @@ export const ProblemModal: React.FC<ProblemModalProps> = ({ isOpen, onClose, pro
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const inputClasses = "w-full bg-black/20 border border-white/10 rounded-lg px-4 py-2.5 text-text-primary placeholder:text-text-secondary focus:outline-none focus:ring-2 focus:ring-violet-400/50 focus:border-violet-400/50 transition-all text-sm";
-  const labelClasses = "block text-sm font-medium text-text-secondary mb-1.5";
+  const inputClasses = "w-full bg-bg-container-low border border-border-default rounded-md px-4 py-2.5 text-text-primary placeholder:text-text-tertiary focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all text-sm";
+  const labelClasses = "block text-xs font-mono font-bold text-text-secondary uppercase tracking-wider mb-1.5";
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -102,17 +102,17 @@ export const ProblemModal: React.FC<ProblemModalProps> = ({ isOpen, onClose, pro
         animate={{ scale: 1, opacity: 1, y: 0 }}
         exit={{ scale: 0.95, opacity: 0, y: 8 }}
         transition={{ duration: 0.2 }}
-        className="relative w-full max-w-lg bg-bg-surface border border-border-default rounded-2xl shadow-glow-lg overflow-hidden flex flex-col max-h-[90vh]"
+        className="relative w-full max-w-lg bg-bg-surface border border-border-default rounded-md shadow-lg overflow-hidden flex flex-col max-h-[90vh]"
       >
         {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-border-default bg-white/[0.02]">
-          <h2 className="text-xl font-bold text-text-primary flex items-center gap-2">
-            <Code2 className="w-5 h-5 text-violet-400" />
+        <div className="flex items-center justify-between p-6 border-b border-border-default bg-bg-container-low/30">
+          <h2 className="text-xl font-bold text-text-primary flex items-center gap-2 font-display uppercase tracking-tight">
+            <Code2 className="w-5 h-5 text-primary" />
             {problemToEdit ? 'Edit Problem' : 'Add Problem'}
           </h2>
           <button
             onClick={onClose}
-            className="p-2 text-text-secondary hover:text-text-primary rounded-lg hover:bg-white/5 transition-colors cursor-pointer"
+            className="p-2 text-text-secondary hover:text-text-primary rounded hover:bg-bg-container-high transition-colors cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -263,11 +263,11 @@ export const ProblemModal: React.FC<ProblemModalProps> = ({ isOpen, onClose, pro
         </form>
 
         {/* Footer */}
-        <div className="p-6 border-t border-border-default flex justify-end gap-3 bg-white/[0.01]">
+        <div className="p-6 border-t border-border-default flex justify-end gap-3 bg-bg-container-low/30">
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 text-sm font-semibold text-text-secondary hover:text-text-primary bg-white/5 hover:bg-white/10 rounded-xl transition-colors cursor-pointer"
+            className="px-4 py-2 text-xs font-mono font-bold uppercase tracking-wider text-text-secondary hover:text-text-primary bg-bg-container-low hover:bg-bg-container-high border border-border-default rounded-md transition-colors cursor-pointer"
           >
             Cancel
           </button>
@@ -275,7 +275,7 @@ export const ProblemModal: React.FC<ProblemModalProps> = ({ isOpen, onClose, pro
             type="submit"
             form="problem-form"
             disabled={isSubmitting}
-            className="px-6 py-2 text-sm font-semibold text-white bg-brand-primary hover:bg-brand-primary/90 rounded-xl transition-colors disabled:opacity-50 disabled:cursor-wait flex items-center gap-2 shadow-glow-sm cursor-pointer"
+            className="px-6 py-2 text-xs font-mono font-bold uppercase tracking-wider text-text-inverse bg-primary hover:bg-primary/90 rounded-md transition-colors disabled:opacity-50 disabled:cursor-wait flex items-center gap-2 cursor-pointer"
           >
             {isSubmitting ? 'Saving...' : problemToEdit ? 'Save Changes' : 'Add Problem'}
           </button>

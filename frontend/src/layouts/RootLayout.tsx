@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import { ToastContainer } from '@/components/common/ToastContainer'
+import { ErrorBoundary } from '@/components/common/ErrorBoundary'
 
 /**
  * Root layout wraps the entire application.
@@ -8,9 +9,11 @@ import { ToastContainer } from '@/components/common/ToastContainer'
  */
 export function RootLayout() {
   return (
-    <div className="min-h-dvh bg-bg-base text-text-primary antialiased">
-      <Outlet />
-      <ToastContainer />
-    </div>
+    <ErrorBoundary>
+      <div className="min-h-dvh bg-bg-base text-text-primary antialiased">
+        <Outlet />
+        <ToastContainer />
+      </div>
+    </ErrorBoundary>
   )
 }

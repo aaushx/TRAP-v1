@@ -43,10 +43,25 @@ const ROLES = [
 ]
 
 const COMPANIES = [
-  'Google', 'Amazon', 'Microsoft', 'Apple', 'Meta',
-  'TCS', 'Infosys', 'Wipro', 'Cognizant', 'Accenture', 'IBM'
+  'Google', 'Amazon', 'Meta', 'Microsoft', 'Bloomberg', 'Uber',
+  'TikTok', 'Oracle', 'Apple', 'Goldman Sachs', 'TCS', 'Infosys',
+  'Salesforce', 'IBM', 'LinkedIn', 'Zoho', 'Walmart Labs', 'Adobe',
+  'Visa', 'Accenture', 'Nvidia', 'Yandex', 'D. E. Shaw', 'Flipkart',
+  'PayPal', 'Snowflake', 'PhonePe', 'Citadel', 'Cisco', 'DoorDash'
 ]
 
+const STEP_LABELS = [
+  'Basic Information',
+  'Focus Areas',
+  'Topic Library',
+  'Organize Milestones',
+  'Review & Create',
+]
+
+/**
+ * GoalBuilder component providing a full-page workspace for designing
+ * a tailored, company-aligned DSA & placement preparation roadmap.
+ */
 export default function GoalBuilder() {
   const { fetchLibraryAndCompanies } = useGoalStore()
 
@@ -73,61 +88,98 @@ export default function GoalBuilder() {
 
   return (
     <BuilderContext.Provider value={{ state, setState, nextStep, prevStep }}>
-      <div className="max-w-6xl mx-auto py-8 px-4 flex flex-col h-[calc(100vh-80px)]">
-        {/* Header */}
-        <div className="mb-6 shrink-0">
-          <Link to="/app/goals" className="inline-flex items-center text-sm text-text-tertiary hover:text-text-primary transition-colors mb-4">
-            <ArrowLeft className="w-4 h-4 mr-1" />
-            Back to Goals
-          </Link>
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold text-text-primary flex items-center gap-2">
-                <Target className="w-6 h-6 text-violet-400" />
-                Goal Workspace
-              </h1>
-              <p className="text-text-secondary mt-1 text-sm">Design your ultimate preparation goal.</p>
-            </div>
+      <div className="w-full max-w-[1400px] mx-auto pb-16 flex flex-col min-h-[calc(100vh-140px)]">
+        {/* Workspace Top Navigation & Header */}
+        <div className="mb-6 shrink-0 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <Link 
+              to="/app/goals" 
+              className="inline-flex items-center text-xs font-mono font-bold uppercase tracking-wider text-text-tertiary hover:text-text-primary transition-colors mb-2"
+            >
+              <ArrowLeft className="w-3.5 h-3.5 mr-1" />
+              Back to Goals
+            </Link>
+            <h1 className="text-2xl font-bold font-display text-primary flex items-center gap-2.5 uppercase tracking-tight">
+              <Target className="w-6 h-6 text-primary" />
+              Goal Workspace
+            </h1>
+            <p className="text-text-secondary mt-1 text-xs font-mono">
+              Design your placement preparation roadmap, target companies, and milestones.
+            </p>
           </div>
         </div>
 
-        {/* Progress Bar */}
-        <div className="flex items-center justify-between mb-6 relative max-w-3xl mx-auto w-full shrink-0">
-          <div className="absolute left-0 top-1/2 -translate-y-1/2 w-full h-1 bg-white/5 rounded-full z-0" />
+        {/* Step Progress Stepper with Labels */}
+        <div className="mb-8 relative max-w-4xl mx-auto w-full shrink-0 px-4">
+          <div className="absolute left-8 right-8 top-5 h-0.5 bg-bg-container-high z-0" />
           <div 
-            className="absolute left-0 top-1/2 -translate-y-1/2 h-1 bg-violet-500 rounded-full z-0 transition-all duration-300" 
-            style={{ width: `${((step - 1) / 4) * 100}%` }}
+            className="absolute left-8 top-5 h-0.5 bg-primary transition-all duration-300 z-0" 
+            style={{ width: `calc(${((step - 1) / 4) * 100}% - ${((step - 1) / 4) * 16}px)` }}
           />
-          {[1, 2, 3, 4, 5].map((s) => (
-            <div 
-              key={s} 
-              className={`
-                w-10 h-10 rounded-full flex items-center justify-center font-bold z-10 transition-colors text-sm
-                ${step === s ? 'bg-violet-500 text-white shadow-glow-sm' : 
-                  step > s ? 'bg-violet-500 text-white' : 'bg-bg-surface border-2 border-white/10 text-text-tertiary'}
-              `}
-            >
-              {step > s ? <CheckCircle2 className="w-5 h-5" /> : s}
-            </div>
-          ))}
+          <div className="relative z-10 flex justify-between items-start">
+            {[1, 2, 3, 4, 5].map((s) => (
+              <div key={s} className="flex flex-col items-center group">
+                <button
+                  type="button"
+                  onClick={() => s < step && setStep(s)}
+                  disabled={s > step}
+                  className={`
+                    w-10 h-10 rounded-full flex items-center justify-center font-mono font-bold transition-all text-xs border
+                    ${step === s 
+                      ? 'bg-primary text-text-inverse border-primary ring-4 ring-primary/10 shadow-sm' 
+                      : step > s 
+                      ? 'bg-primary text-text-inverse border-primary cursor-pointer hover:bg-secondary' 
+                      : 'bg-bg-surface border-border-default text-text-tertiary cursor-not-allowed'}
+                  `}
+                >
+                  {step > s ? <CheckCircle2 className="w-5 h-5" /> : s}
+                </button>
+                <span className={`mt-2 text-[11px] font-mono uppercase tracking-wider hidden md:block ${
+                  step === s ? 'font-bold text-primary' : 'text-text-tertiary'
+                }`}>
+                  {STEP_LABELS[s - 1]}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Step Content */}
-        <div className="flex-1 bg-bg-surface border border-border-default rounded-xl shadow-glow-sm overflow-hidden flex flex-col">
+        {/* Dynamic Step Content Container */}
+        <div className="flex-1 w-full flex flex-col">
           <AnimatePresence mode="wait">
             <motion.div
               key={step}
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.2 }}
-              className="flex-1 overflow-y-auto p-6 md:p-8"
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.2, ease: 'easeOut' }}
+              className="w-full flex-1 flex flex-col"
             >
               {step === 1 && <Step1Details roles={ROLES} companies={COMPANIES} />}
-              {step === 2 && <Step2Categories />}
-              {step === 3 && <Step3TopicLibrary />}
-              {step === 4 && <Step4Organize />}
-              {step === 5 && <Step5Review />}
+              {step === 2 && (
+                <div className="bg-bg-surface border border-border-default rounded-xl p-6 sm:p-8 lg:p-10 shadow-sm flex-1 flex flex-col relative">
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-xl opacity-25 dot-matrix-strip" />
+                  <Step2Categories />
+                </div>
+              )}
+              {step === 3 && (
+                <div className="bg-bg-surface border border-border-default rounded-xl p-6 sm:p-8 lg:p-10 shadow-sm flex-1 flex flex-col relative">
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-xl opacity-25 dot-matrix-strip" />
+                  <Step3TopicLibrary />
+                </div>
+              )}
+              {step === 4 && (
+                <div className="bg-bg-surface border border-border-default rounded-xl p-6 sm:p-8 lg:p-10 shadow-sm flex-1 flex flex-col relative">
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-xl opacity-25 dot-matrix-strip" />
+                  <Step4Organize />
+                </div>
+              )}
+              {step === 5 && (
+                <div className="bg-bg-surface border border-border-default rounded-xl p-6 sm:p-8 lg:p-10 shadow-sm flex-1 flex flex-col relative">
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-xl opacity-25 dot-matrix-strip" />
+                  <Step5Review />
+                </div>
+              )}
             </motion.div>
           </AnimatePresence>
         </div>

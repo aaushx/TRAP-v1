@@ -89,5 +89,65 @@ export const goalApi = {
 
   delete: async (id: string) => {
     await apiClient.delete(`/goals/${id}`)
+  },
+
+  getCompanyPreparation: async (goalId: string, params?: {
+    company?: string
+    topic?: string
+    difficulty?: string
+    status?: string
+    search?: string
+    skip?: number
+    limit?: number
+  }) => {
+    const response = await apiClient.get<CompanyPreparationResponse>(`/goals/${goalId}/company-preparation`, { params })
+    return response.data
+  },
+
+  updateQuestionProgress: async (questionId: string, status: 'not_started' | 'attempted' | 'solved' | 'needs_revision', notes?: string) => {
+    const response = await apiClient.patch(`/goals/questions/${questionId}/progress`, { status, notes })
+    return response.data
   }
+}
+
+export interface CompanyQuestion {
+  id: string
+  title: string
+  slug: string
+  difficulty: string
+  platform_url?: string
+  topics: string[]
+  companies: string[]
+  company_count: number
+  acceptance_rate?: string
+  frequency?: string
+  status: 'not_started' | 'attempted' | 'solved' | 'needs_revision'
+  user_notes?: string
+}
+
+export interface CompanyPreparationStats {
+  company_name: string
+  total_questions: number
+  solved_questions: number
+  progress_percentage: number
+  topics_covered: number
+  total_topics: number
+}
+
+export interface TopicPreparationBreakdown {
+  topic_name: string
+  total_questions: number
+  solved_questions: number
+}
+
+export interface CompanyPreparationResponse {
+  goal_id: string
+  goal_title: string
+  target_companies: string[]
+  overall_progress_percentage: number
+  total_unique_questions: number
+  solved_unique_questions: number
+  company_stats: CompanyPreparationStats[]
+  topic_breakdown: TopicPreparationBreakdown[]
+  questions: CompanyQuestion[]
 }

@@ -32,8 +32,10 @@ const config: Config = {
         'bg-container-highest': 'var(--color-bg-container-highest)',
 
         // Brand colors
-        'primary':    'var(--color-brand-primary)',
-        'secondary':  'var(--color-brand-secondary)',
+        'primary':          'var(--color-brand-primary)',
+        'secondary':        'var(--color-brand-secondary)',
+        'brand-primary':    'var(--color-brand-primary)',
+        'brand-secondary':  'var(--color-brand-secondary)',
 
         // Dynamic fallback mapping for old brand color references (Violet -> Charcoal / Red)
         'violet': {
@@ -66,11 +68,28 @@ const config: Config = {
         'text-secondary': 'var(--color-text-secondary)',
         'text-tertiary':  'var(--color-text-tertiary)',
         'text-disabled':  'var(--color-text-disabled)',
+        'text-inverse':   'var(--color-text-inverse)',
+        'inverse':        'var(--color-text-inverse)',
 
         // Border colors
         'border-subtle':  'var(--color-border-subtle)',
         'border-default': 'var(--color-border-default)',
         'border-strong':  'var(--color-border-strong)',
+
+        // Button colors
+        'btn-primary-bg':       'var(--button-primary-bg)',
+        'btn-primary-text':     'var(--button-primary-text)',
+        'btn-secondary-bg':     'var(--button-secondary-bg)',
+        'btn-secondary-text':   'var(--button-secondary-text)',
+        'btn-surface-bg':       'var(--button-surface-bg)',
+        'btn-surface-text':     'var(--button-surface-text)',
+        'btn-outline-border':   'var(--button-outline-border)',
+        'btn-outline-text':     'var(--button-outline-text)',
+        'btn-ghost-text':       'var(--button-ghost-text)',
+        'btn-destructive-bg':   'var(--button-destructive-bg)',
+        'btn-destructive-text': 'var(--button-destructive-text)',
+        'btn-disabled-bg':      'var(--button-disabled-bg)',
+        'btn-disabled-text':    'var(--button-disabled-text)',
       },
 
       // ── Spacing ───────────────────────────────────────────

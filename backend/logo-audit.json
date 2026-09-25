@@ -1,0 +1,427 @@
+{
+  "totalCompanies": 712,
+  "verified": 0,
+  "missing": 0,
+  "fallback": 83,
+  "suspectedWrong": 0,
+  "broken": 629,
+  "duplicate": 0,
+  "timestamp": "2026-09-11T07:34:24.661Z",
+  "fallbackCompanies": [
+    {
+      "company": "Zopsmart",
+      "slug": "zopsmart",
+      "questionCount": 16
+    },
+    {
+      "company": "Dream11",
+      "slug": "dream11",
+      "questionCount": 13
+    },
+    {
+      "company": "Millennium",
+      "slug": "millennium",
+      "questionCount": 12
+    },
+    {
+      "company": "C3 Ai",
+      "slug": "c3-ai",
+      "questionCount": 11
+    },
+    {
+      "company": "Wissen Technology",
+      "slug": "wissen-technology",
+      "questionCount": 11
+    },
+    {
+      "company": "Weride",
+      "slug": "weride",
+      "questionCount": 10
+    },
+    {
+      "company": "Confluent",
+      "slug": "confluent",
+      "questionCount": 9
+    },
+    {
+      "company": "Hrt",
+      "slug": "hrt",
+      "questionCount": 9
+    },
+    {
+      "company": "Lti",
+      "slug": "lti",
+      "questionCount": 9
+    },
+    {
+      "company": "Info Edge",
+      "slug": "info-edge",
+      "questionCount": 8
+    },
+    {
+      "company": "Graviton",
+      "slug": "graviton",
+      "questionCount": 7
+    },
+    {
+      "company": "Lime",
+      "slug": "lime",
+      "questionCount": 7
+    },
+    {
+      "company": "Optum",
+      "slug": "optum",
+      "questionCount": 7
+    },
+    {
+      "company": "Comcast",
+      "slug": "comcast",
+      "questionCount": 6
+    },
+    {
+      "company": "Paypay",
+      "slug": "paypay",
+      "questionCount": 6
+    },
+    {
+      "company": "Texas Instruments",
+      "slug": "texas-instruments",
+      "questionCount": 6
+    },
+    {
+      "company": "Mindtree",
+      "slug": "mindtree",
+      "questionCount": 5
+    },
+    {
+      "company": "Airbus Se",
+      "slug": "airbus-se",
+      "questionCount": 4
+    },
+    {
+      "company": "Cohesity",
+      "slug": "cohesity",
+      "questionCount": 4
+    },
+    {
+      "company": "Gameskraft",
+      "slug": "gameskraft",
+      "questionCount": 4
+    },
+    {
+      "company": "Liftoff",
+      "slug": "liftoff",
+      "questionCount": 4
+    },
+    {
+      "company": "Otter.ai",
+      "slug": "otterai",
+      "questionCount": 4
+    },
+    {
+      "company": "Tusimple",
+      "slug": "tusimple",
+      "questionCount": 4
+    },
+    {
+      "company": "Works Applications",
+      "slug": "works-applications",
+      "questionCount": 4
+    },
+    {
+      "company": "Apollo.io",
+      "slug": "apolloio",
+      "questionCount": 3
+    },
+    {
+      "company": "Aqr Capital Management",
+      "slug": "aqr-capital-management",
+      "questionCount": 3
+    },
+    {
+      "company": "Buyhatke",
+      "slug": "buyhatke",
+      "questionCount": 3
+    },
+    {
+      "company": "Deltax",
+      "slug": "deltax",
+      "questionCount": 3
+    },
+    {
+      "company": "Ge Digital",
+      "slug": "ge-digital",
+      "questionCount": 3
+    },
+    {
+      "company": "Hilabs",
+      "slug": "hilabs",
+      "questionCount": 3
+    },
+    {
+      "company": "Park",
+      "slug": "park",
+      "questionCount": 3
+    },
+    {
+      "company": "Porter",
+      "slug": "porter",
+      "questionCount": 3
+    },
+    {
+      "company": "Ramp 2",
+      "slug": "ramp-2",
+      "questionCount": 3
+    },
+    {
+      "company": "Tower Research Capital",
+      "slug": "tower-research-capital",
+      "questionCount": 3
+    },
+    {
+      "company": "Analytics Quotient",
+      "slug": "analytics-quotient",
+      "questionCount": 2
+    },
+    {
+      "company": "Argo Ai",
+      "slug": "argo-ai",
+      "questionCount": 2
+    },
+    {
+      "company": "Cerner",
+      "slug": "cerner",
+      "questionCount": 2
+    },
+    {
+      "company": "Jtg",
+      "slug": "jtg",
+      "questionCount": 2
+    },
+    {
+      "company": "Kotak Mahindra Bank",
+      "slug": "kotak-mahindra-bank",
+      "questionCount": 2
+    },
+    {
+      "company": "Luxoft",
+      "slug": "luxoft",
+      "questionCount": 2
+    },
+    {
+      "company": "Mckinsey",
+      "slug": "mckinsey",
+      "questionCount": 2
+    },
+    {
+      "company": "National Payments Coorperation India",
+      "slug": "national-payments-coorperation-india",
+      "questionCount": 2
+    },
+    {
+      "company": "National Payments Corporation Of India",
+      "slug": "national-payments-corporation-of-india",
+      "questionCount": 2
+    },
+    {
+      "company": "Netease",
+      "slug": "netease",
+      "questionCount": 2
+    },
+    {
+      "company": "Observeai",
+      "slug": "observeai",
+      "questionCount": 2
+    },
+    {
+      "company": "Shift Technology",
+      "slug": "shift-technology",
+      "questionCount": 2
+    },
+    {
+      "company": "1kosmos",
+      "slug": "1kosmos",
+      "questionCount": 1
+    },
+    {
+      "company": "Allincall",
+      "slug": "allincall",
+      "questionCount": 1
+    },
+    {
+      "company": "Alphonso",
+      "slug": "alphonso",
+      "questionCount": 1
+    },
+    {
+      "company": "Bp",
+      "slug": "bp",
+      "questionCount": 1
+    },
+    {
+      "company": "Bt Group",
+      "slug": "bt-group",
+      "questionCount": 1
+    },
+    {
+      "company": "Code Studio",
+      "slug": "code-studio",
+      "questionCount": 1
+    },
+    {
+      "company": "Coinswitch Kuber",
+      "slug": "coinswitch-kuber",
+      "questionCount": 1
+    },
+    {
+      "company": "Curefit",
+      "slug": "curefit",
+      "questionCount": 1
+    },
+    {
+      "company": "Dassault Sysetmes",
+      "slug": "dassault-sysetmes",
+      "questionCount": 1
+    },
+    {
+      "company": "Drawbridge",
+      "slug": "drawbridge",
+      "questionCount": 1
+    },
+    {
+      "company": "Fastenal",
+      "slug": "fastenal",
+      "questionCount": 1
+    },
+    {
+      "company": "Iit Bombay",
+      "slug": "iit-bombay",
+      "questionCount": 1
+    },
+    {
+      "company": "Jd",
+      "slug": "jd",
+      "questionCount": 1
+    },
+    {
+      "company": "Jingchi",
+      "slug": "jingchi",
+      "questionCount": 1
+    },
+    {
+      "company": "Leap Motion",
+      "slug": "leap-motion",
+      "questionCount": 1
+    },
+    {
+      "company": "Lendingkart Technologies",
+      "slug": "lendingkart-technologies",
+      "questionCount": 1
+    },
+    {
+      "company": "Netcracker Technology",
+      "slug": "netcracker-technology",
+      "questionCount": 1
+    },
+    {
+      "company": "Playsimple",
+      "slug": "playsimple",
+      "questionCount": 1
+    },
+    {
+      "company": "Quantiphi",
+      "slug": "quantiphi",
+      "questionCount": 1
+    },
+    {
+      "company": "Reliance Retails",
+      "slug": "reliance-retails",
+      "questionCount": 1
+    },
+    {
+      "company": "Sambanova",
+      "slug": "sambanova",
+      "questionCount": 1
+    },
+    {
+      "company": "Scale Ai",
+      "slug": "scale-ai",
+      "questionCount": 1
+    },
+    {
+      "company": "Soti",
+      "slug": "soti",
+      "questionCount": 1
+    },
+    {
+      "company": "Synopsys",
+      "slug": "synopsys",
+      "questionCount": 1
+    },
+    {
+      "company": "Ta Digital",
+      "slug": "ta-digital",
+      "questionCount": 1
+    },
+    {
+      "company": "Tiaa",
+      "slug": "tiaa",
+      "questionCount": 1
+    },
+    {
+      "company": "Triplebyte",
+      "slug": "triplebyte",
+      "questionCount": 1
+    },
+    {
+      "company": "Wayve",
+      "slug": "wayve",
+      "questionCount": 1
+    },
+    {
+      "company": "Winzo",
+      "slug": "winzo",
+      "questionCount": 1
+    },
+    {
+      "company": "Woven By Toyota",
+      "slug": "woven-by-toyota",
+      "questionCount": 1
+    },
+    {
+      "company": "Zeta Suite",
+      "slug": "zeta-suite",
+      "questionCount": 1
+    },
+    {
+      "company": "Bill Holdings",
+      "slug": "bill-holdings",
+      "questionCount": 0
+    },
+    {
+      "company": "Block",
+      "slug": "block",
+      "questionCount": 0
+    },
+    {
+      "company": "Dxc Technology",
+      "slug": "dxc-technology",
+      "questionCount": 0
+    },
+    {
+      "company": "Hiver",
+      "slug": "hiver",
+      "questionCount": 0
+    },
+    {
+      "company": "Ola Cabs",
+      "slug": "ola-cabs",
+      "questionCount": 0
+    },
+    {
+      "company": "Palantir Technologies",
+      "slug": "palantir-technologies",
+      "questionCount": 0
+    }
+  ]
+}

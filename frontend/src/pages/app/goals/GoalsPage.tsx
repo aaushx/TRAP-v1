@@ -34,7 +34,7 @@ export default function GoalsPage() {
         </div>
         <Link
           to="/app/goals/new"
-          className="flex items-center gap-2 px-4 py-2.5 bg-text-primary hover:bg-text-secondary text-bg-base rounded-md font-mono text-xs font-bold uppercase tracking-wider transition-colors shadow-sm focus:outline-none"
+          className="flex items-center gap-2 px-4 py-2.5 bg-primary hover:bg-primary/90 text-text-inverse rounded-md font-mono text-xs font-bold uppercase tracking-wider transition-colors shadow-sm focus:outline-none"
         >
           <Plus className="w-4 h-4" />
           Create New Goal
@@ -64,7 +64,7 @@ export default function GoalsPage() {
             <Link
               key={goal.id}
               to={`/app/goals/${goal.id}`}
-              className="group flex flex-col p-5 bg-white border border-border-default hover:border-primary rounded-md transition-all relative"
+              className="group flex flex-col p-5 bg-bg-surface border border-border-default hover:border-primary rounded-md transition-all relative"
             >
               {/* Top Stripe Accent */}
               <div className="absolute top-0 left-0 right-0 h-1 bg-bg-container-high rounded-t-md opacity-25 dot-matrix-strip"></div>

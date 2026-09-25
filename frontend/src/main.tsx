@@ -20,6 +20,10 @@ import { router } from './router'
 // ── Global Styles ─────────────────────────────────────────────
 // global.css imports tokens.css and all @fontsource fonts
 import '@/styles/global.css'
+import { useThemeStore } from '@/store/theme.store'
+
+// Initialize theme immediately on mount
+useThemeStore.getState().initializeTheme()
 
 // ── Mount ─────────────────────────────────────────────────────
 const rootElement = document.getElementById('root')

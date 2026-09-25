@@ -104,48 +104,52 @@ export function Step5Review() {
   }
 
   return (
-    <div className="flex flex-col h-full max-w-4xl mx-auto">
-      <div className="text-center mb-8 shrink-0">
-        <h2 className="text-3xl font-bold text-text-primary mb-2">Review Your Goal</h2>
-        <p className="text-text-secondary">Everything looks great. Let's do a final check before building your workspace.</p>
+    <div className="flex flex-col space-y-8 max-w-4xl mx-auto w-full">
+      <div className="text-center shrink-0 border-b border-border-default border-dashed pb-6">
+        <h2 className="text-2xl font-bold font-display text-primary uppercase tracking-tight mb-2">
+          Review Your Preparation Goal
+        </h2>
+        <p className="text-text-secondary font-mono text-xs max-w-lg mx-auto">
+          Everything is set. Verify your target parameters before generating your customized placement workspace.
+        </p>
       </div>
 
-      <div className="flex-1 overflow-y-auto space-y-6 min-h-0 pr-2">
-        
-        {/* Core Info */}
-        <div className="bg-bg-surface border border-border-default rounded-xl p-6 shadow-glow-sm">
-          <div className="flex items-start justify-between">
+      <div className="space-y-6">
+        {/* Core Info Card */}
+        <div className="bg-bg-base border border-border-default rounded-xl p-6 shadow-sm">
+          <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
             <div>
-              <h3 className="text-2xl font-bold text-violet-400 mb-1">{state.title}</h3>
-              <p className="text-text-secondary">{state.description || 'No description provided'}</p>
+              <span className="text-[10px] font-mono uppercase text-text-tertiary tracking-wider block mb-1">Goal Plan</span>
+              <h3 className="text-xl font-bold font-display text-primary mb-1 uppercase tracking-tight">{state.title}</h3>
+              <p className="text-text-secondary text-xs">{state.description || 'No detailed description provided'}</p>
             </div>
-            <div className="text-right">
-              <span className="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-border-default rounded-full text-sm">
-                <Target className="w-4 h-4 text-violet-400" />
+            <div className="sm:text-right shrink-0">
+              <span className="inline-flex items-center gap-2 px-3 py-1.5 bg-bg-surface border border-border-default rounded-full text-xs font-mono font-bold text-primary">
+                <Target className="w-3.5 h-3.5 text-primary" />
                 {state.targetRole}
               </span>
             </div>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 pt-6 border-t border-border-default">
-            <div>
-              <span className="text-xs text-text-tertiary block mb-1">Topics</span>
-              <span className="text-lg font-bold text-text-primary">{state.selectedTopics.length}</span>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 pt-6 border-t border-border-default font-mono">
+            <div className="p-3 bg-bg-surface rounded border border-border-default/60">
+              <span className="text-[10px] text-text-tertiary uppercase block mb-1">Topics</span>
+              <span className="text-base font-bold text-primary">{state.selectedTopics.length}</span>
             </div>
-            <div>
-              <span className="text-xs text-text-tertiary block mb-1">Est. Time</span>
-              <span className="text-lg font-bold text-text-primary flex items-center gap-1">
-                <Clock className="w-4 h-4" /> {Math.round(totalHours)}h
+            <div className="p-3 bg-bg-surface rounded border border-border-default/60">
+              <span className="text-[10px] text-text-tertiary uppercase block mb-1">Est. Time</span>
+              <span className="text-base font-bold text-primary flex items-center gap-1">
+                <Clock className="w-3.5 h-3.5 text-text-tertiary" /> {Math.round(totalHours)}h
               </span>
             </div>
-            <div>
-              <span className="text-xs text-text-tertiary block mb-1">Pace</span>
-              <span className="text-lg font-bold text-text-primary">{state.dailyStudyHours}h / day</span>
+            <div className="p-3 bg-bg-surface rounded border border-border-default/60">
+              <span className="text-[10px] text-text-tertiary uppercase block mb-1">Pace</span>
+              <span className="text-base font-bold text-primary">{state.dailyStudyHours}h / day</span>
             </div>
-            <div>
-              <span className="text-xs text-text-tertiary block mb-1">Est. Completion</span>
-              <span className="text-lg font-bold text-text-primary flex items-center gap-1">
-                <Calendar className="w-4 h-4" /> {estimatedDays} days
+            <div className="p-3 bg-bg-surface rounded border border-border-default/60">
+              <span className="text-[10px] text-text-tertiary uppercase block mb-1">Est. Duration</span>
+              <span className="text-base font-bold text-primary flex items-center gap-1">
+                <Calendar className="w-3.5 h-3.5 text-text-tertiary" /> {estimatedDays} days
               </span>
             </div>
           </div>
@@ -153,15 +157,15 @@ export function Step5Review() {
 
         {/* Health Checks */}
         {warnings.length > 0 && (
-          <div className="bg-warning/10 border border-warning/20 rounded-xl p-6">
-            <h4 className="font-bold text-warning mb-3 flex items-center gap-2">
-              <AlertTriangle className="w-5 h-5" />
-              Goal Health Warnings
+          <div className="bg-warning/10 border border-warning/25 rounded-xl p-5">
+            <h4 className="font-mono text-xs font-bold uppercase text-warning mb-2.5 flex items-center gap-2">
+              <AlertTriangle className="w-4 h-4" />
+              Goal Preparation Warnings ({warnings.length})
             </h4>
-            <ul className="space-y-2">
+            <ul className="space-y-1.5 font-mono text-xs text-warning/90">
               {warnings.map((w, i) => (
-                <li key={i} className="text-sm text-warning/90 flex items-start gap-2">
-                  <span className="mt-1">•</span> {w}
+                <li key={i} className="flex items-start gap-2">
+                  <span className="text-warning">•</span> {w}
                 </li>
               ))}
             </ul>
@@ -169,38 +173,40 @@ export function Step5Review() {
         )}
 
         {warnings.length === 0 && (
-          <div className="bg-success/10 border border-success/20 rounded-xl p-6 flex items-center gap-4">
-            <CheckCircle className="w-8 h-8 text-success" />
+          <div className="bg-success/10 border border-success/25 rounded-xl p-5 flex items-center gap-4">
+            <CheckCircle className="w-6 h-6 text-success shrink-0" />
             <div>
-              <h4 className="font-bold text-success">Perfectly Optimized</h4>
-              <p className="text-sm text-success/80">Your goal has no warnings and is perfectly structured.</p>
+              <h4 className="font-mono text-xs font-bold uppercase text-success">Optimally Structured</h4>
+              <p className="text-xs text-success/90 mt-0.5">Your goal configuration covers core topics, deadlines, and realistic daily commitments.</p>
             </div>
           </div>
         )}
         
         {error && (
-          <div className="p-4 bg-error/10 border border-error/20 text-error rounded-xl">
+          <div className="p-4 bg-error/10 border border-error/25 text-error rounded-xl font-mono text-xs">
             {error}
           </div>
         )}
-
       </div>
 
-      <div className="pt-6 mt-2 border-t border-border-default flex justify-between shrink-0">
+      {/* Bottom Action Toolbar */}
+      <div className="pt-6 border-t border-border-default flex items-center justify-between gap-4 shrink-0">
         <button
+          type="button"
           onClick={prevStep}
           disabled={isSubmitting}
-          className="px-6 py-2 rounded-lg font-medium text-text-secondary hover:text-text-primary transition-colors disabled:opacity-50"
+          className="px-6 py-3 rounded text-xs font-mono font-bold uppercase tracking-wider text-text-secondary hover:text-text-primary hover:bg-bg-container-low transition-colors disabled:opacity-50 cursor-pointer"
         >
           Back to Edit
         </button>
         <button
+          type="button"
           onClick={handleCreate}
           disabled={isSubmitting}
-          className="flex items-center justify-center gap-2 px-8 py-3 bg-violet-500 hover:bg-violet-600 text-white rounded-lg font-bold transition-all shadow-glow-md disabled:opacity-50 disabled:cursor-wait"
+          className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-primary text-text-inverse hover:bg-secondary disabled:opacity-50 disabled:cursor-wait text-xs font-mono font-bold uppercase tracking-wider rounded transition-colors cursor-pointer shadow-sm"
         >
-          {isSubmitting ? 'Building Workspace...' : 'Create Goal'}
-          {!isSubmitting && <Send className="w-5 h-5" />}
+          {isSubmitting ? 'Building Goal...' : 'Launch Goal Workspace'}
+          {!isSubmitting && <Send className="w-4 h-4" />}
         </button>
       </div>
     </div>
